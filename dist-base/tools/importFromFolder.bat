@@ -19,9 +19,7 @@ IF not exist ../models/ (mkdir models && echo "models dir created")
 
 echo "Importing %1 from folder %2"
 
-dir
 cd inFusion
-dir
 java2mse.bat "%2" "famix21" "../../models/%1.mse"
 cd ../..
 
