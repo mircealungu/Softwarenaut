@@ -1,2 +1,4 @@
 dist-base/tools/inFusion/temp/*
 .DS_Store
+dist-base/models/*
+dist-base/systems/*
