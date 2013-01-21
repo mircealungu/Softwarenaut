@@ -1,0 +1,342 @@
+Building model for sources ../../systems/ActionBarSherlockBuilding model for sources ../../systems/ActionBarSherlock
+
+Loading the model from source files ... Loading the model from source files ... 
+
+The source path list is: ../../systems/ActionBarSherlockThe source path list is: ../../systems/ActionBarSherlock
+
+CLASSPATH=./jre1502/lib/rt.jar:./jre1502/lib/i386:./res/:./lib/liquidlnf.jar:./lib/intellij.jar:./lib/dude.jar:./lib/jgraph.jar:./lib/jgraphmicropad.jar:./lib/java2html.jar:./lib/recoder.jar:./lib/org-openide-awt.jar:./lib/org-openide-util.jar:./lib/swing-layout-1.0.3.jar::/Library/Java/JavaVirtualMachines/jdk1.7.0_06.jdk/Contents/Home/jre/lib/alt-rt.jar:/Library/Java/JavaVirtualMachines/jdk1.7.0_06.jdk/Contents/Home/jre/lib/charsets.jar:/Library/Java/JavaVirtualMachines/jdk1.7.0_06.jdk/Contents/Home/jre/lib/deploy.jar:/Library/Java/JavaVirtualMachines/jdk1.7.0_06.jdk/Contents/Home/jre/lib/ext/dnsns.jar:/Library/Java/JavaVirtualMachines/jdk1.7.0_06.jdk/Contents/Home/jre/lib/ext/localedata.jar:/Library/Java/JavaVirtualMachines/jdk1.7.0_06.jdk/Contents/Home/jre/lib/ext/sunec.jar:/Library/Java/JavaVirtualMachines/jdk1.7.0_06.jdk/Contents/Home/jre/lib/ext/sunjce_provider.jar:/Library/Java/JavaVirtualMachines/jdk1.7.0_06.jdk/Contents/Home/jre/lib/ext/sunpkcs11.jar:/Library/Java/JavaVirtualMachines/jdk1.7.0_06.jdk/Contents/Home/jre/lib/ext/zipfs.jar:/Library/Java/JavaVirtualMachines/jdk1.7.0_06.jdk/Contents/Home/jre/lib/htmlconverter.jar:/Library/Java/JavaVirtualMachines/jdk1.7.0_06.jdk/Contents/Home/jre/lib/javaws.jar:/Library/Java/JavaVirtualMachines/jdk1.7.0_06.jdk/Contents/Home/jre/lib/jce.jar:/Library/Java/JavaVirtualMachines/jdk1.7.0_06.jdk/Contents/Home/jre/lib/jfr.jar:/Library/Java/JavaVirtualMachines/jdk1.7.0_06.jdk/Contents/Home/jre/lib/jfxrt.jar:/Library/Java/JavaVirtualMachines/jdk1.7.0_06.jdk/Contents/Home/jre/lib/JObjC.jar:/Library/Java/JavaVirtualMachines/jdk1.7.0_06.jdk/Contents/Home/jre/lib/jsse.jar:/Library/Java/JavaVirtualMachines/jdk1.7.0_06.jdk/Contents/Home/jre/lib/management-agent.jar:/Library/Java/JavaVirtualMachines/jdk1.7.0_06.jdk/Contents/Home/jre/lib/plugin.jar:/Library/Java/JavaVirtualMachines/jdk1.7.0_06.jdk/Contents/Home/jre/lib/resources.jar:/Library/Java/JavaVirtualMachines/jdk1.7.0_06.jdk/Contents/Home/jre/lib/rt.jar:/Library/Java/JavaVirtualMachines/jdk1.7.0_06.jdk/Contents/Home/jre/lib/security/local_policy.jar:/Library/Java/JavaVirtualMachines/jdk1.7.0_06.jdk/Contents/Home/jre/lib/security/US_export_policy.jar:/Users/mircea/academia/research/projects/Softwarenaut/distribution-base/tools/inFusion/../../systems/ActionBarSherlock/library/libs/android-support-v4.jar:/Users/mircea/academia/research/projects/Softwarenaut/distribution-base/tools/inFusion/../../systems/ActionBarSherlock/samples/demos/libs/android-support-v4.jar:/Users/mircea/academia/research/projects/Softwarenaut/distribution-base/tools/inFusion/../../systems/ActionBarSherlock/samples/fragments/libs/android-support-v4.jar:/Users/mircea/academia/research/projects/Softwarenaut/distribution-base/tools/inFusion/../../systems/ActionBarSherlock/samples/known-bugs/libs/android-support-v4.jar:/Users/mircea/academia/research/projects/Softwarenaut/distribution-base/tools/inFusion/../../systems/ActionBarSherlock/samples/roboguice/libs/android-support-v4.jar:/Users/mircea/academia/research/projects/Softwarenaut/distribution-base/tools/inFusion/../../systems/ActionBarSherlock/samples/roboguice/libs/guice-3.0-no_aop.jar:/Users/mircea/academia/research/projects/Softwarenaut/distribution-base/tools/inFusion/../../systems/ActionBarSherlock/samples/roboguice/libs/javax.inject-1.jar:/Users/mircea/academia/research/projects/Softwarenaut/distribution-base/tools/inFusion/../../systems/ActionBarSherlock/samples/roboguice/libs/roboguice-2.0b4.jar:/Users/mircea/academia/research/projects/Softwarenaut/distribution-base/tools/inFusion/../../systems/ActionBarSherlock/samples/roboguice/libs/roboguice-sherlock-1.0.jar:/Users/mircea/academia/research/projects/Softwarenaut/distribution-base/tools/inFusion/../../systems/ActionBarSherlock/samples/styled/libs/android-support-v4.jar:/Users/mircea/academia/research/projects/Softwarenaut/distribution-base/tools/inFusion/../../systems/ActionBarSherlock/samples/styled/libs/nineoldandroids-2.2.0.jar:../../systems/ActionBarSherlockCLASSPATH=./jre1502/lib/rt.jar:./jre1502/lib/i386:./res/:./lib/liquidlnf.jar:./lib/intellij.jar:./lib/dude.jar:./lib/jgraph.jar:./lib/jgraphmicropad.jar:./lib/java2html.jar:./lib/recoder.jar:./lib/org-openide-awt.jar:./lib/org-openide-util.jar:./lib/swing-layout-1.0.3.jar::/Library/Java/JavaVirtualMachines/jdk1.7.0_06.jdk/Contents/Home/jre/lib/alt-rt.jar:/Library/Java/JavaVirtualMachines/jdk1.7.0_06.jdk/Contents/Home/jre/lib/charsets.jar:/Library/Java/JavaVirtualMachines/jdk1.7.0_06.jdk/Contents/Home/jre/lib/deploy.jar:/Library/Java/JavaVirtualMachines/jdk1.7.0_06.jdk/Contents/Home/jre/lib/ext/dnsns.jar:/Library/Java/JavaVirtualMachines/jdk1.7.0_06.jdk/Contents/Home/jre/lib/ext/localedata.jar:/Library/Java/JavaVirtualMachines/jdk1.7.0_06.jdk/Contents/Home/jre/lib/ext/sunec.jar:/Library/Java/JavaVirtualMachines/jdk1.7.0_06.jdk/Contents/Home/jre/lib/ext/sunjce_provider.jar:/Library/Java/JavaVirtualMachines/jdk1.7.0_06.jdk/Contents/Home/jre/lib/ext/sunpkcs11.jar:/Library/Java/JavaVirtualMachines/jdk1.7.0_06.jdk/Contents/Home/jre/lib/ext/zipfs.jar:/Library/Java/JavaVirtualMachines/jdk1.7.0_06.jdk/Contents/Home/jre/lib/htmlconverter.jar:/Library/Java/JavaVirtualMachines/jdk1.7.0_06.jdk/Contents/Home/jre/lib/javaws.jar:/Library/Java/JavaVirtualMachines/jdk1.7.0_06.jdk/Contents/Home/jre/lib/jce.jar:/Library/Java/JavaVirtualMachines/jdk1.7.0_06.jdk/Contents/Home/jre/lib/jfr.jar:/Library/Java/JavaVirtualMachines/jdk1.7.0_06.jdk/Contents/Home/jre/lib/jfxrt.jar:/Library/Java/JavaVirtualMachines/jdk1.7.0_06.jdk/Contents/Home/jre/lib/JObjC.jar:/Library/Java/JavaVirtualMachines/jdk1.7.0_06.jdk/Contents/Home/jre/lib/jsse.jar:/Library/Java/JavaVirtualMachines/jdk1.7.0_06.jdk/Contents/Home/jre/lib/management-agent.jar:/Library/Java/JavaVirtualMachines/jdk1.7.0_06.jdk/Contents/Home/jre/lib/plugin.jar:/Library/Java/JavaVirtualMachines/jdk1.7.0_06.jdk/Contents/Home/jre/lib/resources.jar:/Library/Java/JavaVirtualMachines/jdk1.7.0_06.jdk/Contents/Home/jre/lib/rt.jar:/Library/Java/JavaVirtualMachines/jdk1.7.0_06.jdk/Contents/Home/jre/lib/security/local_policy.jar:/Library/Java/JavaVirtualMachines/jdk1.7.0_06.jdk/Contents/Home/jre/lib/security/US_export_policy.jar:/Users/mircea/academia/research/projects/Softwarenaut/distribution-base/tools/inFusion/../../systems/ActionBarSherlock/library/libs/android-support-v4.jar:/Users/mircea/academia/research/projects/Softwarenaut/distribution-base/tools/inFusion/../../systems/ActionBarSherlock/samples/demos/libs/android-support-v4.jar:/Users/mircea/academia/research/projects/Softwarenaut/distribution-base/tools/inFusion/../../systems/ActionBarSherlock/samples/fragments/libs/android-support-v4.jar:/Users/mircea/academia/research/projects/Softwarenaut/distribution-base/tools/inFusion/../../systems/ActionBarSherlock/samples/known-bugs/libs/android-support-v4.jar:/Users/mircea/academia/research/projects/Softwarenaut/distribution-base/tools/inFusion/../../systems/ActionBarSherlock/samples/roboguice/libs/android-support-v4.jar:/Users/mircea/academia/research/projects/Softwarenaut/distribution-base/tools/inFusion/../../systems/ActionBarSherlock/samples/roboguice/libs/guice-3.0-no_aop.jar:/Users/mircea/academia/research/projects/Softwarenaut/distribution-base/tools/inFusion/../../systems/ActionBarSherlock/samples/roboguice/libs/javax.inject-1.jar:/Users/mircea/academia/research/projects/Softwarenaut/distribution-base/tools/inFusion/../../systems/ActionBarSherlock/samples/roboguice/libs/roboguice-2.0b4.jar:/Users/mircea/academia/research/projects/Softwarenaut/distribution-base/tools/inFusion/../../systems/ActionBarSherlock/samples/roboguice/libs/roboguice-sherlock-1.0.jar:/Users/mircea/academia/research/projects/Softwarenaut/distribution-base/tools/inFusion/../../systems/ActionBarSherlock/samples/styled/libs/android-support-v4.jar:/Users/mircea/academia/research/projects/Softwarenaut/distribution-base/tools/inFusion/../../systems/ActionBarSherlock/samples/styled/libs/nineoldandroids-2.2.0.jar:../../systems/ActionBarSherlock
+
+java.lang.NullPointerExceptionjava.lang.NullPointerException
+
+File 0 - building model from ../../systems/ActionBarSherlock/library/src/android/support/v4/app/Watson.javaFile 0 - building model from ../../systems/ActionBarSherlock/library/src/android/support/v4/app/Watson.java
+
+File 1 - building model from ../../systems/ActionBarSherlock/library/src/com/actionbarsherlock/ActionBarSherlock.javaFile 1 - building model from ../../systems/ActionBarSherlock/library/src/com/actionbarsherlock/ActionBarSherlock.java
+
+File 2 - building model from ../../systems/ActionBarSherlock/library/src/com/actionbarsherlock/app/ActionBar.javaFile 2 - building model from ../../systems/ActionBarSherlock/library/src/com/actionbarsherlock/app/ActionBar.java
+
+File 3 - building model from ../../systems/ActionBarSherlock/library/src/com/actionbarsherlock/app/SherlockActivity.javaFile 3 - building model from ../../systems/ActionBarSherlock/library/src/com/actionbarsherlock/app/SherlockActivity.java
+
+File 4 - building model from ../../systems/ActionBarSherlock/library/src/com/actionbarsherlock/app/SherlockDialogFragment.javaFile 4 - building model from ../../systems/ActionBarSherlock/library/src/com/actionbarsherlock/app/SherlockDialogFragment.java
+
+File 5 - building model from ../../systems/ActionBarSherlock/library/src/com/actionbarsherlock/app/SherlockExpandableListActivity.javaFile 5 - building model from ../../systems/ActionBarSherlock/library/src/com/actionbarsherlock/app/SherlockExpandableListActivity.java
+
+File 6 - building model from ../../systems/ActionBarSherlock/library/src/com/actionbarsherlock/app/SherlockFragment.javaFile 6 - building model from ../../systems/ActionBarSherlock/library/src/com/actionbarsherlock/app/SherlockFragment.java
+
+File 7 - building model from ../../systems/ActionBarSherlock/library/src/com/actionbarsherlock/app/SherlockFragmentActivity.javaFile 7 - building model from ../../systems/ActionBarSherlock/library/src/com/actionbarsherlock/app/SherlockFragmentActivity.java
+
+File 8 - building model from ../../systems/ActionBarSherlock/library/src/com/actionbarsherlock/app/SherlockListActivity.javaFile 8 - building model from ../../systems/ActionBarSherlock/library/src/com/actionbarsherlock/app/SherlockListActivity.java
+
+File 9 - building model from ../../systems/ActionBarSherlock/library/src/com/actionbarsherlock/app/SherlockListFragment.javaFile 9 - building model from ../../systems/ActionBarSherlock/library/src/com/actionbarsherlock/app/SherlockListFragment.java
+
+File 10 - building model from ../../systems/ActionBarSherlock/library/src/com/actionbarsherlock/app/SherlockPreferenceActivity.javaFile 10 - building model from ../../systems/ActionBarSherlock/library/src/com/actionbarsherlock/app/SherlockPreferenceActivity.java
+
+File 11 - building model from ../../systems/ActionBarSherlock/library/src/com/actionbarsherlock/internal/ActionBarSherlockCompat.javaFile 11 - building model from ../../systems/ActionBarSherlock/library/src/com/actionbarsherlock/internal/ActionBarSherlockCompat.java
+
+File 12 - building model from ../../systems/ActionBarSherlock/library/src/com/actionbarsherlock/internal/ActionBarSherlockNative.javaFile 12 - building model from ../../systems/ActionBarSherlock/library/src/com/actionbarsherlock/internal/ActionBarSherlockNative.java
+
+File 13 - building model from ../../systems/ActionBarSherlock/library/src/com/actionbarsherlock/internal/app/ActionBarImpl.javaFile 13 - building model from ../../systems/ActionBarSherlock/library/src/com/actionbarsherlock/internal/app/ActionBarImpl.java
+
+File 14 - building model from ../../systems/ActionBarSherlock/library/src/com/actionbarsherlock/internal/app/ActionBarWrapper.javaFile 14 - building model from ../../systems/ActionBarSherlock/library/src/com/actionbarsherlock/internal/app/ActionBarWrapper.java
+
+File 15 - building model from ../../systems/ActionBarSherlock/library/src/com/actionbarsherlock/internal/nineoldandroids/animation/Animator.javaFile 15 - building model from ../../systems/ActionBarSherlock/library/src/com/actionbarsherlock/internal/nineoldandroids/animation/Animator.java
+
+File 16 - building model from ../../systems/ActionBarSherlock/library/src/com/actionbarsherlock/internal/nineoldandroids/animation/AnimatorListenerAdapter.javaFile 16 - building model from ../../systems/ActionBarSherlock/library/src/com/actionbarsherlock/internal/nineoldandroids/animation/AnimatorListenerAdapter.java
+
+File 17 - building model from ../../systems/ActionBarSherlock/library/src/com/actionbarsherlock/internal/nineoldandroids/animation/AnimatorSet.javaFile 17 - building model from ../../systems/ActionBarSherlock/library/src/com/actionbarsherlock/internal/nineoldandroids/animation/AnimatorSet.java
+
+File 18 - building model from ../../systems/ActionBarSherlock/library/src/com/actionbarsherlock/internal/nineoldandroids/animation/FloatEvaluator.javaFile 18 - building model from ../../systems/ActionBarSherlock/library/src/com/actionbarsherlock/internal/nineoldandroids/animation/FloatEvaluator.java
+
+File 19 - building model from ../../systems/ActionBarSherlock/library/src/com/actionbarsherlock/internal/nineoldandroids/animation/FloatKeyframeSet.javaFile 19 - building model from ../../systems/ActionBarSherlock/library/src/com/actionbarsherlock/internal/nineoldandroids/animation/FloatKeyframeSet.java
+
+File 20 - building model from ../../systems/ActionBarSherlock/library/src/com/actionbarsherlock/internal/nineoldandroids/animation/IntEvaluator.javaFile 20 - building model from ../../systems/ActionBarSherlock/library/src/com/actionbarsherlock/internal/nineoldandroids/animation/IntEvaluator.java
+
+File 21 - building model from ../../systems/ActionBarSherlock/library/src/com/actionbarsherlock/internal/nineoldandroids/animation/IntKeyframeSet.javaFile 21 - building model from ../../systems/ActionBarSherlock/library/src/com/actionbarsherlock/internal/nineoldandroids/animation/IntKeyframeSet.java
+
+File 22 - building model from ../../systems/ActionBarSherlock/library/src/com/actionbarsherlock/internal/nineoldandroids/animation/Keyframe.javaFile 22 - building model from ../../systems/ActionBarSherlock/library/src/com/actionbarsherlock/internal/nineoldandroids/animation/Keyframe.java
+
+File 23 - building model from ../../systems/ActionBarSherlock/library/src/com/actionbarsherlock/internal/nineoldandroids/animation/KeyframeSet.javaFile 23 - building model from ../../systems/ActionBarSherlock/library/src/com/actionbarsherlock/internal/nineoldandroids/animation/KeyframeSet.java
+
+File 24 - building model from ../../systems/ActionBarSherlock/library/src/com/actionbarsherlock/internal/nineoldandroids/animation/ObjectAnimator.javaFile 24 - building model from ../../systems/ActionBarSherlock/library/src/com/actionbarsherlock/internal/nineoldandroids/animation/ObjectAnimator.java
+
+File 25 - building model from ../../systems/ActionBarSherlock/library/src/com/actionbarsherlock/internal/nineoldandroids/animation/PropertyValuesHolder.javaFile 25 - building model from ../../systems/ActionBarSherlock/library/src/com/actionbarsherlock/internal/nineoldandroids/animation/PropertyValuesHolder.java
+
+File 26 - building model from ../../systems/ActionBarSherlock/library/src/com/actionbarsherlock/internal/nineoldandroids/animation/TypeEvaluator.javaFile 26 - building model from ../../systems/ActionBarSherlock/library/src/com/actionbarsherlock/internal/nineoldandroids/animation/TypeEvaluator.java
+
+File 27 - building model from ../../systems/ActionBarSherlock/library/src/com/actionbarsherlock/internal/nineoldandroids/animation/ValueAnimator.javaFile 27 - building model from ../../systems/ActionBarSherlock/library/src/com/actionbarsherlock/internal/nineoldandroids/animation/ValueAnimator.java
+
+File 28 - building model from ../../systems/ActionBarSherlock/library/src/com/actionbarsherlock/internal/nineoldandroids/view/animation/AnimatorProxy.javaFile 28 - building model from ../../systems/ActionBarSherlock/library/src/com/actionbarsherlock/internal/nineoldandroids/view/animation/AnimatorProxy.java
+
+File 29 - building model from ../../systems/ActionBarSherlock/library/src/com/actionbarsherlock/internal/nineoldandroids/view/NineViewGroup.javaFile 29 - building model from ../../systems/ActionBarSherlock/library/src/com/actionbarsherlock/internal/nineoldandroids/view/NineViewGroup.java
+
+File 30 - building model from ../../systems/ActionBarSherlock/library/src/com/actionbarsherlock/internal/nineoldandroids/widget/NineFrameLayout.javaFile 30 - building model from ../../systems/ActionBarSherlock/library/src/com/actionbarsherlock/internal/nineoldandroids/widget/NineFrameLayout.java
+
+File 31 - building model from ../../systems/ActionBarSherlock/library/src/com/actionbarsherlock/internal/nineoldandroids/widget/NineHorizontalScrollView.javaFile 31 - building model from ../../systems/ActionBarSherlock/library/src/com/actionbarsherlock/internal/nineoldandroids/widget/NineHorizontalScrollView.java
+
+File 32 - building model from ../../systems/ActionBarSherlock/library/src/com/actionbarsherlock/internal/nineoldandroids/widget/NineLinearLayout.javaFile 32 - building model from ../../systems/ActionBarSherlock/library/src/com/actionbarsherlock/internal/nineoldandroids/widget/NineLinearLayout.java
+
+File 33 - building model from ../../systems/ActionBarSherlock/library/src/com/actionbarsherlock/internal/ResourcesCompat.javaFile 33 - building model from ../../systems/ActionBarSherlock/library/src/com/actionbarsherlock/internal/ResourcesCompat.java
+
+File 34 - building model from ../../systems/ActionBarSherlock/library/src/com/actionbarsherlock/internal/view/ActionProviderWrapper.javaFile 34 - building model from ../../systems/ActionBarSherlock/library/src/com/actionbarsherlock/internal/view/ActionProviderWrapper.java
+
+File 35 - building model from ../../systems/ActionBarSherlock/library/src/com/actionbarsherlock/internal/view/menu/ActionMenu.javaFile 35 - building model from ../../systems/ActionBarSherlock/library/src/com/actionbarsherlock/internal/view/menu/ActionMenu.java
+
+File 36 - building model from ../../systems/ActionBarSherlock/library/src/com/actionbarsherlock/internal/view/menu/ActionMenuItem.javaFile 36 - building model from ../../systems/ActionBarSherlock/library/src/com/actionbarsherlock/internal/view/menu/ActionMenuItem.java
+
+File 37 - building model from ../../systems/ActionBarSherlock/library/src/com/actionbarsherlock/internal/view/menu/ActionMenuItemView.javaFile 37 - building model from ../../systems/ActionBarSherlock/library/src/com/actionbarsherlock/internal/view/menu/ActionMenuItemView.java
+
+File 38 - building model from ../../systems/ActionBarSherlock/library/src/com/actionbarsherlock/internal/view/menu/ActionMenuPresenter.javaFile 38 - building model from ../../systems/ActionBarSherlock/library/src/com/actionbarsherlock/internal/view/menu/ActionMenuPresenter.java
+
+File 39 - building model from ../../systems/ActionBarSherlock/library/src/com/actionbarsherlock/internal/view/menu/ActionMenuView.javaFile 39 - building model from ../../systems/ActionBarSherlock/library/src/com/actionbarsherlock/internal/view/menu/ActionMenuView.java
+
+File 40 - building model from ../../systems/ActionBarSherlock/library/src/com/actionbarsherlock/internal/view/menu/BaseMenuPresenter.javaFile 40 - building model from ../../systems/ActionBarSherlock/library/src/com/actionbarsherlock/internal/view/menu/BaseMenuPresenter.java
+
+File 41 - building model from ../../systems/ActionBarSherlock/library/src/com/actionbarsherlock/internal/view/menu/ListMenuItemView.javaFile 41 - building model from ../../systems/ActionBarSherlock/library/src/com/actionbarsherlock/internal/view/menu/ListMenuItemView.java
+
+File 42 - building model from ../../systems/ActionBarSherlock/library/src/com/actionbarsherlock/internal/view/menu/MenuBuilder.javaFile 42 - building model from ../../systems/ActionBarSherlock/library/src/com/actionbarsherlock/internal/view/menu/MenuBuilder.java
+
+File 43 - building model from ../../systems/ActionBarSherlock/library/src/com/actionbarsherlock/internal/view/menu/MenuItemImpl.javaFile 43 - building model from ../../systems/ActionBarSherlock/library/src/com/actionbarsherlock/internal/view/menu/MenuItemImpl.java
+
+File 44 - building model from ../../systems/ActionBarSherlock/library/src/com/actionbarsherlock/internal/view/menu/MenuItemWrapper.javaFile 44 - building model from ../../systems/ActionBarSherlock/library/src/com/actionbarsherlock/internal/view/menu/MenuItemWrapper.java
+
+File 45 - building model from ../../systems/ActionBarSherlock/library/src/com/actionbarsherlock/internal/view/menu/MenuPopupHelper.javaFile 45 - building model from ../../systems/ActionBarSherlock/library/src/com/actionbarsherlock/internal/view/menu/MenuPopupHelper.java
+
+File 46 - building model from ../../systems/ActionBarSherlock/library/src/com/actionbarsherlock/internal/view/menu/MenuPresenter.javaFile 46 - building model from ../../systems/ActionBarSherlock/library/src/com/actionbarsherlock/internal/view/menu/MenuPresenter.java
+
+File 47 - building model from ../../systems/ActionBarSherlock/library/src/com/actionbarsherlock/internal/view/menu/MenuView.javaFile 47 - building model from ../../systems/ActionBarSherlock/library/src/com/actionbarsherlock/internal/view/menu/MenuView.java
+
+File 48 - building model from ../../systems/ActionBarSherlock/library/src/com/actionbarsherlock/internal/view/menu/MenuWrapper.javaFile 48 - building model from ../../systems/ActionBarSherlock/library/src/com/actionbarsherlock/internal/view/menu/MenuWrapper.java
+
+File 49 - building model from ../../systems/ActionBarSherlock/library/src/com/actionbarsherlock/internal/view/menu/SubMenuBuilder.javaFile 49 - building model from ../../systems/ActionBarSherlock/library/src/com/actionbarsherlock/internal/view/menu/SubMenuBuilder.java
+
+File 50 - building model from ../../systems/ActionBarSherlock/library/src/com/actionbarsherlock/internal/view/menu/SubMenuWrapper.javaFile 50 - building model from ../../systems/ActionBarSherlock/library/src/com/actionbarsherlock/internal/view/menu/SubMenuWrapper.java
+
+File 51 - building model from ../../systems/ActionBarSherlock/library/src/com/actionbarsherlock/internal/view/StandaloneActionMode.javaFile 51 - building model from ../../systems/ActionBarSherlock/library/src/com/actionbarsherlock/internal/view/StandaloneActionMode.java
+
+File 52 - building model from ../../systems/ActionBarSherlock/library/src/com/actionbarsherlock/internal/view/View_HasStateListenerSupport.javaFile 52 - building model from ../../systems/ActionBarSherlock/library/src/com/actionbarsherlock/internal/view/View_HasStateListenerSupport.java
+
+File 53 - building model from ../../systems/ActionBarSherlock/library/src/com/actionbarsherlock/internal/view/View_OnAttachStateChangeListener.javaFile 53 - building model from ../../systems/ActionBarSherlock/library/src/com/actionbarsherlock/internal/view/View_OnAttachStateChangeListener.java
+
+File 54 - building model from ../../systems/ActionBarSherlock/library/src/com/actionbarsherlock/internal/widget/AbsActionBarView.javaFile 54 - building model from ../../systems/ActionBarSherlock/library/src/com/actionbarsherlock/internal/widget/AbsActionBarView.java
+
+File 55 - building model from ../../systems/ActionBarSherlock/library/src/com/actionbarsherlock/internal/widget/ActionBarContainer.javaFile 55 - building model from ../../systems/ActionBarSherlock/library/src/com/actionbarsherlock/internal/widget/ActionBarContainer.java
+
+File 56 - building model from ../../systems/ActionBarSherlock/library/src/com/actionbarsherlock/internal/widget/ActionBarContextView.javaFile 56 - building model from ../../systems/ActionBarSherlock/library/src/com/actionbarsherlock/internal/widget/ActionBarContextView.java
+
+File 57 - building model from ../../systems/ActionBarSherlock/library/src/com/actionbarsherlock/internal/widget/ActionBarView.javaFile 57 - building model from ../../systems/ActionBarSherlock/library/src/com/actionbarsherlock/internal/widget/ActionBarView.java
+
+File 58 - building model from ../../systems/ActionBarSherlock/library/src/com/actionbarsherlock/internal/widget/CapitalizingButton.javaFile 58 - building model from ../../systems/ActionBarSherlock/library/src/com/actionbarsherlock/internal/widget/CapitalizingButton.java
+
+File 59 - building model from ../../systems/ActionBarSherlock/library/src/com/actionbarsherlock/internal/widget/CapitalizingTextView.javaFile 59 - building model from ../../systems/ActionBarSherlock/library/src/com/actionbarsherlock/internal/widget/CapitalizingTextView.java
+
+File 60 - building model from ../../systems/ActionBarSherlock/library/src/com/actionbarsherlock/internal/widget/CollapsibleActionViewWrapper.javaFile 60 - building model from ../../systems/ActionBarSherlock/library/src/com/actionbarsherlock/internal/widget/CollapsibleActionViewWrapper.java
+
+File 61 - building model from ../../systems/ActionBarSherlock/library/src/com/actionbarsherlock/internal/widget/FakeDialogPhoneWindow.javaFile 61 - building model from ../../systems/ActionBarSherlock/library/src/com/actionbarsherlock/internal/widget/FakeDialogPhoneWindow.java
+
+File 62 - building model from ../../systems/ActionBarSherlock/library/src/com/actionbarsherlock/internal/widget/IcsAbsSpinner.javaFile 62 - building model from ../../systems/ActionBarSherlock/library/src/com/actionbarsherlock/internal/widget/IcsAbsSpinner.java
+
+File 63 - building model from ../../systems/ActionBarSherlock/library/src/com/actionbarsherlock/internal/widget/IcsAdapterView.javaFile 63 - building model from ../../systems/ActionBarSherlock/library/src/com/actionbarsherlock/internal/widget/IcsAdapterView.java
+
+File 64 - building model from ../../systems/ActionBarSherlock/library/src/com/actionbarsherlock/internal/widget/IcsColorDrawable.javaFile 64 - building model from ../../systems/ActionBarSherlock/library/src/com/actionbarsherlock/internal/widget/IcsColorDrawable.java
+
+File 65 - building model from ../../systems/ActionBarSherlock/library/src/com/actionbarsherlock/internal/widget/IcsLinearLayout.javaFile 65 - building model from ../../systems/ActionBarSherlock/library/src/com/actionbarsherlock/internal/widget/IcsLinearLayout.java
+
+File 66 - building model from ../../systems/ActionBarSherlock/library/src/com/actionbarsherlock/internal/widget/IcsListPopupWindow.javaFile 66 - building model from ../../systems/ActionBarSherlock/library/src/com/actionbarsherlock/internal/widget/IcsListPopupWindow.java
+
+File 67 - building model from ../../systems/ActionBarSherlock/library/src/com/actionbarsherlock/internal/widget/IcsProgressBar.javaFile 67 - building model from ../../systems/ActionBarSherlock/library/src/com/actionbarsherlock/internal/widget/IcsProgressBar.java
+
+File 68 - building model from ../../systems/ActionBarSherlock/library/src/com/actionbarsherlock/internal/widget/IcsSpinner.javaFile 68 - building model from ../../systems/ActionBarSherlock/library/src/com/actionbarsherlock/internal/widget/IcsSpinner.java
+
+File 69 - building model from ../../systems/ActionBarSherlock/library/src/com/actionbarsherlock/internal/widget/IcsView.javaFile 69 - building model from ../../systems/ActionBarSherlock/library/src/com/actionbarsherlock/internal/widget/IcsView.java
+
+File 70 - building model from ../../systems/ActionBarSherlock/library/src/com/actionbarsherlock/internal/widget/ScrollingTabContainerView.javaFile 70 - building model from ../../systems/ActionBarSherlock/library/src/com/actionbarsherlock/internal/widget/ScrollingTabContainerView.java
+
+File 71 - building model from ../../systems/ActionBarSherlock/library/src/com/actionbarsherlock/view/ActionMode.javaFile 71 - building model from ../../systems/ActionBarSherlock/library/src/com/actionbarsherlock/view/ActionMode.java
+
+File 72 - building model from ../../systems/ActionBarSherlock/library/src/com/actionbarsherlock/view/ActionProvider.javaFile 72 - building model from ../../systems/ActionBarSherlock/library/src/com/actionbarsherlock/view/ActionProvider.java
+
+File 73 - building model from ../../systems/ActionBarSherlock/library/src/com/actionbarsherlock/view/CollapsibleActionView.javaFile 73 - building model from ../../systems/ActionBarSherlock/library/src/com/actionbarsherlock/view/CollapsibleActionView.java
+
+File 74 - building model from ../../systems/ActionBarSherlock/library/src/com/actionbarsherlock/view/Menu.javaFile 74 - building model from ../../systems/ActionBarSherlock/library/src/com/actionbarsherlock/view/Menu.java
+
+File 75 - building model from ../../systems/ActionBarSherlock/library/src/com/actionbarsherlock/view/MenuInflater.javaFile 75 - building model from ../../systems/ActionBarSherlock/library/src/com/actionbarsherlock/view/MenuInflater.java
+
+File 76 - building model from ../../systems/ActionBarSherlock/library/src/com/actionbarsherlock/view/MenuItem.javaFile 76 - building model from ../../systems/ActionBarSherlock/library/src/com/actionbarsherlock/view/MenuItem.java
+
+File 77 - building model from ../../systems/ActionBarSherlock/library/src/com/actionbarsherlock/view/SubMenu.javaFile 77 - building model from ../../systems/ActionBarSherlock/library/src/com/actionbarsherlock/view/SubMenu.java
+
+File 78 - building model from ../../systems/ActionBarSherlock/library/src/com/actionbarsherlock/view/Window.javaFile 78 - building model from ../../systems/ActionBarSherlock/library/src/com/actionbarsherlock/view/Window.java
+
+File 79 - building model from ../../systems/ActionBarSherlock/library/src/com/actionbarsherlock/widget/ActivityChooserModel.javaFile 79 - building model from ../../systems/ActionBarSherlock/library/src/com/actionbarsherlock/widget/ActivityChooserModel.java
+
+File 80 - building model from ../../systems/ActionBarSherlock/library/src/com/actionbarsherlock/widget/ActivityChooserView.javaFile 80 - building model from ../../systems/ActionBarSherlock/library/src/com/actionbarsherlock/widget/ActivityChooserView.java
+
+File 81 - building model from ../../systems/ActionBarSherlock/library/src/com/actionbarsherlock/widget/SearchView.javaFile 81 - building model from ../../systems/ActionBarSherlock/library/src/com/actionbarsherlock/widget/SearchView.java
+
+File 82 - building model from ../../systems/ActionBarSherlock/library/src/com/actionbarsherlock/widget/ShareActionProvider.javaFile 82 - building model from ../../systems/ActionBarSherlock/library/src/com/actionbarsherlock/widget/ShareActionProvider.java
+
+File 83 - building model from ../../systems/ActionBarSherlock/library/src/com/actionbarsherlock/widget/SuggestionsAdapter.javaFile 83 - building model from ../../systems/ActionBarSherlock/library/src/com/actionbarsherlock/widget/SuggestionsAdapter.java
+
+File 84 - building model from ../../systems/ActionBarSherlock/library/test/com/actionbarsherlock/internal/ManifestParsingTest.javaFile 84 - building model from ../../systems/ActionBarSherlock/library/test/com/actionbarsherlock/internal/ManifestParsingTest.java
+
+File 85 - building model from ../../systems/ActionBarSherlock/samples/demos/src/com/actionbarsherlock/sample/demos/ActionItems.javaFile 85 - building model from ../../systems/ActionBarSherlock/samples/demos/src/com/actionbarsherlock/sample/demos/ActionItems.java
+
+File 86 - building model from ../../systems/ActionBarSherlock/samples/demos/src/com/actionbarsherlock/sample/demos/ActionModes.javaFile 86 - building model from ../../systems/ActionBarSherlock/samples/demos/src/com/actionbarsherlock/sample/demos/ActionModes.java
+
+File 87 - building model from ../../systems/ActionBarSherlock/samples/demos/src/com/actionbarsherlock/sample/demos/ActionModesNoActionBar.javaFile 87 - building model from ../../systems/ActionBarSherlock/samples/demos/src/com/actionbarsherlock/sample/demos/ActionModesNoActionBar.java
+
+File 88 - building model from ../../systems/ActionBarSherlock/samples/demos/src/com/actionbarsherlock/sample/demos/ActionProviders.javaFile 88 - building model from ../../systems/ActionBarSherlock/samples/demos/src/com/actionbarsherlock/sample/demos/ActionProviders.java
+
+File 89 - building model from ../../systems/ActionBarSherlock/samples/demos/src/com/actionbarsherlock/sample/demos/CollapsibleActionItem.javaFile 89 - building model from ../../systems/ActionBarSherlock/samples/demos/src/com/actionbarsherlock/sample/demos/CollapsibleActionItem.java
+
+File 90 - building model from ../../systems/ActionBarSherlock/samples/demos/src/com/actionbarsherlock/sample/demos/ContextMenus.javaFile 90 - building model from ../../systems/ActionBarSherlock/samples/demos/src/com/actionbarsherlock/sample/demos/ContextMenus.java
+
+File 91 - building model from ../../systems/ActionBarSherlock/samples/demos/src/com/actionbarsherlock/sample/demos/CustomNavigation.javaFile 91 - building model from ../../systems/ActionBarSherlock/samples/demos/src/com/actionbarsherlock/sample/demos/CustomNavigation.java
+
+File 92 - building model from ../../systems/ActionBarSherlock/samples/demos/src/com/actionbarsherlock/sample/demos/FeatureToggles.javaFile 92 - building model from ../../systems/ActionBarSherlock/samples/demos/src/com/actionbarsherlock/sample/demos/FeatureToggles.java
+
+File 93 - building model from ../../systems/ActionBarSherlock/samples/demos/src/com/actionbarsherlock/sample/demos/IndeterminateProgress.javaFile 93 - building model from ../../systems/ActionBarSherlock/samples/demos/src/com/actionbarsherlock/sample/demos/IndeterminateProgress.java
+
+File 94 - building model from ../../systems/ActionBarSherlock/samples/demos/src/com/actionbarsherlock/sample/demos/ListNavigation.javaFile 94 - building model from ../../systems/ActionBarSherlock/samples/demos/src/com/actionbarsherlock/sample/demos/ListNavigation.java
+
+File 95 - building model from ../../systems/ActionBarSherlock/samples/demos/src/com/actionbarsherlock/sample/demos/Overlay.javaFile 95 - building model from ../../systems/ActionBarSherlock/samples/demos/src/com/actionbarsherlock/sample/demos/Overlay.java
+
+File 96 - building model from ../../systems/ActionBarSherlock/samples/demos/src/com/actionbarsherlock/sample/demos/Preference.javaFile 96 - building model from ../../systems/ActionBarSherlock/samples/demos/src/com/actionbarsherlock/sample/demos/Preference.java
+
+File 97 - building model from ../../systems/ActionBarSherlock/samples/demos/src/com/actionbarsherlock/sample/demos/Progress.javaFile 97 - building model from ../../systems/ActionBarSherlock/samples/demos/src/com/actionbarsherlock/sample/demos/Progress.java
+
+File 98 - building model from ../../systems/ActionBarSherlock/samples/demos/src/com/actionbarsherlock/sample/demos/SampleList.javaFile 98 - building model from ../../systems/ActionBarSherlock/samples/demos/src/com/actionbarsherlock/sample/demos/SampleList.java
+
+File 99 - building model from ../../systems/ActionBarSherlock/samples/demos/src/com/actionbarsherlock/sample/demos/SearchViews.javaFile 99 - building model from ../../systems/ActionBarSherlock/samples/demos/src/com/actionbarsherlock/sample/demos/SearchViews.java
+
+File 100 - building model from ../../systems/ActionBarSherlock/samples/demos/src/com/actionbarsherlock/sample/demos/ShareActionProviders.javaFile 100 - building model from ../../systems/ActionBarSherlock/samples/demos/src/com/actionbarsherlock/sample/demos/ShareActionProviders.java
+
+File 101 - building model from ../../systems/ActionBarSherlock/samples/demos/src/com/actionbarsherlock/sample/demos/Simple.javaFile 101 - building model from ../../systems/ActionBarSherlock/samples/demos/src/com/actionbarsherlock/sample/demos/Simple.java
+
+File 102 - building model from ../../systems/ActionBarSherlock/samples/demos/src/com/actionbarsherlock/sample/demos/SplitActionItems.javaFile 102 - building model from ../../systems/ActionBarSherlock/samples/demos/src/com/actionbarsherlock/sample/demos/SplitActionItems.java
+
+File 103 - building model from ../../systems/ActionBarSherlock/samples/demos/src/com/actionbarsherlock/sample/demos/SplitActionModes.javaFile 103 - building model from ../../systems/ActionBarSherlock/samples/demos/src/com/actionbarsherlock/sample/demos/SplitActionModes.java
+
+File 104 - building model from ../../systems/ActionBarSherlock/samples/demos/src/com/actionbarsherlock/sample/demos/StaticAttachment.javaFile 104 - building model from ../../systems/ActionBarSherlock/samples/demos/src/com/actionbarsherlock/sample/demos/StaticAttachment.java
+
+File 105 - building model from ../../systems/ActionBarSherlock/samples/demos/src/com/actionbarsherlock/sample/demos/Styled.javaFile 105 - building model from ../../systems/ActionBarSherlock/samples/demos/src/com/actionbarsherlock/sample/demos/Styled.java
+
+File 106 - building model from ../../systems/ActionBarSherlock/samples/demos/src/com/actionbarsherlock/sample/demos/SubMenus.javaFile 106 - building model from ../../systems/ActionBarSherlock/samples/demos/src/com/actionbarsherlock/sample/demos/SubMenus.java
+
+File 107 - building model from ../../systems/ActionBarSherlock/samples/demos/src/com/actionbarsherlock/sample/demos/TabNavigation.javaFile 107 - building model from ../../systems/ActionBarSherlock/samples/demos/src/com/actionbarsherlock/sample/demos/TabNavigation.java
+
+File 108 - building model from ../../systems/ActionBarSherlock/samples/demos/src/com/actionbarsherlock/sample/demos/TabNavigationCollapsed.javaFile 108 - building model from ../../systems/ActionBarSherlock/samples/demos/src/com/actionbarsherlock/sample/demos/TabNavigationCollapsed.java
+
+File 109 - building model from ../../systems/ActionBarSherlock/samples/fragments/src/com/actionbarsherlock/sample/fragments/CheckableFrameLayout.javaFile 109 - building model from ../../systems/ActionBarSherlock/samples/fragments/src/com/actionbarsherlock/sample/fragments/CheckableFrameLayout.java
+
+File 110 - building model from ../../systems/ActionBarSherlock/samples/fragments/src/com/actionbarsherlock/sample/fragments/Cheeses.javaFile 110 - building model from ../../systems/ActionBarSherlock/samples/fragments/src/com/actionbarsherlock/sample/fragments/Cheeses.java
+
+File 111 - building model from ../../systems/ActionBarSherlock/samples/fragments/src/com/actionbarsherlock/sample/fragments/FragmentAlertDialogSupport.javaFile 111 - building model from ../../systems/ActionBarSherlock/samples/fragments/src/com/actionbarsherlock/sample/fragments/FragmentAlertDialogSupport.java
+
+File 112 - building model from ../../systems/ActionBarSherlock/samples/fragments/src/com/actionbarsherlock/sample/fragments/FragmentArgumentsSupport.javaFile 112 - building model from ../../systems/ActionBarSherlock/samples/fragments/src/com/actionbarsherlock/sample/fragments/FragmentArgumentsSupport.java
+
+File 113 - building model from ../../systems/ActionBarSherlock/samples/fragments/src/com/actionbarsherlock/sample/fragments/FragmentContextMenuSupport.javaFile 113 - building model from ../../systems/ActionBarSherlock/samples/fragments/src/com/actionbarsherlock/sample/fragments/FragmentContextMenuSupport.java
+
+File 114 - building model from ../../systems/ActionBarSherlock/samples/fragments/src/com/actionbarsherlock/sample/fragments/FragmentCustomAnimationSupport.javaFile 114 - building model from ../../systems/ActionBarSherlock/samples/fragments/src/com/actionbarsherlock/sample/fragments/FragmentCustomAnimationSupport.java
+
+File 115 - building model from ../../systems/ActionBarSherlock/samples/fragments/src/com/actionbarsherlock/sample/fragments/FragmentDialogOrActivitySupport.javaFile 115 - building model from ../../systems/ActionBarSherlock/samples/fragments/src/com/actionbarsherlock/sample/fragments/FragmentDialogOrActivitySupport.java
+
+File 116 - building model from ../../systems/ActionBarSherlock/samples/fragments/src/com/actionbarsherlock/sample/fragments/FragmentDialogSupport.javaFile 116 - building model from ../../systems/ActionBarSherlock/samples/fragments/src/com/actionbarsherlock/sample/fragments/FragmentDialogSupport.java
+
+File 117 - building model from ../../systems/ActionBarSherlock/samples/fragments/src/com/actionbarsherlock/sample/fragments/FragmentHideShowSupport.javaFile 117 - building model from ../../systems/ActionBarSherlock/samples/fragments/src/com/actionbarsherlock/sample/fragments/FragmentHideShowSupport.java
+
+File 118 - building model from ../../systems/ActionBarSherlock/samples/fragments/src/com/actionbarsherlock/sample/fragments/FragmentLayoutSupport.javaFile 118 - building model from ../../systems/ActionBarSherlock/samples/fragments/src/com/actionbarsherlock/sample/fragments/FragmentLayoutSupport.java
+
+File 119 - building model from ../../systems/ActionBarSherlock/samples/fragments/src/com/actionbarsherlock/sample/fragments/FragmentListArraySupport.javaFile 119 - building model from ../../systems/ActionBarSherlock/samples/fragments/src/com/actionbarsherlock/sample/fragments/FragmentListArraySupport.java
+
+File 120 - building model from ../../systems/ActionBarSherlock/samples/fragments/src/com/actionbarsherlock/sample/fragments/FragmentMenuSupport.javaFile 120 - building model from ../../systems/ActionBarSherlock/samples/fragments/src/com/actionbarsherlock/sample/fragments/FragmentMenuSupport.java
+
+File 121 - building model from ../../systems/ActionBarSherlock/samples/fragments/src/com/actionbarsherlock/sample/fragments/FragmentPagerSupport.javaFile 121 - building model from ../../systems/ActionBarSherlock/samples/fragments/src/com/actionbarsherlock/sample/fragments/FragmentPagerSupport.java
+
+File 122 - building model from ../../systems/ActionBarSherlock/samples/fragments/src/com/actionbarsherlock/sample/fragments/FragmentReceiveResultSupport.javaFile 122 - building model from ../../systems/ActionBarSherlock/samples/fragments/src/com/actionbarsherlock/sample/fragments/FragmentReceiveResultSupport.java
+
+File 123 - building model from ../../systems/ActionBarSherlock/samples/fragments/src/com/actionbarsherlock/sample/fragments/FragmentRetainInstanceSupport.javaFile 123 - building model from ../../systems/ActionBarSherlock/samples/fragments/src/com/actionbarsherlock/sample/fragments/FragmentRetainInstanceSupport.java
+
+File 124 - building model from ../../systems/ActionBarSherlock/samples/fragments/src/com/actionbarsherlock/sample/fragments/FragmentStackSupport.javaFile 124 - building model from ../../systems/ActionBarSherlock/samples/fragments/src/com/actionbarsherlock/sample/fragments/FragmentStackSupport.java
+
+File 125 - building model from ../../systems/ActionBarSherlock/samples/fragments/src/com/actionbarsherlock/sample/fragments/FragmentStatePagerSupport.javaFile 125 - building model from ../../systems/ActionBarSherlock/samples/fragments/src/com/actionbarsherlock/sample/fragments/FragmentStatePagerSupport.java
+
+File 126 - building model from ../../systems/ActionBarSherlock/samples/fragments/src/com/actionbarsherlock/sample/fragments/FragmentTabs.javaFile 126 - building model from ../../systems/ActionBarSherlock/samples/fragments/src/com/actionbarsherlock/sample/fragments/FragmentTabs.java
+
+File 127 - building model from ../../systems/ActionBarSherlock/samples/fragments/src/com/actionbarsherlock/sample/fragments/FragmentTabsPager.javaFile 127 - building model from ../../systems/ActionBarSherlock/samples/fragments/src/com/actionbarsherlock/sample/fragments/FragmentTabsPager.java
+
+File 128 - building model from ../../systems/ActionBarSherlock/samples/fragments/src/com/actionbarsherlock/sample/fragments/LoaderCursorSupport.javaFile 128 - building model from ../../systems/ActionBarSherlock/samples/fragments/src/com/actionbarsherlock/sample/fragments/LoaderCursorSupport.java
+
+File 129 - building model from ../../systems/ActionBarSherlock/samples/fragments/src/com/actionbarsherlock/sample/fragments/LoaderCustomSupport.javaFile 129 - building model from ../../systems/ActionBarSherlock/samples/fragments/src/com/actionbarsherlock/sample/fragments/LoaderCustomSupport.java
+
+File 130 - building model from ../../systems/ActionBarSherlock/samples/fragments/src/com/actionbarsherlock/sample/fragments/LoaderThrottleSupport.javaFile 130 - building model from ../../systems/ActionBarSherlock/samples/fragments/src/com/actionbarsherlock/sample/fragments/LoaderThrottleSupport.java
+
+File 131 - building model from ../../systems/ActionBarSherlock/samples/fragments/src/com/actionbarsherlock/sample/fragments/SampleList.javaFile 131 - building model from ../../systems/ActionBarSherlock/samples/fragments/src/com/actionbarsherlock/sample/fragments/SampleList.java
+
+File 132 - building model from ../../systems/ActionBarSherlock/samples/fragments/src/com/actionbarsherlock/sample/fragments/SendResult.javaFile 132 - building model from ../../systems/ActionBarSherlock/samples/fragments/src/com/actionbarsherlock/sample/fragments/SendResult.java
+
+File 133 - building model from ../../systems/ActionBarSherlock/samples/fragments/src/com/actionbarsherlock/sample/fragments/Shakespeare.javaFile 133 - building model from ../../systems/ActionBarSherlock/samples/fragments/src/com/actionbarsherlock/sample/fragments/Shakespeare.java
+
+File 134 - building model from ../../systems/ActionBarSherlock/samples/known-bugs/src/com/actionbarsherlock/sample/knownbugs/Issue240.javaFile 134 - building model from ../../systems/ActionBarSherlock/samples/known-bugs/src/com/actionbarsherlock/sample/knownbugs/Issue240.java
+
+File 135 - building model from ../../systems/ActionBarSherlock/samples/known-bugs/src/com/actionbarsherlock/sample/knownbugs/Issue272.javaFile 135 - building model from ../../systems/ActionBarSherlock/samples/known-bugs/src/com/actionbarsherlock/sample/knownbugs/Issue272.java
+
+File 136 - building model from ../../systems/ActionBarSherlock/samples/known-bugs/src/com/actionbarsherlock/sample/knownbugs/Issue331.javaFile 136 - building model from ../../systems/ActionBarSherlock/samples/known-bugs/src/com/actionbarsherlock/sample/knownbugs/Issue331.java
+
+File 137 - building model from ../../systems/ActionBarSherlock/samples/known-bugs/src/com/actionbarsherlock/sample/knownbugs/Issue379.javaFile 137 - building model from ../../systems/ActionBarSherlock/samples/known-bugs/src/com/actionbarsherlock/sample/knownbugs/Issue379.java
+
+File 138 - building model from ../../systems/ActionBarSherlock/samples/known-bugs/src/com/actionbarsherlock/sample/knownbugs/Issue435.javaFile 138 - building model from ../../systems/ActionBarSherlock/samples/known-bugs/src/com/actionbarsherlock/sample/knownbugs/Issue435.java
+
+File 139 - building model from ../../systems/ActionBarSherlock/samples/known-bugs/src/com/actionbarsherlock/sample/knownbugs/SampleList.javaFile 139 - building model from ../../systems/ActionBarSherlock/samples/known-bugs/src/com/actionbarsherlock/sample/knownbugs/SampleList.java
+
+File 140 - building model from ../../systems/ActionBarSherlock/samples/roboguice/src/com/actionbarsherlock/sample/roboguice/activity/AstroboyMasterConsole.javaFile 140 - building model from ../../systems/ActionBarSherlock/samples/roboguice/src/com/actionbarsherlock/sample/roboguice/activity/AstroboyMasterConsole.java
+
+File 141 - building model from ../../systems/ActionBarSherlock/samples/roboguice/src/com/actionbarsherlock/sample/roboguice/activity/FightForcesOfEvilActivity.javaFile 141 - building model from ../../systems/ActionBarSherlock/samples/roboguice/src/com/actionbarsherlock/sample/roboguice/activity/FightForcesOfEvilActivity.java
+
+File 142 - building model from ../../systems/ActionBarSherlock/samples/roboguice/src/com/actionbarsherlock/sample/roboguice/controller/Astroboy.javaFile 142 - building model from ../../systems/ActionBarSherlock/samples/roboguice/src/com/actionbarsherlock/sample/roboguice/controller/Astroboy.java
+
+File 143 - building model from ../../systems/ActionBarSherlock/samples/roboguice/src/com/actionbarsherlock/sample/roboguice/controller/AstroboyRemoteControl.javaFile 143 - building model from ../../systems/ActionBarSherlock/samples/roboguice/src/com/actionbarsherlock/sample/roboguice/controller/AstroboyRemoteControl.java
+
+File 144 - building model from ../../systems/ActionBarSherlock/samples/styled/src/com/actionbarsherlock/sample/styled/MainActivity.javaFile 144 - building model from ../../systems/ActionBarSherlock/samples/styled/src/com/actionbarsherlock/sample/styled/MainActivity.java
+
+File 145 - building model from ../../systems/ActionBarSherlock/samples/styled/src/com/actionbarsherlock/sample/styled/RoundedColourFragment.javaFile 145 - building model from ../../systems/ActionBarSherlock/samples/styled/src/com/actionbarsherlock/sample/styled/RoundedColourFragment.java
+
+CLASSPATH=./jre1502/lib/rt.jar:./jre1502/lib/i386:./res/:./lib/liquidlnf.jar:./lib/intellij.jar:./lib/dude.jar:./lib/jgraph.jar:./lib/jgraphmicropad.jar:./lib/java2html.jar:./lib/recoder.jar:./lib/org-openide-awt.jar:./lib/org-openide-util.jar:./lib/swing-layout-1.0.3.jar::/Library/Java/JavaVirtualMachines/jdk1.7.0_06.jdk/Contents/Home/jre/lib/alt-rt.jar:/Library/Java/JavaVirtualMachines/jdk1.7.0_06.jdk/Contents/Home/jre/lib/charsets.jar:/Library/Java/JavaVirtualMachines/jdk1.7.0_06.jdk/Contents/Home/jre/lib/deploy.jar:/Library/Java/JavaVirtualMachines/jdk1.7.0_06.jdk/Contents/Home/jre/lib/ext/dnsns.jar:/Library/Java/JavaVirtualMachines/jdk1.7.0_06.jdk/Contents/Home/jre/lib/ext/localedata.jar:/Library/Java/JavaVirtualMachines/jdk1.7.0_06.jdk/Contents/Home/jre/lib/ext/sunec.jar:/Library/Java/JavaVirtualMachines/jdk1.7.0_06.jdk/Contents/Home/jre/lib/ext/sunjce_provider.jar:/Library/Java/JavaVirtualMachines/jdk1.7.0_06.jdk/Contents/Home/jre/lib/ext/sunpkcs11.jar:/Library/Java/JavaVirtualMachines/jdk1.7.0_06.jdk/Contents/Home/jre/lib/ext/zipfs.jar:/Library/Java/JavaVirtualMachines/jdk1.7.0_06.jdk/Contents/Home/jre/lib/htmlconverter.jar:/Library/Java/JavaVirtualMachines/jdk1.7.0_06.jdk/Contents/Home/jre/lib/javaws.jar:/Library/Java/JavaVirtualMachines/jdk1.7.0_06.jdk/Contents/Home/jre/lib/jce.jar:/Library/Java/JavaVirtualMachines/jdk1.7.0_06.jdk/Contents/Home/jre/lib/jfr.jar:/Library/Java/JavaVirtualMachines/jdk1.7.0_06.jdk/Contents/Home/jre/lib/jfxrt.jar:/Library/Java/JavaVirtualMachines/jdk1.7.0_06.jdk/Contents/Home/jre/lib/JObjC.jar:/Library/Java/JavaVirtualMachines/jdk1.7.0_06.jdk/Contents/Home/jre/lib/jsse.jar:/Library/Java/JavaVirtualMachines/jdk1.7.0_06.jdk/Contents/Home/jre/lib/management-agent.jar:/Library/Java/JavaVirtualMachines/jdk1.7.0_06.jdk/Contents/Home/jre/lib/plugin.jar:/Library/Java/JavaVirtualMachines/jdk1.7.0_06.jdk/Contents/Home/jre/lib/resources.jar:/Library/Java/JavaVirtualMachines/jdk1.7.0_06.jdk/Contents/Home/jre/lib/rt.jar:/Library/Java/JavaVirtualMachines/jdk1.7.0_06.jdk/Contents/Home/jre/lib/security/local_policy.jar:/Library/Java/JavaVirtualMachines/jdk1.7.0_06.jdk/Contents/Home/jre/lib/security/US_export_policy.jar:/Users/mircea/academia/research/projects/Softwarenaut/distribution-base/tools/inFusion/../../systems/ActionBarSherlock/library/libs/android-support-v4.jar:/Users/mircea/academia/research/projects/Softwarenaut/distribution-base/tools/inFusion/../../systems/ActionBarSherlock/samples/demos/libs/android-support-v4.jar:/Users/mircea/academia/research/projects/Softwarenaut/distribution-base/tools/inFusion/../../systems/ActionBarSherlock/samples/fragments/libs/android-support-v4.jar:/Users/mircea/academia/research/projects/Softwarenaut/distribution-base/tools/inFusion/../../systems/ActionBarSherlock/samples/known-bugs/libs/android-support-v4.jar:/Users/mircea/academia/research/projects/Softwarenaut/distribution-base/tools/inFusion/../../systems/ActionBarSherlock/samples/roboguice/libs/android-support-v4.jar:/Users/mircea/academia/research/projects/Softwarenaut/distribution-base/tools/inFusion/../../systems/ActionBarSherlock/samples/roboguice/libs/guice-3.0-no_aop.jar:/Users/mircea/academia/research/projects/Softwarenaut/distribution-base/tools/inFusion/../../systems/ActionBarSherlock/samples/roboguice/libs/javax.inject-1.jar:/Users/mircea/academia/research/projects/Softwarenaut/distribution-base/tools/inFusion/../../systems/ActionBarSherlock/samples/roboguice/libs/roboguice-2.0b4.jar:/Users/mircea/academia/research/projects/Softwarenaut/distribution-base/tools/inFusion/../../systems/ActionBarSherlock/samples/roboguice/libs/roboguice-sherlock-1.0.jar:/Users/mircea/academia/research/projects/Softwarenaut/distribution-base/tools/inFusion/../../systems/ActionBarSherlock/samples/styled/libs/android-support-v4.jar:/Users/mircea/academia/research/projects/Softwarenaut/distribution-base/tools/inFusion/../../systems/ActionBarSherlock/samples/styled/libs/nineoldandroids-2.2.0.jar:../../systems/ActionBarSherlockCLASSPATH=./jre1502/lib/rt.jar:./jre1502/lib/i386:./res/:./lib/liquidlnf.jar:./lib/intellij.jar:./lib/dude.jar:./lib/jgraph.jar:./lib/jgraphmicropad.jar:./lib/java2html.jar:./lib/recoder.jar:./lib/org-openide-awt.jar:./lib/org-openide-util.jar:./lib/swing-layout-1.0.3.jar::/Library/Java/JavaVirtualMachines/jdk1.7.0_06.jdk/Contents/Home/jre/lib/alt-rt.jar:/Library/Java/JavaVirtualMachines/jdk1.7.0_06.jdk/Contents/Home/jre/lib/charsets.jar:/Library/Java/JavaVirtualMachines/jdk1.7.0_06.jdk/Contents/Home/jre/lib/deploy.jar:/Library/Java/JavaVirtualMachines/jdk1.7.0_06.jdk/Contents/Home/jre/lib/ext/dnsns.jar:/Library/Java/JavaVirtualMachines/jdk1.7.0_06.jdk/Contents/Home/jre/lib/ext/localedata.jar:/Library/Java/JavaVirtualMachines/jdk1.7.0_06.jdk/Contents/Home/jre/lib/ext/sunec.jar:/Library/Java/JavaVirtualMachines/jdk1.7.0_06.jdk/Contents/Home/jre/lib/ext/sunjce_provider.jar:/Library/Java/JavaVirtualMachines/jdk1.7.0_06.jdk/Contents/Home/jre/lib/ext/sunpkcs11.jar:/Library/Java/JavaVirtualMachines/jdk1.7.0_06.jdk/Contents/Home/jre/lib/ext/zipfs.jar:/Library/Java/JavaVirtualMachines/jdk1.7.0_06.jdk/Contents/Home/jre/lib/htmlconverter.jar:/Library/Java/JavaVirtualMachines/jdk1.7.0_06.jdk/Contents/Home/jre/lib/javaws.jar:/Library/Java/JavaVirtualMachines/jdk1.7.0_06.jdk/Contents/Home/jre/lib/jce.jar:/Library/Java/JavaVirtualMachines/jdk1.7.0_06.jdk/Contents/Home/jre/lib/jfr.jar:/Library/Java/JavaVirtualMachines/jdk1.7.0_06.jdk/Contents/Home/jre/lib/jfxrt.jar:/Library/Java/JavaVirtualMachines/jdk1.7.0_06.jdk/Contents/Home/jre/lib/JObjC.jar:/Library/Java/JavaVirtualMachines/jdk1.7.0_06.jdk/Contents/Home/jre/lib/jsse.jar:/Library/Java/JavaVirtualMachines/jdk1.7.0_06.jdk/Contents/Home/jre/lib/management-agent.jar:/Library/Java/JavaVirtualMachines/jdk1.7.0_06.jdk/Contents/Home/jre/lib/plugin.jar:/Library/Java/JavaVirtualMachines/jdk1.7.0_06.jdk/Contents/Home/jre/lib/resources.jar:/Library/Java/JavaVirtualMachines/jdk1.7.0_06.jdk/Contents/Home/jre/lib/rt.jar:/Library/Java/JavaVirtualMachines/jdk1.7.0_06.jdk/Contents/Home/jre/lib/security/local_policy.jar:/Library/Java/JavaVirtualMachines/jdk1.7.0_06.jdk/Contents/Home/jre/lib/security/US_export_policy.jar:/Users/mircea/academia/research/projects/Softwarenaut/distribution-base/tools/inFusion/../../systems/ActionBarSherlock/library/libs/android-support-v4.jar:/Users/mircea/academia/research/projects/Softwarenaut/distribution-base/tools/inFusion/../../systems/ActionBarSherlock/samples/demos/libs/android-support-v4.jar:/Users/mircea/academia/research/projects/Softwarenaut/distribution-base/tools/inFusion/../../systems/ActionBarSherlock/samples/fragments/libs/android-support-v4.jar:/Users/mircea/academia/research/projects/Softwarenaut/distribution-base/tools/inFusion/../../systems/ActionBarSherlock/samples/known-bugs/libs/android-support-v4.jar:/Users/mircea/academia/research/projects/Softwarenaut/distribution-base/tools/inFusion/../../systems/ActionBarSherlock/samples/roboguice/libs/android-support-v4.jar:/Users/mircea/academia/research/projects/Softwarenaut/distribution-base/tools/inFusion/../../systems/ActionBarSherlock/samples/roboguice/libs/guice-3.0-no_aop.jar:/Users/mircea/academia/research/projects/Softwarenaut/distribution-base/tools/inFusion/../../systems/ActionBarSherlock/samples/roboguice/libs/javax.inject-1.jar:/Users/mircea/academia/research/projects/Softwarenaut/distribution-base/tools/inFusion/../../systems/ActionBarSherlock/samples/roboguice/libs/roboguice-2.0b4.jar:/Users/mircea/academia/research/projects/Softwarenaut/distribution-base/tools/inFusion/../../systems/ActionBarSherlock/samples/roboguice/libs/roboguice-sherlock-1.0.jar:/Users/mircea/academia/research/projects/Softwarenaut/distribution-base/tools/inFusion/../../systems/ActionBarSherlock/samples/styled/libs/android-support-v4.jar:/Users/mircea/academia/research/projects/Softwarenaut/distribution-base/tools/inFusion/../../systems/ActionBarSherlock/samples/styled/libs/nineoldandroids-2.2.0.jar:../../systems/ActionBarSherlock
+
+
+Loading the plugins from ...
+
+Loading the plugins from ...
+Plugins successfully loaded!
+Plugins successfully loaded!
+
+
+Writing the MSE file for the path: ../../systems/ActionBarSherlockWriting the MSE file for the path: ../../systems/ActionBarSherlock
+
+--Export started----Export started--
+
+Packages: 49Packages: 49
+
+Classes: 449Classes: 449
+
+Methods: 2625Methods: 2625
+
+Attributes: 1159Attributes: 1159
+
+Parameters: 2464Parameters: 2464
+
+Local Var: 1995Local Var: 1995
+
+Annotations: 12Annotations: 12
+
+Annotation References: 976Annotation References: 976
+
+Calls: 4612Calls: 4612
+
+Accesses: 4738Accesses: 4738
+
+Exceptions: 120Exceptions: 120
+
+Primitive Types: 0Primitive Types: 0
+
+--Export done----Export done--
+
