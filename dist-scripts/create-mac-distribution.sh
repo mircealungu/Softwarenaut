@@ -11,6 +11,7 @@ ver=$2
 app="Softwarenaut.app"
 appver="Softwarenaut.$ver.app"
 resources=$distmac/$appver/"Contents/Resources"
+zipfile=$distmac/Softwarenaut-OSX.zip
 
 # clean target dir
 if [ -d $distmac ]
@@ -32,11 +33,7 @@ cp $1.cha $resources/resource.cha
 echo "copying the tools dir..."
 cp -r ../dist-base/tools $resources/tools
 
-#zip -r Softwarenaut-$1.app.zip Softwarenaut.app
-#zip Softwarenaut-$1.zip Softwarenaut.app/Contents/Resources/resource.* 
+zip -r $zipfile $distmac/$appver 
 
-#scp Softwarenaut-$1.app.zip Softwarenaut-$1.zip lungum@euler.inf.unisi.ch:/home/lungum/public_html/softwarenaut/download/resources
-
-#ssh lungum@euler.inf.unisi.ch "cd /home/lungum/public_html/softwarenaut/download/; /home/lungum/public_html/softwarenaut/download/update-version.sh $1"
-
-
+echo "copying the archive to yogi..."
+scp $zipfile scg.unibe.ch:softwarenaut/Softwarenaut-OSX.zip
