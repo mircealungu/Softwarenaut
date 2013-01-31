@@ -3,3 +3,4 @@ dist-base/tools/inFusion/temp/*
 dist-base/models/*
 dist-base/systems/*
 dist-mac/*
+dist-win/*
