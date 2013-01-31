@@ -16,22 +16,6 @@
 	"buffers":
 	[
 		{
-			"contents": "",
-			"settings":
-			{
-				"buffer_size": 0,
-				"line_ending": "Unix"
-			}
-		},
-		{
-			"file": "create-windows-distribution.sh",
-			"settings":
-			{
-				"buffer_size": 768,
-				"line_ending": "Unix"
-			}
-		},
-		{
 			"file": "/Users/mircea/academia/research/projects/softwarenaut/.gitignore",
 			"settings":
 			{
@@ -45,6 +29,22 @@
 			{
 				"buffer_size": 838,
 				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "create-windows-distribution.sh",
+			"settings":
+			{
+				"buffer_size": 1878,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "create-executable.bat",
+			"settings":
+			{
+				"buffer_size": 494,
+				"line_ending": "Windows"
 			}
 		}
 	],
@@ -162,63 +162,11 @@
 	"groups":
 	[
 		{
-			"selected": 3,
+			"selected": 2,
 			"sheets":
 			[
 				{
 					"buffer": 0,
-					"settings":
-					{
-						"buffer_size": 0,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								0,
-								0
-							]
-						],
-						"settings":
-						{
-							"auto_name": "",
-							"syntax": "Packages/Text/Plain text.tmLanguage"
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"type": "text"
-				},
-				{
-					"buffer": 1,
-					"file": "create-windows-distribution.sh",
-					"settings":
-					{
-						"buffer_size": 768,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								0,
-								0
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/ShellScript/Shell-Unix-Generic.tmLanguage"
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"type": "text"
-				},
-				{
-					"buffer": 2,
 					"file": "/Users/mircea/academia/research/projects/softwarenaut/.gitignore",
 					"settings":
 					{
@@ -244,7 +192,7 @@
 					"type": "text"
 				},
 				{
-					"buffer": 3,
+					"buffer": 1,
 					"file": "create-mac-distribution.sh",
 					"settings":
 					{
@@ -255,13 +203,65 @@
 						"selection":
 						[
 							[
-								775,
-								775
+								838,
+								838
 							]
 						],
 						"settings":
 						{
 							"syntax": "Packages/ShellScript/Shell-Unix-Generic.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 2,
+					"file": "create-windows-distribution.sh",
+					"settings":
+					{
+						"buffer_size": 1878,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								701,
+								701
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/ShellScript/Shell-Unix-Generic.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 3,
+					"file": "create-executable.bat",
+					"settings":
+					{
+						"buffer_size": 494,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								474,
+								474
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Batch File/Batch File.tmLanguage"
 						},
 						"translation.x": 0.0,
 						"translation.y": 0.0,
