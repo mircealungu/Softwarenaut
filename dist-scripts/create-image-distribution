@@ -1,0 +1,23 @@
+#!/bin/bash
+
+if [ $# -ne 2 ]
+then
+	echo "Usage: $0 {image-name} {version}"
+	exit $E_BADARGS
+fi
+
+distbase="../dist-base"
+distimage="../dist-image"
+zipfile="Softwarenaut-VWImage.zip"
+
+mkdir $distimage/softwarenaut
+rm -rf $distimage/softwarenaut/*
+
+cp -R $distbase/tools $distimage/softwarenaut/
+cp $distbase/$1.im $distimage/softwarenaut/Softwarenaut-$2.im
+cp $distbase/$1.cha $distimage/softwarenaut/Softwarenaut-$2.cha
+
+(cd $distimage; zip -r $zipfile Softwarenaut)
+
+echo "copying the archive to yogi..."
+scp $distimage/$zipfile scg.unibe.ch:softwarenaut/$zipfile
