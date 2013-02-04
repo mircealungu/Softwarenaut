@@ -13,8 +13,8 @@ IF not "%3"=="" (
 
 
 REM Create the systems and models folders if needed
-IF not exist ..\systems\ (mkdir systems && echo "systems dir created")
-IF not exist ..\models\ (mkdir models && echo "models dir created")
+IF not exist ..\systems\ (mkdir ..\systems && echo "systems dir created")
+IF not exist ..\models\ (mkdir ..\models && echo "models dir created")
 
 
 echo "Importing %1 from folder %2"
