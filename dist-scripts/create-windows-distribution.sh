@@ -17,8 +17,9 @@ user=admin
 pass=admin
 #create_executable='/C "C:\Documents and Settings\lulu\My Documents\VisualWorks Projects\Softwarenaut\create-executable.bat"'
 create_executable='/C G:\softwarenaut\create-executable.bat G:\softwarenaut\softwarenaut.im G:\softwarenaut\Softwarenaut.exe'
-distwin=../dist-win
-zipfile=$distwin/Softwarenaut-Win.zip
+distwin=../dist/win
+zipfilename=Softwarenaut-Win.zip
+zipfile=$distwin/$zipfilename
 
 
 # Start the Windows Machine
@@ -51,14 +52,14 @@ until [ $? == 0 ]; do
 done
 
 rm -rf $distwin/*
-mkdir $distwin/Softwarenaut
+mkdir -p $distwin/Softwarenaut
 cp $TARGET/Softwarenaut.exe $distwin/Softwarenaut/
 cp $TARGET/softwarenaut.cha $distwin/Softwarenaut/
 
 echo "copying the tools..."
 cp -r ../dist-base/tools $distwin/Softwarenaut/tools
 
-(cd $distwin; zip -r $zipfile Softwarenaut)
+(cd $distwin; zip -r $zipfilename Softwarenaut)
 
 read -p "Do you want to copy the archive to yogi? " -n 1 -r
 if [[ $REPLY =~ ^[Yy]$ ]]

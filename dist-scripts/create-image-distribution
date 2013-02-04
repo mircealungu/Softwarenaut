@@ -7,10 +7,10 @@ then
 fi
 
 distbase="../dist-base"
-distimage="../dist-image"
+distimage="../dist/image"
 zipfile="Softwarenaut-VWImage.zip"
 
-mkdir $distimage/softwarenaut
+mkdir -p $distimage/softwarenaut
 rm -rf $distimage/softwarenaut/*
 
 cp -R $distbase/tools $distimage/softwarenaut/
@@ -19,5 +19,12 @@ cp $distbase/$1.cha $distimage/softwarenaut/Softwarenaut-$2.cha
 
 (cd $distimage; zip -r $zipfile Softwarenaut)
 
-echo "copying the archive to yogi..."
-scp $distimage/$zipfile scg.unibe.ch:softwarenaut/$zipfile
+read -p "Do you want to copy the archive to yogi? " -n 1 -r
+if [[ $REPLY =~ ^[Yy]$ ]]
+then
+    # do dangerous stuff
+    echo
+	echo "copying the archive to yogi..."
+	scp $distimage/$zipfile scg.unibe.ch:softwarenaut/$zipfile
+fi
+	echo

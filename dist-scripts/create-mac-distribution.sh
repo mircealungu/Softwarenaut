@@ -6,7 +6,7 @@ then
 	exit $E_BADARGS
 fi
 
-distmac="../dist-mac"
+distmac="../dist/mac"
 ver=$2
 app="Softwarenaut.app"
 appver="Softwarenaut.$ver.app"
@@ -20,7 +20,7 @@ then
 	rm -rf $distmac/*
 else
 	echo "creating the $distmac folder..."
-	mkdir $distmac
+	mkdir -p $distmac
 fi
 
 echo "copying the app skeleton..."
