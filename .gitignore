@@ -4,3 +4,4 @@ dist-base/models/*
 dist-base/systems/*
 dist-mac/*
 dist-win/*
+dist-image/*
