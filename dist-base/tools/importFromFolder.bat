@@ -13,15 +13,15 @@ IF not "%3"=="" (
 
 
 REM Create the systems and models folders if needed
-IF not exist ../systems/ (mkdir systems && echo "systems dir created")
-IF not exist ../models/ (mkdir models && echo "models dir created")
+IF not exist ..\systems\ (mkdir systems && echo "systems dir created")
+IF not exist ..\models\ (mkdir models && echo "models dir created")
 
 
 echo "Importing %1 from folder %2"
 
 cd inFusion
-java2mse.bat "%2" "famix21" "../../models/%1.mse"
-cd ../..
+java2mse.bat "%2" "famix21" "..\..\models\%1.mse"
+cd ..\..
 
 
 :eof
