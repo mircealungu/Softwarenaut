@@ -1,7 +1,6 @@
-softwarenaut
+Softwarenaut
 ============
-
-the repository for softwarenaut
+Tool for visualzing the architecture of a software system. 
 
 Folder structure:
 
