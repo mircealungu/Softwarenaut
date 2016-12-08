@@ -16,11 +16,24 @@ The following view presents Softwarenaut visualizing itself but this time, augme
 
 ![evolution screenshot](https://cloud.githubusercontent.com/assets/464519/21022349/9ec2f748-bd7c-11e6-87ad-29c5332caba9.png)
 
+
 ### Details About Relationship Evolution
 
 The following figure presents the evolution filmstrip for the relationship between the uml and kernel modules in ArgoUML between 2003 and 2007. Inheritance relationships are represented with red and invocation relationships are represented with black. One can see that in 2004 a reverse dependency was introduced between kernel and uml and it remained in the system until its latest analyzed version
 
 ![screen-shot-2011-10-10-at-5 27 36-pm](https://cloud.githubusercontent.com/assets/464519/21023545/4c41a97e-bd81-11e6-81b1-fb038bd3b156.png)
+
+### Details About Module Evolution
+
+This module detail view illustrates the amount of changes that happen in a module through the versions.
+
+The module is represented in every analyzed version as a treemap. When a new class is introduced it is marked with yellow. When a class changes it is colored with a shade of blue which is darker for larger changes.
+
+The figure illustrates the evolution of the cognitive package in ArgoUML. As one can see the package is pretty stable. 
+
+![screen-shot-2011-10-14-at-1 56 14-am](https://cloud.githubusercontent.com/assets/464519/21023626/9cffc058-bd81-11e6-906f-4f62c440717a.png)
+
+
 
 
 ### Further Reading
