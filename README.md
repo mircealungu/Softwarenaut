@@ -17,7 +17,7 @@ The following view presents Softwarenaut visualizing itself but this time, augme
 
 ### Further Reading
 
-To read more about the tool you can read the following articles: 
+To learn more about the tool we reccomend the following article: 
 - [Evolutionary and Collaborative Software Architecture Recovery with Softwarenaut](http://scg.unibe.ch/archive/papers/Lung14a.pdf)
 
 ### To Cite Use This BibTeX
