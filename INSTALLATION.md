@@ -28,3 +28,7 @@
     ```Smalltalk.SN.Softwarenaut installationFolder: '/local/Softwarenaut/'```
 
 1. From the window menu select *File->Save Images As...* and save the current state of your image in the /local/Softwarenaut/st-images/ folder. From now on, you can simply open this image.
+
+1. Select the red menu bar icon in the shape of an S to start Softwarenaut
+
+1. To load your first system and start playing with it, select from the menu *Import->From FAMIX(2.1) model (.MSE) file* and select one of the pre-existing models in the /local/Softwarenaut/models folder
