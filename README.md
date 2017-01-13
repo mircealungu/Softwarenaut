@@ -1,33 +1,35 @@
-This README is a very high-level description of the project capabilities.
+This README is a very high-level description of the project capabilities. For details and case studies, see
 
-For details and case studies, see 
+1. the journal article that describes the tool ([preprint pdf](http://scg.unibe.ch/archive/papers/Lung14a.pdf), [bibtex](http://scg.unibe.ch/scgbib?_k=mhZxW1Pf&query=Lung14a&display=bibtex))
 
-- our journal article that describes the tool ([preprint pdf](http://scg.unibe.ch/archive/papers/Lung14a.pdf), [bibtex](http://scg.unibe.ch/scgbib?_k=mhZxW1Pf&query=Lung14a&display=bibtex))
+1. the conference paper that describes the way we visualized hierarchical clusterings of software systems ([preprint pdf](http://scg.unibe.ch/archive/papers/Lung05aExploreSemanticClusters.pdf), [bibtex](http://scg.unibe.ch/scgbib?_k=v0zYApEK&query=Lung05a&display=bibtex))
 
-- our conference paper that describes the way we visualized hierarchical clusterings of software systems ([preprint pdf](http://scg.unibe.ch/archive/papers/Lung05aExploreSemanticClusters.pdf), [bibtex](http://scg.unibe.ch/scgbib?_k=v0zYApEK&query=Lung05a&display=bibtex))
-
-- For installation instructions, see [Installation](INSTALLATION.md)
+For installation instructions, see [Installation](INSTALLATION.md)
 
 
 # Softwarenaut
 
-> "[...] supports architecture recovery through interactive exploration and visualization. Interactive exploration, filtering and contextual details, are enhanced with evolutionary capabilities when versioning information is available. The tool allows sharing and discovering the results of previous analysis sessions through a global repository of architectural views indexed by systems." (Lungu et al., [Evolutionary and Collaborative Software Architecture Recovery with Softwarenaut](http://scg.unibe.ch/scgbib?query=Lung14a&display=abstract))
+> "[...] supports architecture recovery through interactive exploration and visualization. Interactive exploration, filtering and contextual details, are enhanced with evolutionary capabilities when versioning information is available." (Lungu et al., [Evolutionary and Collaborative Software Architecture Recovery with Softwarenaut](http://scg.unibe.ch/scgbib?query=Lung14a&display=abstract))
 
 ### Aggregating Low Level Relationships
-A software system usually contains a range of low-level relations between software artefacts: class inheritance, method invocations, variable accesses. Softwarenaut aggregates these low-level relations along a hierarcical decomposition of a system (e.g. the package structure in Java). The results is that Softwarenaut can represent high-level overview of the architectural relationships between the modules in a system.
+A software system can be seen as a network of numerous low-level relations between software artefacts: class inheritance, method invocations, variable accesses. 
 
-The figure presents the architecture of Softwarenaut in Softwarenaut (version 3.202). The architecture is considered to be the high-level relationships between the main modules. The modules are represented proportional in size to their number of lines of code and the relationships are proportional to the number of low-level relationships abstracted.
+Softwarenaut aggregates these low-level relations along a hierarcical decomposition of a system (e.g. the package structure in Java). The results is that Softwarenaut can represent high-level overview of the architectural relationships between the modules in a system.
+
+The figure presents an automatically generated view of the architecture of Softwarenaut visualized with Softwarenaut (v 3.202). The modules are represented proportional in size to their number of lines of code and the relationships are proportional to the number of low-level relationships abstracted.
 
 ![architecture-of-softwarenaut](https://cloud.githubusercontent.com/assets/464519/21022444/eb463a12-bd7c-11e6-9a37-f6925f371eff.png)
 
 
-### Augmenting The Big Picture With Evolutionary Information
-The following view presents Softwarenaut visualizing itself but this time, augmenting the structure with evolutionary information. On top of the architectural view we have highlighted the classes that have the most activity in the recent evolution of the system (as of February 2011). One can see that it is a minority of classes that have been changing. 
+### But Software Systems Evolve
+The following view presents Softwarenaut visualizing itself but this time, augmenting the structure with evolutionary information. 
+
+On top of the architectural view we have highlighted the classes that have the most activity in the recent evolution of the system (as of February 2011). One can see that it is a minority of classes that have been changing. 
 
 ![evolution screenshot](https://cloud.githubusercontent.com/assets/464519/21022349/9ec2f748-bd7c-11e6-87ad-29c5332caba9.png)
 
 
-### Details About Relationship Evolution
+### Even Relationships Evolve...
 
 The following figure presents the evolution filmstrip for the relationship between the uml and kernel modules in ArgoUML between 2003 and 2007. Inheritance relationships are represented with red and invocation relationships are represented with black. One can see that in 2004 a reverse dependency was introduced between kernel and uml and it remained in the system until its latest analyzed version
 
@@ -49,15 +51,17 @@ The figure illustrates the evolution of the cognitive package in ArgoUML. As one
 
 For more documentation see the /docs folder which includes:
 
-- [importing a system](docs/importing.md)
+- [Importing a system](docs/importing.md)
 
-- [filtering nodes and edges](docs/filtering.md)
+- [Filtering nodes and edges](docs/filtering.md)
 
 
 For details and case studies, see 
 
-- our journal article that describes the tool ([preprint pdf](http://scg.unibe.ch/archive/papers/Lung14a.pdf), [bibtex](http://scg.unibe.ch/scgbib?_k=mhZxW1Pf&query=Lung14a&display=bibtex))
-- our conference paper that describes the way we visualized hierarchical clusterings of software systems ([preprint pdf](http://scg.unibe.ch/archive/papers/Lung05aExploreSemanticClusters.pdf), [bibtex](http://scg.unibe.ch/scgbib?_k=v0zYApEK&query=Lung05a&display=bibtex))
+1. the journal article that describes the tool ([preprint pdf](http://scg.unibe.ch/archive/papers/Lung14a.pdf), [bibtex](http://scg.unibe.ch/scgbib?_k=mhZxW1Pf&query=Lung14a&display=bibtex))
+
+1. the conference paper that describes the way we visualized hierarchical clusterings of software systems ([preprint pdf](http://scg.unibe.ch/archive/papers/Lung05aExploreSemanticClusters.pdf), [bibtex](http://scg.unibe.ch/scgbib?_k=v0zYApEK&query=Lung05a&display=bibtex))
+
 
 For installation instructions, see [Installation](INSTALLATION.md)
 
