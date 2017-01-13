@@ -1,7 +1,7 @@
 # Installation
 
 
-1. Install [Cincom VisualWorks](http://www.cincomsmalltalk.com/). You need it since Softwarenaut is built on top of it. You can obtain a Personal Use License and install it from the [download page](http://www.cincomsmalltalk.com/main/developer-community/trying-cincom-smalltalk/try-cincom-smalltalk/) on the Cincom website. 
+1. Install [Cincom VisualWorks](http://www.cincomsmalltalk.com/). You need it since Softwarenaut is built on top of it. You can obtain a Personal Use License and get it from the [download page](http://www.cincomsmalltalk.com/main/developer-community/trying-cincom-smalltalk/try-cincom-smalltalk/) on the Cincom website. 
 
 1. Clone the repo at https://github.com/mircealungu/Softwarenaut and install it locally in a folder that from here on we will refer as /local/Softwarenaut
 
