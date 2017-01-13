@@ -4,7 +4,7 @@ This README is a very high-level description of the project capabilities. For de
 
 1. the conference paper that describes the way we visualized hierarchical clusterings of software systems ([preprint pdf](http://scg.unibe.ch/archive/papers/Lung05aExploreSemanticClusters.pdf), [bibtex](http://scg.unibe.ch/scgbib?_k=v0zYApEK&query=Lung05a&display=bibtex))
 
-For installation instructions, see [Installation](INSTALLATION.md)
+For installation instructions, see [Installation](INSTALL.md)
 
 
 # Softwarenaut
