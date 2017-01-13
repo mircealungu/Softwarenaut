@@ -1,4 +1,4 @@
-(This is a description of the project. For installation instructions, see [Installation](Installation.md))
+(This is a description of the project. For installation instructions, see [Installation](INSTALLATION.md))
 # Softwarenaut
 
 > "[...] supports architecture recovery through interactive exploration and visualization. Interactive exploration, filtering and contextual details, are enhanced with evolutionary capabilities when versioning information is available. The tool allows sharing and discovering the results of previous analysis sessions through a global repository of architectural views indexed by systems." (Lungu et al., [Evolutionary and Collaborative Software Architecture Recovery with Softwarenaut](http://scg.unibe.ch/scgbib?query=Lung14a&display=abstract))
