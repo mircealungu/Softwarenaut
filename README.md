@@ -51,9 +51,10 @@ For more documentation see the /docs folder which includes:
 
 - [filtering nodes and edges](docs/filtering.md)
 
-- For details and case studies, see our journal article ([preprint pdf](http://scg.unibe.ch/archive/papers/Lung14a.pdf), [bibtex](http://scg.unibe.ch/scgbib?_k=mhZxW1Pf&query=Lung14a&display=bibtex))
 
-- For installation instructions, see [Installation](INSTALLATION.md)
+For details and case studies, see our journal article ([preprint pdf](http://scg.unibe.ch/archive/papers/Lung14a.pdf), [bibtex](http://scg.unibe.ch/scgbib?_k=mhZxW1Pf&query=Lung14a&display=bibtex))
+
+For installation instructions, see [Installation](INSTALLATION.md)
 
 
 
