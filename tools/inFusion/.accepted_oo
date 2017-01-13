@@ -1,0 +1,84 @@
+Brain Class
+Brain Method
+Cyclic Subsystems Dependency
+Data Class
+Dispersed Coupling
+Feature Envy
+God Class
+Intensive Coupling
+Refused Parent Bequest
+Shotgun Surgery
+Tradition Breaker
+Unstable Dependencies
+Significant Duplication
+AMW
+ATFD
+BOvR
+BUR
+CBO
+CC
+CDISP
+CINT
+CM
+CYCLO
+DAC
+FANIN
+FANOUT
+FDP
+HIT
+IF
+LAA
+LOC
+MAXNESTING
+NAS
+NOAM
+NOC
+NOD
+NODD
+NOM
+NOP
+NOPA
+NProtM
+PNAS
+TCC
+WMC
+WOC
+THROWN
+THROWS
+CATCHED
+Attribute Usage
+Class Blueprint
+Design Flaws Overview
+Detail
+Dude
+Method Interaction
+FAMIX 2.1 MSE Exporter
+FAMIX 3.0 MSE Exporter
+System Complexity Overview
+all ancestors
+all descendants
+attribute group
+method group
+class group
+base classes
+derived classes
+global function group
+global variable group
+fanout class group
+foreign data
+foreign data providers
+methods accessing variable
+methods overriden
+group of changing classes
+group of changing methods
+operations called
+operations calling me
+variables accessed
+package group
+annotation instances (for all entities)
+annotations group
+has comments
+is public
+catched exceptions group
+throws exceptions group
+exceptions thrown group

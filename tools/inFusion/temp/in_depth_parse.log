@@ -1,0 +1,330 @@
+Jan 13, 2017 9:16:53 AM com.intooitus.memoria.importer.recoder.ParseLogger log
+WARNING: Failed Dependency Error in the "MethodReference": offrom position: 77/65
+Jan 13, 2017 9:16:53 AM com.intooitus.memoria.importer.recoder.ParseLogger log
+WARNING: Failed Dependency Error in the "MethodReference": offrom position: 80/69
+Jan 13, 2017 9:16:53 AM com.intooitus.memoria.importer.recoder.ParseLogger log
+WARNING: Failed Dependency Error in the "MethodReference": tofrom position: 19/52
+Jan 13, 2017 9:16:53 AM com.intooitus.memoria.importer.recoder.ParseLogger log
+WARNING: Failed Dependency Error in the "MethodReference": tofrom position: 21/74
+Jan 13, 2017 9:16:53 AM com.intooitus.memoria.importer.recoder.ParseLogger log
+WARNING: Failed Dependency Error in the "MethodReference": annotatedWithfrom position: 21/54
+Jan 13, 2017 9:16:53 AM com.intooitus.memoria.importer.recoder.ParseLogger log
+WARNING: Failed Dependency Error in the "MethodReference": tofrom position: 28/85
+Jan 13, 2017 9:16:53 AM com.intooitus.memoria.importer.recoder.ParseLogger log
+WARNING: Failed Dependency Error in the "MethodReference": annotatedWithfrom position: 28/56
+Jan 13, 2017 9:16:53 AM com.intooitus.memoria.importer.recoder.ParseLogger log
+WARNING: Failed Dependency Error in the "MethodReference": toProviderfrom position: 32/87
+Jan 13, 2017 9:16:53 AM com.intooitus.memoria.importer.recoder.ParseLogger log
+WARNING: Failed Dependency ERROR: Exception while testing if "Builder" is an array !
+Jan 13, 2017 9:16:53 AM com.intooitus.memoria.importer.recoder.ParseLogger log
+WARNING: Failed Dependency Error; Exception occured while getting the type"Builder" from TypeReference
+Jan 13, 2017 9:16:53 AM com.intooitus.memoria.importer.recoder.ParseLogger log
+WARNING: Failed Dependency Error in the "MethodReference": builderfrom position: 49/115
+Jan 13, 2017 9:16:53 AM com.intooitus.memoria.importer.recoder.ParseLogger log
+WARNING: Failed Dependency ERROR: Exception while testing if "Builder" is an array !
+Jan 13, 2017 9:16:53 AM com.intooitus.memoria.importer.recoder.ParseLogger log
+WARNING: Failed Dependency Error; Exception occured while getting the type"Builder" from TypeReference
+Jan 13, 2017 9:16:53 AM com.intooitus.memoria.importer.recoder.ParseLogger log
+WARNING: Failed Dependency Error in the "MethodReference": builderfrom position: 50/114
+Jan 13, 2017 9:16:53 AM com.intooitus.memoria.importer.recoder.ParseLogger log
+WARNING: Failed Dependency Error in the "MethodReference": putfrom position: 54/99
+Jan 13, 2017 9:16:53 AM com.intooitus.memoria.importer.recoder.ParseLogger log
+WARNING: Failed Dependency Error in the "MethodReference": putfrom position: 55/94
+Jan 13, 2017 9:16:53 AM com.intooitus.memoria.importer.recoder.ParseLogger log
+WARNING: Failed Dependency Error in the "MethodReference": buildfrom position: 59/73
+Jan 13, 2017 9:16:53 AM com.intooitus.memoria.importer.recoder.ParseLogger log
+WARNING: Failed Dependency Error in the "MethodReference": buildfrom position: 60/71
+Jan 13, 2017 9:16:53 AM com.intooitus.memoria.importer.recoder.ModelConstructor enteringNode
+FINER: THROW
+java.lang.NullPointerException
+	at com.intooitus.memoria.importer.recoder.MethodDeclarationListener.enterModelComponent(MethodDeclarationListener.java:56)
+	at com.intooitus.memoria.importer.recoder.ModelConstructor.enteringNode(ModelConstructor.java:72)
+	at recoder.convenience.ASTIterator.recurse(ASTIterator.java:87)
+	at recoder.convenience.ASTIterator.recurse(ASTIterator.java:108)
+	at recoder.convenience.ASTIterator.recurse(ASTIterator.java:108)
+	at recoder.convenience.ASTIterator.iterate(ASTIterator.java:72)
+	at com.intooitus.memoria.importer.recoder.JavaModelLoader.loadModelFromSources(JavaModelLoader.java:174)
+	at com.intooitus.memoria.importer.AbstractModelLoader.loadModelFromCacheOrFromSources(AbstractModelLoader.java:52)
+	at com.intooitus.memoria.importer.AbstractModelLoader.loadModel(AbstractModelLoader.java:44)
+	at com.intooitus.memoria.importer.recoder.JavaModelLoader.<init>(JavaModelLoader.java:53)
+	at com.intooitus.infusion.metamodel.MemoriaJavaModelBuilder.loadModel(MemoriaJavaModelBuilder.java:15)
+	at com.intooitus.infusion.metamodel.MemoriaModelBuilder.buildModel(MemoriaModelBuilder.java:61)
+	at com.intooitus.metameta.metamodel.MetaModel.<init>(MetaModel.java:39)
+	at com.intooitus.metameta.metamodel.MetaModel.createFrom(MetaModel.java:22)
+	at com.intooitus.infusion.util.FAMIXExportingTrigger.createFAMIXModel(FAMIXExportingTrigger.java:28)
+	at com.intooitus.infusion.util.Java2MSE.main(Java2MSE.java:33)
+
+Jan 13, 2017 9:16:53 AM com.intooitus.memoria.importer.recoder.ModelConstructor enteringNode
+FINER: THROW
+java.lang.NullPointerException
+	at com.intooitus.memoria.importer.recoder.VariableSpecificationListener.setLocalVarScope(VariableSpecificationListener.java:87)
+	at com.intooitus.memoria.importer.recoder.VariableSpecificationListener.enterModelComponent(VariableSpecificationListener.java:67)
+	at com.intooitus.memoria.importer.recoder.ModelConstructor.enteringNode(ModelConstructor.java:72)
+	at recoder.convenience.ASTIterator.recurse(ASTIterator.java:87)
+	at recoder.convenience.ASTIterator.recurse(ASTIterator.java:108)
+	at recoder.convenience.ASTIterator.recurse(ASTIterator.java:108)
+	at recoder.convenience.ASTIterator.recurse(ASTIterator.java:108)
+	at recoder.convenience.ASTIterator.recurse(ASTIterator.java:108)
+	at recoder.convenience.ASTIterator.recurse(ASTIterator.java:108)
+	at recoder.convenience.ASTIterator.iterate(ASTIterator.java:72)
+	at com.intooitus.memoria.importer.recoder.JavaModelLoader.loadModelFromSources(JavaModelLoader.java:174)
+	at com.intooitus.memoria.importer.AbstractModelLoader.loadModelFromCacheOrFromSources(AbstractModelLoader.java:52)
+	at com.intooitus.memoria.importer.AbstractModelLoader.loadModel(AbstractModelLoader.java:44)
+	at com.intooitus.memoria.importer.recoder.JavaModelLoader.<init>(JavaModelLoader.java:53)
+	at com.intooitus.infusion.metamodel.MemoriaJavaModelBuilder.loadModel(MemoriaJavaModelBuilder.java:15)
+	at com.intooitus.infusion.metamodel.MemoriaModelBuilder.buildModel(MemoriaModelBuilder.java:61)
+	at com.intooitus.metameta.metamodel.MetaModel.<init>(MetaModel.java:39)
+	at com.intooitus.metameta.metamodel.MetaModel.createFrom(MetaModel.java:22)
+	at com.intooitus.infusion.util.FAMIXExportingTrigger.createFAMIXModel(FAMIXExportingTrigger.java:28)
+	at com.intooitus.infusion.util.Java2MSE.main(Java2MSE.java:33)
+
+Jan 13, 2017 9:16:53 AM com.intooitus.memoria.importer.recoder.ModelConstructor enteringNode
+FINER: THROW
+java.lang.NullPointerException
+	at com.intooitus.memoria.importer.recoder.VariableSpecificationListener.setLocalVarScope(VariableSpecificationListener.java:87)
+	at com.intooitus.memoria.importer.recoder.VariableSpecificationListener.enterModelComponent(VariableSpecificationListener.java:44)
+	at com.intooitus.memoria.importer.recoder.ModelConstructor.enteringNode(ModelConstructor.java:72)
+	at recoder.convenience.ASTIterator.recurse(ASTIterator.java:87)
+	at recoder.convenience.ASTIterator.recurse(ASTIterator.java:108)
+	at recoder.convenience.ASTIterator.recurse(ASTIterator.java:108)
+	at recoder.convenience.ASTIterator.recurse(ASTIterator.java:108)
+	at recoder.convenience.ASTIterator.recurse(ASTIterator.java:108)
+	at recoder.convenience.ASTIterator.recurse(ASTIterator.java:108)
+	at recoder.convenience.ASTIterator.recurse(ASTIterator.java:108)
+	at recoder.convenience.ASTIterator.recurse(ASTIterator.java:108)
+	at recoder.convenience.ASTIterator.iterate(ASTIterator.java:72)
+	at com.intooitus.memoria.importer.recoder.JavaModelLoader.loadModelFromSources(JavaModelLoader.java:174)
+	at com.intooitus.memoria.importer.AbstractModelLoader.loadModelFromCacheOrFromSources(AbstractModelLoader.java:52)
+	at com.intooitus.memoria.importer.AbstractModelLoader.loadModel(AbstractModelLoader.java:44)
+	at com.intooitus.memoria.importer.recoder.JavaModelLoader.<init>(JavaModelLoader.java:53)
+	at com.intooitus.infusion.metamodel.MemoriaJavaModelBuilder.loadModel(MemoriaJavaModelBuilder.java:15)
+	at com.intooitus.infusion.metamodel.MemoriaModelBuilder.buildModel(MemoriaModelBuilder.java:61)
+	at com.intooitus.metameta.metamodel.MetaModel.<init>(MetaModel.java:39)
+	at com.intooitus.metameta.metamodel.MetaModel.createFrom(MetaModel.java:22)
+	at com.intooitus.infusion.util.FAMIXExportingTrigger.createFAMIXModel(FAMIXExportingTrigger.java:28)
+	at com.intooitus.infusion.util.Java2MSE.main(Java2MSE.java:33)
+
+Jan 13, 2017 9:16:53 AM com.intooitus.memoria.importer.recoder.ModelConstructor enteringNode
+FINER: THROW
+java.lang.NullPointerException
+	at com.intooitus.memoria.importer.recoder.ThrowListener.enterModelComponent(ThrowListener.java:45)
+	at com.intooitus.memoria.importer.recoder.ModelConstructor.enteringNode(ModelConstructor.java:72)
+	at recoder.convenience.ASTIterator.recurse(ASTIterator.java:87)
+	at recoder.convenience.ASTIterator.recurse(ASTIterator.java:108)
+	at recoder.convenience.ASTIterator.recurse(ASTIterator.java:108)
+	at recoder.convenience.ASTIterator.recurse(ASTIterator.java:108)
+	at recoder.convenience.ASTIterator.recurse(ASTIterator.java:108)
+	at recoder.convenience.ASTIterator.recurse(ASTIterator.java:108)
+	at recoder.convenience.ASTIterator.recurse(ASTIterator.java:108)
+	at recoder.convenience.ASTIterator.recurse(ASTIterator.java:108)
+	at recoder.convenience.ASTIterator.iterate(ASTIterator.java:72)
+	at com.intooitus.memoria.importer.recoder.JavaModelLoader.loadModelFromSources(JavaModelLoader.java:174)
+	at com.intooitus.memoria.importer.AbstractModelLoader.loadModelFromCacheOrFromSources(AbstractModelLoader.java:52)
+	at com.intooitus.memoria.importer.AbstractModelLoader.loadModel(AbstractModelLoader.java:44)
+	at com.intooitus.memoria.importer.recoder.JavaModelLoader.<init>(JavaModelLoader.java:53)
+	at com.intooitus.infusion.metamodel.MemoriaJavaModelBuilder.loadModel(MemoriaJavaModelBuilder.java:15)
+	at com.intooitus.infusion.metamodel.MemoriaModelBuilder.buildModel(MemoriaModelBuilder.java:61)
+	at com.intooitus.metameta.metamodel.MetaModel.<init>(MetaModel.java:39)
+	at com.intooitus.metameta.metamodel.MetaModel.createFrom(MetaModel.java:22)
+	at com.intooitus.infusion.util.FAMIXExportingTrigger.createFAMIXModel(FAMIXExportingTrigger.java:28)
+	at com.intooitus.infusion.util.Java2MSE.main(Java2MSE.java:33)
+
+Jan 13, 2017 9:16:53 AM com.intooitus.memoria.importer.recoder.ParseLogger log
+WARNING: Failed Dependency Error in the "MethodReference": tofrom position: 129/110
+Jan 13, 2017 9:16:53 AM com.intooitus.memoria.importer.recoder.ParseLogger log
+WARNING: Failed Dependency Error in the "MethodReference": toProviderfrom position: 133/69
+Jan 13, 2017 9:16:53 AM com.intooitus.memoria.importer.recoder.ParseLogger log
+WARNING: Failed Dependency Error in the "MethodReference": toProviderfrom position: 136/47
+Jan 13, 2017 9:16:53 AM com.intooitus.memoria.importer.recoder.ParseLogger log
+WARNING: Failed Dependency Error in the "MethodReference": toProviderfrom position: 139/74
+Jan 13, 2017 9:16:53 AM com.intooitus.memoria.importer.recoder.ParseLogger log
+WARNING: Failed Dependency Error in the "MethodReference": tofrom position: 143/75
+Jan 13, 2017 9:16:53 AM com.intooitus.memoria.importer.recoder.ParseLogger log
+WARNING: Failed Dependency Error in the "MethodReference": tofrom position: 148/75
+Jan 13, 2017 9:16:53 AM com.intooitus.memoria.importer.recoder.ParseLogger log
+WARNING: Failed Dependency Error in the "MethodReference": tofrom position: 153/86
+Jan 13, 2017 9:16:53 AM com.intooitus.memoria.importer.recoder.ParseLogger log
+WARNING: Failed Dependency Error in the "MethodReference": tofrom position: 180/78
+Jan 13, 2017 9:16:53 AM com.intooitus.memoria.importer.recoder.ParseLogger log
+WARNING: Failed Dependency Error in the "MethodReference": annotatedWithfrom position: 180/60
+Jan 13, 2017 9:16:53 AM com.intooitus.memoria.importer.recoder.ModelConstructor enteringNode
+FINER: THROW
+java.lang.NullPointerException
+	at com.intooitus.memoria.importer.recoder.MethodDeclarationListener.enterModelComponent(MethodDeclarationListener.java:56)
+	at com.intooitus.memoria.importer.recoder.ModelConstructor.enteringNode(ModelConstructor.java:72)
+	at recoder.convenience.ASTIterator.recurse(ASTIterator.java:87)
+	at recoder.convenience.ASTIterator.recurse(ASTIterator.java:108)
+	at recoder.convenience.ASTIterator.recurse(ASTIterator.java:108)
+	at recoder.convenience.ASTIterator.iterate(ASTIterator.java:72)
+	at com.intooitus.memoria.importer.recoder.JavaModelLoader.loadModelFromSources(JavaModelLoader.java:174)
+	at com.intooitus.memoria.importer.AbstractModelLoader.loadModelFromCacheOrFromSources(AbstractModelLoader.java:52)
+	at com.intooitus.memoria.importer.AbstractModelLoader.loadModel(AbstractModelLoader.java:44)
+	at com.intooitus.memoria.importer.recoder.JavaModelLoader.<init>(JavaModelLoader.java:53)
+	at com.intooitus.infusion.metamodel.MemoriaJavaModelBuilder.loadModel(MemoriaJavaModelBuilder.java:15)
+	at com.intooitus.infusion.metamodel.MemoriaModelBuilder.buildModel(MemoriaModelBuilder.java:61)
+	at com.intooitus.metameta.metamodel.MetaModel.<init>(MetaModel.java:39)
+	at com.intooitus.metameta.metamodel.MetaModel.createFrom(MetaModel.java:22)
+	at com.intooitus.infusion.util.FAMIXExportingTrigger.createFAMIXModel(FAMIXExportingTrigger.java:28)
+	at com.intooitus.infusion.util.Java2MSE.main(Java2MSE.java:33)
+
+Jan 13, 2017 9:16:53 AM com.intooitus.memoria.importer.recoder.ModelConstructor enteringNode
+FINER: THROW
+java.lang.NullPointerException
+	at com.intooitus.memoria.importer.recoder.TypeDeclarationListener.buildClassFromDeclaration(TypeDeclarationListener.java:36)
+	at com.intooitus.memoria.importer.recoder.ClassDeclarationListener.enterModelComponent(ClassDeclarationListener.java:34)
+	at com.intooitus.memoria.importer.recoder.ModelConstructor.enteringNode(ModelConstructor.java:72)
+	at recoder.convenience.ASTIterator.recurse(ASTIterator.java:87)
+	at recoder.convenience.ASTIterator.recurse(ASTIterator.java:108)
+	at recoder.convenience.ASTIterator.recurse(ASTIterator.java:108)
+	at recoder.convenience.ASTIterator.recurse(ASTIterator.java:108)
+	at recoder.convenience.ASTIterator.recurse(ASTIterator.java:108)
+	at recoder.convenience.ASTIterator.recurse(ASTIterator.java:108)
+	at recoder.convenience.ASTIterator.recurse(ASTIterator.java:108)
+	at recoder.convenience.ASTIterator.recurse(ASTIterator.java:108)
+	at recoder.convenience.ASTIterator.iterate(ASTIterator.java:72)
+	at com.intooitus.memoria.importer.recoder.JavaModelLoader.loadModelFromSources(JavaModelLoader.java:174)
+	at com.intooitus.memoria.importer.AbstractModelLoader.loadModelFromCacheOrFromSources(AbstractModelLoader.java:52)
+	at com.intooitus.memoria.importer.AbstractModelLoader.loadModel(AbstractModelLoader.java:44)
+	at com.intooitus.memoria.importer.recoder.JavaModelLoader.<init>(JavaModelLoader.java:53)
+	at com.intooitus.infusion.metamodel.MemoriaJavaModelBuilder.loadModel(MemoriaJavaModelBuilder.java:15)
+	at com.intooitus.infusion.metamodel.MemoriaModelBuilder.buildModel(MemoriaModelBuilder.java:61)
+	at com.intooitus.metameta.metamodel.MetaModel.<init>(MetaModel.java:39)
+	at com.intooitus.metameta.metamodel.MetaModel.createFrom(MetaModel.java:22)
+	at com.intooitus.infusion.util.FAMIXExportingTrigger.createFAMIXModel(FAMIXExportingTrigger.java:28)
+	at com.intooitus.infusion.util.Java2MSE.main(Java2MSE.java:33)
+
+Jan 13, 2017 9:16:53 AM com.intooitus.memoria.importer.recoder.ModelConstructor enteringNode
+FINER: THROW
+java.lang.NullPointerException
+	at com.intooitus.memoria.importer.recoder.MethodDeclarationListener.enterModelComponent(MethodDeclarationListener.java:56)
+	at com.intooitus.memoria.importer.recoder.ModelConstructor.enteringNode(ModelConstructor.java:72)
+	at recoder.convenience.ASTIterator.recurse(ASTIterator.java:87)
+	at recoder.convenience.ASTIterator.recurse(ASTIterator.java:108)
+	at recoder.convenience.ASTIterator.recurse(ASTIterator.java:108)
+	at recoder.convenience.ASTIterator.recurse(ASTIterator.java:108)
+	at recoder.convenience.ASTIterator.recurse(ASTIterator.java:108)
+	at recoder.convenience.ASTIterator.recurse(ASTIterator.java:108)
+	at recoder.convenience.ASTIterator.recurse(ASTIterator.java:108)
+	at recoder.convenience.ASTIterator.recurse(ASTIterator.java:108)
+	at recoder.convenience.ASTIterator.recurse(ASTIterator.java:108)
+	at recoder.convenience.ASTIterator.iterate(ASTIterator.java:72)
+	at com.intooitus.memoria.importer.recoder.JavaModelLoader.loadModelFromSources(JavaModelLoader.java:174)
+	at com.intooitus.memoria.importer.AbstractModelLoader.loadModelFromCacheOrFromSources(AbstractModelLoader.java:52)
+	at com.intooitus.memoria.importer.AbstractModelLoader.loadModel(AbstractModelLoader.java:44)
+	at com.intooitus.memoria.importer.recoder.JavaModelLoader.<init>(JavaModelLoader.java:53)
+	at com.intooitus.infusion.metamodel.MemoriaJavaModelBuilder.loadModel(MemoriaJavaModelBuilder.java:15)
+	at com.intooitus.infusion.metamodel.MemoriaModelBuilder.buildModel(MemoriaModelBuilder.java:61)
+	at com.intooitus.metameta.metamodel.MetaModel.<init>(MetaModel.java:39)
+	at com.intooitus.metameta.metamodel.MetaModel.createFrom(MetaModel.java:22)
+	at com.intooitus.infusion.util.FAMIXExportingTrigger.createFAMIXModel(FAMIXExportingTrigger.java:28)
+	at com.intooitus.infusion.util.Java2MSE.main(Java2MSE.java:33)
+
+Jan 13, 2017 9:16:53 AM com.intooitus.memoria.importer.recoder.ModelConstructor enteringNode
+FINER: THROW
+java.lang.NullPointerException
+	at com.intooitus.memoria.importer.recoder.VariableSpecificationListener.setLocalVarScope(VariableSpecificationListener.java:87)
+	at com.intooitus.memoria.importer.recoder.VariableSpecificationListener.enterModelComponent(VariableSpecificationListener.java:44)
+	at com.intooitus.memoria.importer.recoder.ModelConstructor.enteringNode(ModelConstructor.java:72)
+	at recoder.convenience.ASTIterator.recurse(ASTIterator.java:87)
+	at recoder.convenience.ASTIterator.recurse(ASTIterator.java:108)
+	at recoder.convenience.ASTIterator.recurse(ASTIterator.java:108)
+	at recoder.convenience.ASTIterator.recurse(ASTIterator.java:108)
+	at recoder.convenience.ASTIterator.recurse(ASTIterator.java:108)
+	at recoder.convenience.ASTIterator.recurse(ASTIterator.java:108)
+	at recoder.convenience.ASTIterator.recurse(ASTIterator.java:108)
+	at recoder.convenience.ASTIterator.recurse(ASTIterator.java:108)
+	at recoder.convenience.ASTIterator.recurse(ASTIterator.java:108)
+	at recoder.convenience.ASTIterator.recurse(ASTIterator.java:108)
+	at recoder.convenience.ASTIterator.recurse(ASTIterator.java:108)
+	at recoder.convenience.ASTIterator.recurse(ASTIterator.java:108)
+	at recoder.convenience.ASTIterator.recurse(ASTIterator.java:108)
+	at recoder.convenience.ASTIterator.recurse(ASTIterator.java:108)
+	at recoder.convenience.ASTIterator.iterate(ASTIterator.java:72)
+	at com.intooitus.memoria.importer.recoder.JavaModelLoader.loadModelFromSources(JavaModelLoader.java:174)
+	at com.intooitus.memoria.importer.AbstractModelLoader.loadModelFromCacheOrFromSources(AbstractModelLoader.java:52)
+	at com.intooitus.memoria.importer.AbstractModelLoader.loadModel(AbstractModelLoader.java:44)
+	at com.intooitus.memoria.importer.recoder.JavaModelLoader.<init>(JavaModelLoader.java:53)
+	at com.intooitus.infusion.metamodel.MemoriaJavaModelBuilder.loadModel(MemoriaJavaModelBuilder.java:15)
+	at com.intooitus.infusion.metamodel.MemoriaModelBuilder.buildModel(MemoriaModelBuilder.java:61)
+	at com.intooitus.metameta.metamodel.MetaModel.<init>(MetaModel.java:39)
+	at com.intooitus.metameta.metamodel.MetaModel.createFrom(MetaModel.java:22)
+	at com.intooitus.infusion.util.FAMIXExportingTrigger.createFAMIXModel(FAMIXExportingTrigger.java:28)
+	at com.intooitus.infusion.util.Java2MSE.main(Java2MSE.java:33)
+
+Jan 13, 2017 9:16:53 AM com.intooitus.memoria.importer.recoder.ModelConstructor enteringNode
+FINER: THROW
+java.lang.NullPointerException
+	at com.intooitus.memoria.importer.recoder.ThrowListener.enterModelComponent(ThrowListener.java:45)
+	at com.intooitus.memoria.importer.recoder.ModelConstructor.enteringNode(ModelConstructor.java:72)
+	at recoder.convenience.ASTIterator.recurse(ASTIterator.java:87)
+	at recoder.convenience.ASTIterator.recurse(ASTIterator.java:108)
+	at recoder.convenience.ASTIterator.recurse(ASTIterator.java:108)
+	at recoder.convenience.ASTIterator.recurse(ASTIterator.java:108)
+	at recoder.convenience.ASTIterator.recurse(ASTIterator.java:108)
+	at recoder.convenience.ASTIterator.recurse(ASTIterator.java:108)
+	at recoder.convenience.ASTIterator.recurse(ASTIterator.java:108)
+	at recoder.convenience.ASTIterator.recurse(ASTIterator.java:108)
+	at recoder.convenience.ASTIterator.recurse(ASTIterator.java:108)
+	at recoder.convenience.ASTIterator.recurse(ASTIterator.java:108)
+	at recoder.convenience.ASTIterator.recurse(ASTIterator.java:108)
+	at recoder.convenience.ASTIterator.recurse(ASTIterator.java:108)
+	at recoder.convenience.ASTIterator.recurse(ASTIterator.java:108)
+	at recoder.convenience.ASTIterator.recurse(ASTIterator.java:108)
+	at recoder.convenience.ASTIterator.iterate(ASTIterator.java:72)
+	at com.intooitus.memoria.importer.recoder.JavaModelLoader.loadModelFromSources(JavaModelLoader.java:174)
+	at com.intooitus.memoria.importer.AbstractModelLoader.loadModelFromCacheOrFromSources(AbstractModelLoader.java:52)
+	at com.intooitus.memoria.importer.AbstractModelLoader.loadModel(AbstractModelLoader.java:44)
+	at com.intooitus.memoria.importer.recoder.JavaModelLoader.<init>(JavaModelLoader.java:53)
+	at com.intooitus.infusion.metamodel.MemoriaJavaModelBuilder.loadModel(MemoriaJavaModelBuilder.java:15)
+	at com.intooitus.infusion.metamodel.MemoriaModelBuilder.buildModel(MemoriaModelBuilder.java:61)
+	at com.intooitus.metameta.metamodel.MetaModel.<init>(MetaModel.java:39)
+	at com.intooitus.metameta.metamodel.MetaModel.createFrom(MetaModel.java:22)
+	at com.intooitus.infusion.util.FAMIXExportingTrigger.createFAMIXModel(FAMIXExportingTrigger.java:28)
+	at com.intooitus.infusion.util.Java2MSE.main(Java2MSE.java:33)
+
+Jan 13, 2017 9:16:53 AM com.intooitus.memoria.importer.recoder.ParseLogger log
+WARNING: Failed Dependency Error in the "MethodReference": tofrom position: 15/50
+Jan 13, 2017 9:16:53 AM com.intooitus.memoria.importer.recoder.ParseLogger log
+WARNING: Failed Dependency Error in the "MethodReference": toInstancefrom position: 47/87
+Jan 13, 2017 9:16:53 AM com.intooitus.memoria.importer.recoder.ParseLogger log
+WARNING: Failed Dependency Error in the "MethodReference": annotatedWithfrom position: 47/62
+Jan 13, 2017 9:16:53 AM com.intooitus.memoria.importer.recoder.ParseLogger log
+WARNING: Failed Dependency Error in the "MethodReference": tofrom position: 50/113
+Jan 13, 2017 9:16:53 AM com.intooitus.memoria.importer.recoder.ParseLogger log
+WARNING: Failed Dependency Error in the "MethodReference": tofrom position: 51/107
+Jan 13, 2017 9:16:53 AM com.intooitus.memoria.importer.recoder.ParseLogger log
+WARNING: Failed Dependency Error in the "MethodReference": tofrom position: 52/128
+Jan 13, 2017 9:16:53 AM com.intooitus.memoria.importer.recoder.ParseLogger log
+WARNING: Failed Dependency Error in the "MethodReference": toProviderfrom position: 53/58
+Jan 13, 2017 9:16:53 AM com.intooitus.memoria.importer.recoder.ParseLogger log
+WARNING: Failed Dependency Error in the "MethodReference": toInstancefrom position: 41/80
+Jan 13, 2017 9:16:53 AM com.intooitus.memoria.importer.recoder.ParseLogger log
+WARNING: Failed Dependency Error in the "MethodReference": annotatedWithfrom position: 41/61
+Jan 13, 2017 9:16:53 AM com.intooitus.memoria.importer.recoder.ParseLogger log
+WARNING: Failed Dependency Error in the "MethodReference": toProviderfrom position: 26/77
+Jan 13, 2017 9:16:53 AM com.intooitus.memoria.importer.recoder.ParseLogger log
+WARNING: Failed Dependency Error in the "MethodReference": infrom position: 12/77
+Jan 13, 2017 9:16:53 AM com.intooitus.memoria.importer.recoder.ParseLogger log
+WARNING: Failed Dependency Error in the "MethodReference": tofrom position: 14/100
+Jan 13, 2017 9:16:53 AM com.intooitus.memoria.importer.recoder.ParseLogger log
+WARNING: Failed Dependency Error in the "MethodReference": tofrom position: 15/98
+Jan 13, 2017 9:16:53 AM com.intooitus.memoria.importer.recoder.ParseLogger log
+WARNING: Failed Dependency Error in the "MethodReference": tofrom position: 16/105
+Jan 13, 2017 9:16:53 AM com.intooitus.memoria.importer.recoder.ParseLogger log
+WARNING: Failed Dependency Error in the "MethodReference": tofrom position: 14/49
+Jan 13, 2017 9:16:53 AM com.intooitus.memoria.importer.recoder.ParseLogger log
+WARNING: Failed Dependency Error in the "MethodReference": infrom position: 18/41
+Jan 13, 2017 9:16:53 AM com.intooitus.memoria.importer.recoder.ParseLogger log
+WARNING: Failed Dependency Error in the "MethodReference": tofrom position: 17/32
+Jan 13, 2017 9:16:53 AM com.intooitus.memoria.importer.recoder.ParseLogger log
+WARNING: Failed Dependency Error in the "MethodReference": annotatedWithfrom position: 16/44
+Jan 13, 2017 9:16:53 AM com.intooitus.memoria.importer.recoder.ParseLogger log
+WARNING: Failed Dependency Error in the "MethodReference": toInstancefrom position: 30/60
+Jan 13, 2017 9:16:53 AM com.intooitus.memoria.importer.recoder.ParseLogger log
+WARNING: Failed Dependency Error in the "MethodReference": infrom position: 34/41
+Jan 13, 2017 9:16:53 AM com.intooitus.memoria.importer.recoder.ParseLogger log
+WARNING: Failed Dependency Error in the "MethodReference": toProviderfrom position: 33/53
+Jan 13, 2017 9:16:54 AM com.intooitus.memoria.importer.recoder.ParseLogger exit
+INFO: ---------------STATISTICS---------------
+Jan 13, 2017 9:16:54 AM com.intooitus.memoria.importer.recoder.ParseLogger exit
+INFO: Total number of exceptions:57
