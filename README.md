@@ -1,10 +1,12 @@
 This README is a very high-level description of the project capabilities.
 
-- For details and case studies, see our journal article ([preprint pdf](http://scg.unibe.ch/archive/papers/Lung14a.pdf), [bibtex](http://scg.unibe.ch/scgbib?_k=mhZxW1Pf&query=Lung14a&display=bibtex))
+For details and case studies, see 
+
+- our journal article that describes the tool ([preprint pdf](http://scg.unibe.ch/archive/papers/Lung14a.pdf), [bibtex](http://scg.unibe.ch/scgbib?_k=mhZxW1Pf&query=Lung14a&display=bibtex))
+
+- our conference paper that describes the way we visualized hierarchical clusterings of software systems ([preprint pdf](http://scg.unibe.ch/archive/papers/Lung05aExploreSemanticClusters.pdf), [bibtex](http://scg.unibe.ch/scgbib?_k=v0zYApEK&query=Lung05a&display=bibtex))
 
 - For installation instructions, see [Installation](INSTALLATION.md)
-
-- For more documentation see the [/docs](/docs) folder
 
 
 # Softwarenaut
@@ -52,7 +54,10 @@ For more documentation see the /docs folder which includes:
 - [filtering nodes and edges](docs/filtering.md)
 
 
-For details and case studies, see our journal article ([preprint pdf](http://scg.unibe.ch/archive/papers/Lung14a.pdf), [bibtex](http://scg.unibe.ch/scgbib?_k=mhZxW1Pf&query=Lung14a&display=bibtex))
+For details and case studies, see 
+
+- our journal article that describes the tool ([preprint pdf](http://scg.unibe.ch/archive/papers/Lung14a.pdf), [bibtex](http://scg.unibe.ch/scgbib?_k=mhZxW1Pf&query=Lung14a&display=bibtex))
+- our conference paper that describes the way we visualized hierarchical clusterings of software systems ([preprint pdf](http://scg.unibe.ch/archive/papers/Lung05aExploreSemanticClusters.pdf), [bibtex](http://scg.unibe.ch/scgbib?_k=v0zYApEK&query=Lung05a&display=bibtex))
 
 For installation instructions, see [Installation](INSTALLATION.md)
 
