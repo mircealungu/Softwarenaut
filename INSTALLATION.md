@@ -15,9 +15,9 @@
 
 1. From the window menu select *Store->Connect to repository...* then punch in the following information before you Connect to the Bern Store by selecting the *Connect* button: 
 
-	- Environment: db.iam.unibe.ch:5432_scgStore
-	- Username: storeguest (or your bern store username) 
-	- Password: storeguest (or your bern store password)
+	- Environment: *db.iam.unibe.ch:5432_scgStore*
+	- Username: *storeguest* 
+	- Password: *storeguest*
 
 1. From the window menu select the *Store->Published Items* which now should be enabled
 
