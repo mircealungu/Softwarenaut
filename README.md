@@ -33,21 +33,11 @@ The figure illustrates the evolution of the cognitive package in ArgoUML. As one
 
 ![screen-shot-2011-10-14-at-1 56 14-am](https://cloud.githubusercontent.com/assets/464519/21023626/9cffc058-bd81-11e6-906f-4f62c440717a.png)
 
-### Filtering
 
-Filters are a tool for coping with the explosion of information during exploration. There are two types of filters: entity filters and relationship filters. The Filters Panel allows the user to add and remove various filters during exploration. The filters panel appears instead of the Detail Panel when no entity is selected in the Architectural View.
+For more documentation see 
 
-Several examples of entity filters are:
-
-- Size Related: Filters all the modules that are under a certain threshold (Small Modules) or above a certain threshold (Large modules).
-- Evolution Related:
-
-Several types of relationship filters are:
-
-- Size Related: Filter the relationships based on the number of low-level explicit relationships (e.g. invocations, inheritances, etc.) that are abstracted in the visible relationships. Examples are: Weak dependencies, Strong dependencies. This can be useful filter when starting the analysis of systems that have a large number of modules and dependencies between them.
-- Directional: Unidirectional and bidirectional relationships can be filtered.
-- Evolutionary: they filter relationships based on the evolution of the relationships during the lifetime of the system. Examples are: lifetime, newborn, old, new. They are available only when multiple versions of a system are loaded. They are useful for either limiting the amount of information at the first encounter with a system (e.g. lifetime) or trying to find problems (e.g. newborn combined with bidirectional).
-
+- [importing a system](docs/importing.md)
+- [filtering nodes and edges](docs/filtering.md)
 
 
 ### Further Reading
@@ -72,22 +62,7 @@ To learn more about the tool we reccomend the following article:
 	Year = {2014}}
 
 
-### Importing a System
 
-In order to make Softwarenaut independent of the language that your system is written in, we have made it work on an intermediate representation that can work with any object-oriented language. That representation is the FAMIX meta-model.
-
-There are a few ways in which you can obtain a FAMIX model of your system:
-
-For Smalltalk systems, the importer is in the same image with Softwarenaut
-Using a third-party tool that can analyze your source-code and export it into FAMIX
-Importing a system from the SourcererDB (work in progress)
-Download one of the sample systems that are available online (work in progress)
-
-When you run Softwarenaut, it runs out of a Smalltalk "image", a full smalltalk system whose source code co-exists with that of Softwarenaut and is interpreted by a Smalltalk VM. This means that the tool has access to its own source code together with a few other thousand classes that make up a basic Smalltalk distribution.
-
-You can import and analyze any system from smalltalk by selecting the menu option Import->From Smalltalk...
-
-Once you select the option, you are presented with a list of namespaces that you can import. One special namespace is SN - the namespace of the Softwarenaut itself. If you load it you can analyze the system with itself.
 
 ### Importing Multiple Versions
 
@@ -102,14 +77,3 @@ Once all your versions are loaded, you are presented with a Model History builde
 After this Softwarenaut builds the internal hierarchical graphs for every version and you are ready to proceed to analysis. The models for all the versions will now know that they are part of the same history.
 
 Multi-Version views will be enabled in the detail view tab. One such example is the Relationship Evolution detail view for dependencies.
-
-
-### The Structure of This Repository
-====
-
-- dist-base: base folder for
-  building the distributions
-for the different OSes.
-
-- dist-scripts: scripts to
-  build the distributions 
