@@ -1,4 +1,10 @@
-(This is a description of the project. For installation instructions, see [Installation](INSTALLATION.md))
+This README is a high-level description of the project capabilities.
+
+- For installation instructions, see [Installation](INSTALLATION.md)
+
+- For details and case studies, see our journal article ([preprint pdf](http://scg.unibe.ch/archive/papers/Lung14a.pdf), [bibtex](http://scg.unibe.ch/scgbib?_k=mhZxW1Pf&query=Lung14a&display=bibtex))
+
+
 # Softwarenaut
 
 > "[...] supports architecture recovery through interactive exploration and visualization. Interactive exploration, filtering and contextual details, are enhanced with evolutionary capabilities when versioning information is available. The tool allows sharing and discovering the results of previous analysis sessions through a global repository of architectural views indexed by systems." (Lungu et al., [Evolutionary and Collaborative Software Architecture Recovery with Softwarenaut](http://scg.unibe.ch/scgbib?query=Lung14a&display=abstract))
@@ -34,46 +40,15 @@ The figure illustrates the evolution of the cognitive package in ArgoUML. As one
 ![screen-shot-2011-10-14-at-1 56 14-am](https://cloud.githubusercontent.com/assets/464519/21023626/9cffc058-bd81-11e6-906f-4f62c440717a.png)
 
 
-For more documentation see 
+
+### Further Reading
+
+For more documentation see the /docs folder which includes:
 
 - [importing a system](docs/importing.md)
 - [filtering nodes and edges](docs/filtering.md)
 
 
-### Further Reading
-
-To learn more about the tool we reccomend the following article: 
-- [Evolutionary and Collaborative Software Architecture Recovery with Softwarenaut](http://scg.unibe.ch/archive/papers/Lung14a.pdf)
-
-### To Cite Use This BibTeX
-@article{Lung14a,
-	Annote = {internationaljournal},
-	Author = {Mircea Lungu and Michele Lanza and Oscar Nierstrasz},
-	Doi = {10.1016/j.scico.2012.04.007},
-	Journal = {Science of Computer Programming},
-	Medium = {2},
-	Number = {0},
-	Pages = {204 - 223},
-	Peerreview = {yes},
-	Publisher = {Elsevier},
-	Title = {Evolutionary and Collaborative Software Architecture Recovery with {Softwarenaut}},
-	Url = {http://scg.unibe.ch/archive/papers/Lung14a.pdf},
-	Volume = {79},
-	Year = {2014}}
 
 
 
-
-### Importing Multiple Versions
-
-Softwarenaut provides also multi-version analysis support. For this one needs to have multiple models of the same system.
-
-To load multiple models of the same system for multi-version analysis choose the option File>Import History of FAMIX (2.1) Models and in the pop-up dialog select a directory where you have already prepared models for several versions of the system that you are analyzing.
-
-Warning: For large systems, importing a single version can take a few minutes. Consequently importing multiple versions will take proportionally more time. This means that you want to keep the number of versions that you analyze small. Select the versions that you want to analyze accordingly.
-
-Once all your versions are loaded, you are presented with a Model History builder. From the left panel select the versions that constitute your history and add them to the right panel. Then select "Build History" and give a name to your history (usually the name of the system).
-
-After this Softwarenaut builds the internal hierarchical graphs for every version and you are ready to proceed to analysis. The models for all the versions will now know that they are part of the same history.
-
-Multi-Version views will be enabled in the detail view tab. One such example is the Relationship Evolution detail view for dependencies.
