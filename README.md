@@ -1,5 +1,5 @@
-Softwarenaut
-============
+(This is a description of the project. For installation instructions, see [Installation](Installation.md))
+# Softwarenaut
 
 > "[...] supports architecture recovery through interactive exploration and visualization. Interactive exploration, filtering and contextual details, are enhanced with evolutionary capabilities when versioning information is available. The tool allows sharing and discovering the results of previous analysis sessions through a global repository of architectural views indexed by systems." (Lungu et al., [Evolutionary and Collaborative Software Architecture Recovery with Softwarenaut](http://scg.unibe.ch/scgbib?query=Lung14a&display=abstract))
 
@@ -71,25 +71,6 @@ To learn more about the tool we reccomend the following article:
 	Volume = {79},
 	Year = {2014}}
 
-
-### Installation From Sources
-
-Softwarenaut is built on top of the Cincom distribution of Smalltalk for historical reasons. This means that in order to run the tool you also need Cincom Smalltalk. 
-
-To download the source code you need to have an installation of Cincom VisualWorks. It seems that recently the only way you can do that is by ordering a CD from Cincom. They are very quick in sending it, but it is still a nuissance and a very archaic way of distributing software! Once you have your VisualWorks installed you are ready to download the sources.
-
-Connecting to the Bern Store
-
-In the Store menu of the launcher, choose ’Connect to Repository’. A dialog pops up where you have to fill in information for connecting to a Store database. Provide the following information:
-
-Interface: select PostgreSql from the dropdown box
-Environment: db.iam.unibe.ch:5432_scgStore
-User Name: storeguest (if you have one, use it)
-Password: storeguest (if you have one, use it)
-
-To access the SCG Store do the following: in the Store menu of the launcher: Store -> Published Items.
-
-Once there, load the MetaDBDevelopment bundle followed by the SoftwarenautDevelopment bundle. Every time you are asked to select a prerequisite, select the latest version that is available. (You can avoid clicking through a zillion of Ok's if you go to Settings>Store>Prerequisites and select the "Load latest version..." option.)
 
 ### Importing a System
 

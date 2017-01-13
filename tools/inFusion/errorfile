@@ -1,162 +1,1102 @@
-Building model for sources ../../systems/ccBuilding model for sources ../../systems/cc
+Building model for sources ../../systems/MusicStreamerBuilding model for sources ../../systems/MusicStreamer
 
 Loading the model from source files ... Loading the model from source files ... 
 
-The source path list is: ../../systems/ccThe source path list is: ../../systems/cc
+The source path list is: ../../systems/MusicStreamerThe source path list is: ../../systems/MusicStreamer
 
-CLASSPATH=./jre1502/lib/rt.jar:./jre1502/lib/i386:./res/:./lib/liquidlnf.jar:./lib/intellij.jar:./lib/dude.jar:./lib/jgraph.jar:./lib/jgraphmicropad.jar:./lib/java2html.jar:./lib/recoder.jar:./lib/org-openide-awt.jar:./lib/org-openide-util.jar:./lib/swing-layout-1.0.3.jar::/Library/Java/JavaVirtualMachines/jdk1.8.0_25.jdk/Contents/Home/jre/lib/charsets.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_25.jdk/Contents/Home/jre/lib/deploy.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_25.jdk/Contents/Home/jre/lib/ext/cldrdata.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_25.jdk/Contents/Home/jre/lib/ext/dnsns.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_25.jdk/Contents/Home/jre/lib/ext/jfxrt.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_25.jdk/Contents/Home/jre/lib/ext/localedata.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_25.jdk/Contents/Home/jre/lib/ext/nashorn.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_25.jdk/Contents/Home/jre/lib/ext/sunec.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_25.jdk/Contents/Home/jre/lib/ext/sunjce_provider.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_25.jdk/Contents/Home/jre/lib/ext/sunpkcs11.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_25.jdk/Contents/Home/jre/lib/ext/zipfs.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_25.jdk/Contents/Home/jre/lib/javaws.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_25.jdk/Contents/Home/jre/lib/jce.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_25.jdk/Contents/Home/jre/lib/jfr.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_25.jdk/Contents/Home/jre/lib/jfxswt.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_25.jdk/Contents/Home/jre/lib/jsse.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_25.jdk/Contents/Home/jre/lib/management-agent.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_25.jdk/Contents/Home/jre/lib/plugin.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_25.jdk/Contents/Home/jre/lib/resources.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_25.jdk/Contents/Home/jre/lib/rt.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_25.jdk/Contents/Home/jre/lib/security/local_policy.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_25.jdk/Contents/Home/jre/lib/security/US_export_policy.jar:/Users/mircea/Projects/Softwarenaut/tools/inFusion/../../systems/cc/jarjar-1.4.jar:/Users/mircea/Projects/Softwarenaut/tools/inFusion/../../systems/cc/libs/aopalliance.jar:/Users/mircea/Projects/Softwarenaut/tools/inFusion/../../systems/cc/libs/automaton.jar:/Users/mircea/Projects/Softwarenaut/tools/inFusion/../../systems/cc/libs/commons-cli-1.2.jar:/Users/mircea/Projects/Softwarenaut/tools/inFusion/../../systems/cc/libs/commons-configuration-1.8.jar:/Users/mircea/Projects/Softwarenaut/tools/inFusion/../../systems/cc/libs/commons-logging-1.1.1.jar:/Users/mircea/Projects/Softwarenaut/tools/inFusion/../../systems/cc/libs/dev-only/avro-1.7.4.jar:/Users/mircea/Projects/Softwarenaut/tools/inFusion/../../systems/cc/libs/dev-only/commons-httpclient-3.1.jar:/Users/mircea/Projects/Softwarenaut/tools/inFusion/../../systems/cc/libs/dev-only/hamcrest-library-1.3.0RC2.jar:/Users/mircea/Projects/Softwarenaut/tools/inFusion/../../systems/cc/libs/dev-only/jackson-core-asl-1.8.8.jar:/Users/mircea/Projects/Softwarenaut/tools/inFusion/../../systems/cc/libs/dev-only/jackson-jaxrs-1.8.8.jar:/Users/mircea/Projects/Softwarenaut/tools/inFusion/../../systems/cc/libs/dev-only/jackson-mapper-asl-1.8.8.jar:/Users/mircea/Projects/Softwarenaut/tools/inFusion/../../systems/cc/libs/dev-only/jackson-xc-1.8.8.jar:/Users/mircea/Projects/Softwarenaut/tools/inFusion/../../systems/cc/libs/guava-14.0.1.jar:/Users/mircea/Projects/Softwarenaut/tools/inFusion/../../systems/cc/libs/guice-3.0.jar:/Users/mircea/Projects/Softwarenaut/tools/inFusion/../../systems/cc/libs/guice-assistedinject-3.0.jar:/Users/mircea/Projects/Softwarenaut/tools/inFusion/../../systems/cc/libs/guice-grapher-3.0.jar:/Users/mircea/Projects/Softwarenaut/tools/inFusion/../../systems/cc/libs/guice-jmx-3.0.jar:/Users/mircea/Projects/Softwarenaut/tools/inFusion/../../systems/cc/libs/guice-jndi-3.0.jar:/Users/mircea/Projects/Softwarenaut/tools/inFusion/../../systems/cc/libs/guice-multibindings-3.0.jar:/Users/mircea/Projects/Softwarenaut/tools/inFusion/../../systems/cc/libs/guice-persist-3.0.jar:/Users/mircea/Projects/Softwarenaut/tools/inFusion/../../systems/cc/libs/guice-throwingproviders-3.0.jar:/Users/mircea/Projects/Softwarenaut/tools/inFusion/../../systems/cc/libs/hadoop-auth-2.0.0-cdh4.3.0.jar:/Users/mircea/Projects/Softwarenaut/tools/inFusion/../../systems/cc/libs/hadoop-common-2.0.0-cdh4.3.0.jar:/Users/mircea/Projects/Softwarenaut/tools/inFusion/../../systems/cc/libs/hadoop-hdfs-2.0.0-cdh4.3.0.jar:/Users/mircea/Projects/Softwarenaut/tools/inFusion/../../systems/cc/libs/hadoop-mapreduce-client-app-2.0.0-cdh4.3.0.jar:/Users/mircea/Projects/Softwarenaut/tools/inFusion/../../systems/cc/libs/hadoop-mapreduce-client-common-2.0.0-cdh4.3.0.jar:/Users/mircea/Projects/Softwarenaut/tools/inFusion/../../systems/cc/libs/hadoop-mapreduce-client-core-2.0.0-cdh4.3.0.jar:/Users/mircea/Projects/Softwarenaut/tools/inFusion/../../systems/cc/libs/hadoop-mapreduce-client-jobclient-2.0.0-cdh4.3.0.jar:/Users/mircea/Projects/Softwarenaut/tools/inFusion/../../systems/cc/libs/hadoop-mapreduce-client-shuffle-2.0.0-cdh4.3.0.jar:/Users/mircea/Projects/Softwarenaut/tools/inFusion/../../systems/cc/libs/hadoop-yarn-api-2.0.0-cdh4.3.0.jar:/Users/mircea/Projects/Softwarenaut/tools/inFusion/../../systems/cc/libs/hadoop-yarn-client-2.0.0-cdh4.3.0.jar:/Users/mircea/Projects/Softwarenaut/tools/inFusion/../../systems/cc/libs/hadoop-yarn-common-2.0.0-cdh4.3.0.jar:/Users/mircea/Projects/Softwarenaut/tools/inFusion/../../systems/cc/libs/hadoop-yarn-server-common-2.0.0-cdh4.3.0.jar:/Users/mircea/Projects/Softwarenaut/tools/inFusion/../../systems/cc/libs/hamcrest-all-1.3.0RC2.jar:/Users/mircea/Projects/Softwarenaut/tools/inFusion/../../systems/cc/libs/hbase-0.94.6-cdh4.3.0-security.jar:/Users/mircea/Projects/Softwarenaut/tools/inFusion/../../systems/cc/libs/hbasetest-only/commons-lang-2.6.jar:/Users/mircea/Projects/Softwarenaut/tools/inFusion/../../systems/cc/libs/hbasetest-only/log4j-1.2.9.jar:/Users/mircea/Projects/Softwarenaut/tools/inFusion/../../systems/cc/libs/hbasetest-only/slf4j-api-1.7.3.jar:/Users/mircea/Projects/Softwarenaut/tools/inFusion/../../systems/cc/libs/hbasetest-only/slf4j-simple-1.7.3.jar:/Users/mircea/Projects/Softwarenaut/tools/inFusion/../../systems/cc/libs/hbasetest-only/zookeeper-3.4.5.jar:/Users/mircea/Projects/Softwarenaut/tools/inFusion/../../systems/cc/libs/javax.inject.jar:/Users/mircea/Projects/Softwarenaut/tools/inFusion/../../systems/cc/libs/jsch-0.1.48.jar:/Users/mircea/Projects/Softwarenaut/tools/inFusion/../../systems/cc/libs/junit-4.11.jar:/Users/mircea/Projects/Softwarenaut/tools/inFusion/../../systems/cc/libs/juniversalchardet-1.0.3.jar:/Users/mircea/Projects/Softwarenaut/tools/inFusion/../../systems/cc/libs/mockito-all-1.9.0-rc1.jar:/Users/mircea/Projects/Softwarenaut/tools/inFusion/../../systems/cc/libs/org.eclipse.jgit-2.3.1.201302201838-r.jar:/Users/mircea/Projects/Softwarenaut/tools/inFusion/../../systems/cc/libs/protobuf-java-2.4.0a.jar:../../systems/ccCLASSPATH=./jre1502/lib/rt.jar:./jre1502/lib/i386:./res/:./lib/liquidlnf.jar:./lib/intellij.jar:./lib/dude.jar:./lib/jgraph.jar:./lib/jgraphmicropad.jar:./lib/java2html.jar:./lib/recoder.jar:./lib/org-openide-awt.jar:./lib/org-openide-util.jar:./lib/swing-layout-1.0.3.jar::/Library/Java/JavaVirtualMachines/jdk1.8.0_25.jdk/Contents/Home/jre/lib/charsets.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_25.jdk/Contents/Home/jre/lib/deploy.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_25.jdk/Contents/Home/jre/lib/ext/cldrdata.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_25.jdk/Contents/Home/jre/lib/ext/dnsns.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_25.jdk/Contents/Home/jre/lib/ext/jfxrt.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_25.jdk/Contents/Home/jre/lib/ext/localedata.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_25.jdk/Contents/Home/jre/lib/ext/nashorn.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_25.jdk/Contents/Home/jre/lib/ext/sunec.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_25.jdk/Contents/Home/jre/lib/ext/sunjce_provider.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_25.jdk/Contents/Home/jre/lib/ext/sunpkcs11.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_25.jdk/Contents/Home/jre/lib/ext/zipfs.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_25.jdk/Contents/Home/jre/lib/javaws.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_25.jdk/Contents/Home/jre/lib/jce.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_25.jdk/Contents/Home/jre/lib/jfr.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_25.jdk/Contents/Home/jre/lib/jfxswt.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_25.jdk/Contents/Home/jre/lib/jsse.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_25.jdk/Contents/Home/jre/lib/management-agent.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_25.jdk/Contents/Home/jre/lib/plugin.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_25.jdk/Contents/Home/jre/lib/resources.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_25.jdk/Contents/Home/jre/lib/rt.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_25.jdk/Contents/Home/jre/lib/security/local_policy.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_25.jdk/Contents/Home/jre/lib/security/US_export_policy.jar:/Users/mircea/Projects/Softwarenaut/tools/inFusion/../../systems/cc/jarjar-1.4.jar:/Users/mircea/Projects/Softwarenaut/tools/inFusion/../../systems/cc/libs/aopalliance.jar:/Users/mircea/Projects/Softwarenaut/tools/inFusion/../../systems/cc/libs/automaton.jar:/Users/mircea/Projects/Softwarenaut/tools/inFusion/../../systems/cc/libs/commons-cli-1.2.jar:/Users/mircea/Projects/Softwarenaut/tools/inFusion/../../systems/cc/libs/commons-configuration-1.8.jar:/Users/mircea/Projects/Softwarenaut/tools/inFusion/../../systems/cc/libs/commons-logging-1.1.1.jar:/Users/mircea/Projects/Softwarenaut/tools/inFusion/../../systems/cc/libs/dev-only/avro-1.7.4.jar:/Users/mircea/Projects/Softwarenaut/tools/inFusion/../../systems/cc/libs/dev-only/commons-httpclient-3.1.jar:/Users/mircea/Projects/Softwarenaut/tools/inFusion/../../systems/cc/libs/dev-only/hamcrest-library-1.3.0RC2.jar:/Users/mircea/Projects/Softwarenaut/tools/inFusion/../../systems/cc/libs/dev-only/jackson-core-asl-1.8.8.jar:/Users/mircea/Projects/Softwarenaut/tools/inFusion/../../systems/cc/libs/dev-only/jackson-jaxrs-1.8.8.jar:/Users/mircea/Projects/Softwarenaut/tools/inFusion/../../systems/cc/libs/dev-only/jackson-mapper-asl-1.8.8.jar:/Users/mircea/Projects/Softwarenaut/tools/inFusion/../../systems/cc/libs/dev-only/jackson-xc-1.8.8.jar:/Users/mircea/Projects/Softwarenaut/tools/inFusion/../../systems/cc/libs/guava-14.0.1.jar:/Users/mircea/Projects/Softwarenaut/tools/inFusion/../../systems/cc/libs/guice-3.0.jar:/Users/mircea/Projects/Softwarenaut/tools/inFusion/../../systems/cc/libs/guice-assistedinject-3.0.jar:/Users/mircea/Projects/Softwarenaut/tools/inFusion/../../systems/cc/libs/guice-grapher-3.0.jar:/Users/mircea/Projects/Softwarenaut/tools/inFusion/../../systems/cc/libs/guice-jmx-3.0.jar:/Users/mircea/Projects/Softwarenaut/tools/inFusion/../../systems/cc/libs/guice-jndi-3.0.jar:/Users/mircea/Projects/Softwarenaut/tools/inFusion/../../systems/cc/libs/guice-multibindings-3.0.jar:/Users/mircea/Projects/Softwarenaut/tools/inFusion/../../systems/cc/libs/guice-persist-3.0.jar:/Users/mircea/Projects/Softwarenaut/tools/inFusion/../../systems/cc/libs/guice-throwingproviders-3.0.jar:/Users/mircea/Projects/Softwarenaut/tools/inFusion/../../systems/cc/libs/hadoop-auth-2.0.0-cdh4.3.0.jar:/Users/mircea/Projects/Softwarenaut/tools/inFusion/../../systems/cc/libs/hadoop-common-2.0.0-cdh4.3.0.jar:/Users/mircea/Projects/Softwarenaut/tools/inFusion/../../systems/cc/libs/hadoop-hdfs-2.0.0-cdh4.3.0.jar:/Users/mircea/Projects/Softwarenaut/tools/inFusion/../../systems/cc/libs/hadoop-mapreduce-client-app-2.0.0-cdh4.3.0.jar:/Users/mircea/Projects/Softwarenaut/tools/inFusion/../../systems/cc/libs/hadoop-mapreduce-client-common-2.0.0-cdh4.3.0.jar:/Users/mircea/Projects/Softwarenaut/tools/inFusion/../../systems/cc/libs/hadoop-mapreduce-client-core-2.0.0-cdh4.3.0.jar:/Users/mircea/Projects/Softwarenaut/tools/inFusion/../../systems/cc/libs/hadoop-mapreduce-client-jobclient-2.0.0-cdh4.3.0.jar:/Users/mircea/Projects/Softwarenaut/tools/inFusion/../../systems/cc/libs/hadoop-mapreduce-client-shuffle-2.0.0-cdh4.3.0.jar:/Users/mircea/Projects/Softwarenaut/tools/inFusion/../../systems/cc/libs/hadoop-yarn-api-2.0.0-cdh4.3.0.jar:/Users/mircea/Projects/Softwarenaut/tools/inFusion/../../systems/cc/libs/hadoop-yarn-client-2.0.0-cdh4.3.0.jar:/Users/mircea/Projects/Softwarenaut/tools/inFusion/../../systems/cc/libs/hadoop-yarn-common-2.0.0-cdh4.3.0.jar:/Users/mircea/Projects/Softwarenaut/tools/inFusion/../../systems/cc/libs/hadoop-yarn-server-common-2.0.0-cdh4.3.0.jar:/Users/mircea/Projects/Softwarenaut/tools/inFusion/../../systems/cc/libs/hamcrest-all-1.3.0RC2.jar:/Users/mircea/Projects/Softwarenaut/tools/inFusion/../../systems/cc/libs/hbase-0.94.6-cdh4.3.0-security.jar:/Users/mircea/Projects/Softwarenaut/tools/inFusion/../../systems/cc/libs/hbasetest-only/commons-lang-2.6.jar:/Users/mircea/Projects/Softwarenaut/tools/inFusion/../../systems/cc/libs/hbasetest-only/log4j-1.2.9.jar:/Users/mircea/Projects/Softwarenaut/tools/inFusion/../../systems/cc/libs/hbasetest-only/slf4j-api-1.7.3.jar:/Users/mircea/Projects/Softwarenaut/tools/inFusion/../../systems/cc/libs/hbasetest-only/slf4j-simple-1.7.3.jar:/Users/mircea/Projects/Softwarenaut/tools/inFusion/../../systems/cc/libs/hbasetest-only/zookeeper-3.4.5.jar:/Users/mircea/Projects/Softwarenaut/tools/inFusion/../../systems/cc/libs/javax.inject.jar:/Users/mircea/Projects/Softwarenaut/tools/inFusion/../../systems/cc/libs/jsch-0.1.48.jar:/Users/mircea/Projects/Softwarenaut/tools/inFusion/../../systems/cc/libs/junit-4.11.jar:/Users/mircea/Projects/Softwarenaut/tools/inFusion/../../systems/cc/libs/juniversalchardet-1.0.3.jar:/Users/mircea/Projects/Softwarenaut/tools/inFusion/../../systems/cc/libs/mockito-all-1.9.0-rc1.jar:/Users/mircea/Projects/Softwarenaut/tools/inFusion/../../systems/cc/libs/org.eclipse.jgit-2.3.1.201302201838-r.jar:/Users/mircea/Projects/Softwarenaut/tools/inFusion/../../systems/cc/libs/protobuf-java-2.4.0a.jar:../../systems/cc
+CLASSPATH=./jre1502/lib/rt.jar:./jre1502/lib/i386:./res/:./lib/liquidlnf.jar:./lib/intellij.jar:./lib/dude.jar:./lib/jgraph.jar:./lib/jgraphmicropad.jar:./lib/java2html.jar:./lib/recoder.jar:./lib/org-openide-awt.jar:./lib/org-openide-util.jar:./lib/swing-layout-1.0.3.jar::/Library/Java/JavaVirtualMachines/jdk1.8.0_25.jdk/Contents/Home/jre/lib/charsets.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_25.jdk/Contents/Home/jre/lib/deploy.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_25.jdk/Contents/Home/jre/lib/ext/cldrdata.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_25.jdk/Contents/Home/jre/lib/ext/dnsns.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_25.jdk/Contents/Home/jre/lib/ext/jfxrt.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_25.jdk/Contents/Home/jre/lib/ext/localedata.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_25.jdk/Contents/Home/jre/lib/ext/nashorn.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_25.jdk/Contents/Home/jre/lib/ext/sunec.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_25.jdk/Contents/Home/jre/lib/ext/sunjce_provider.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_25.jdk/Contents/Home/jre/lib/ext/sunpkcs11.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_25.jdk/Contents/Home/jre/lib/ext/zipfs.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_25.jdk/Contents/Home/jre/lib/javaws.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_25.jdk/Contents/Home/jre/lib/jce.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_25.jdk/Contents/Home/jre/lib/jfr.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_25.jdk/Contents/Home/jre/lib/jfxswt.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_25.jdk/Contents/Home/jre/lib/jsse.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_25.jdk/Contents/Home/jre/lib/management-agent.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_25.jdk/Contents/Home/jre/lib/plugin.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_25.jdk/Contents/Home/jre/lib/resources.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_25.jdk/Contents/Home/jre/lib/rt.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_25.jdk/Contents/Home/jre/lib/security/local_policy.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_25.jdk/Contents/Home/jre/lib/security/US_export_policy.jar:/Users/mircea/Projects/Softwarenaut/tools/inFusion/../../systems/MusicStreamer/gradle/wrapper/gradle-wrapper.jar:../../systems/MusicStreamerCLASSPATH=./jre1502/lib/rt.jar:./jre1502/lib/i386:./res/:./lib/liquidlnf.jar:./lib/intellij.jar:./lib/dude.jar:./lib/jgraph.jar:./lib/jgraphmicropad.jar:./lib/java2html.jar:./lib/recoder.jar:./lib/org-openide-awt.jar:./lib/org-openide-util.jar:./lib/swing-layout-1.0.3.jar::/Library/Java/JavaVirtualMachines/jdk1.8.0_25.jdk/Contents/Home/jre/lib/charsets.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_25.jdk/Contents/Home/jre/lib/deploy.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_25.jdk/Contents/Home/jre/lib/ext/cldrdata.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_25.jdk/Contents/Home/jre/lib/ext/dnsns.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_25.jdk/Contents/Home/jre/lib/ext/jfxrt.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_25.jdk/Contents/Home/jre/lib/ext/localedata.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_25.jdk/Contents/Home/jre/lib/ext/nashorn.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_25.jdk/Contents/Home/jre/lib/ext/sunec.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_25.jdk/Contents/Home/jre/lib/ext/sunjce_provider.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_25.jdk/Contents/Home/jre/lib/ext/sunpkcs11.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_25.jdk/Contents/Home/jre/lib/ext/zipfs.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_25.jdk/Contents/Home/jre/lib/javaws.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_25.jdk/Contents/Home/jre/lib/jce.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_25.jdk/Contents/Home/jre/lib/jfr.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_25.jdk/Contents/Home/jre/lib/jfxswt.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_25.jdk/Contents/Home/jre/lib/jsse.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_25.jdk/Contents/Home/jre/lib/management-agent.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_25.jdk/Contents/Home/jre/lib/plugin.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_25.jdk/Contents/Home/jre/lib/resources.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_25.jdk/Contents/Home/jre/lib/rt.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_25.jdk/Contents/Home/jre/lib/security/local_policy.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_25.jdk/Contents/Home/jre/lib/security/US_export_policy.jar:/Users/mircea/Projects/Softwarenaut/tools/inFusion/../../systems/MusicStreamer/gradle/wrapper/gradle-wrapper.jar:../../systems/MusicStreamer
 
-java.lang.UnsupportedOperationException: TODOjava.lang.UnsupportedOperationException: TODO
+java.lang.ClassCastException: recoder.java.reference.MethodReference cannot be cast to recoder.java.reference.PackageReferenceContainerjava.lang.ClassCastException: recoder.java.reference.MethodReference cannot be cast to recoder.java.reference.PackageReferenceContainer
 
-File 1 - building model from ../../systems/cc/src/ch/unibe/scg/cc/Annotations.javaFile 1 - building model from ../../systems/cc/src/ch/unibe/scg/cc/Annotations.java
+File 0 - building model from ../../systems/MusicStreamer/app/src/androidTest/java/com/sdsmdg/harjot/MusicDNA/ApplicationTest.javaFile 0 - building model from ../../systems/MusicStreamer/app/src/androidTest/java/com/sdsmdg/harjot/MusicDNA/ApplicationTest.java
 
-File 2 - building model from ../../systems/cc/src/ch/unibe/scg/cc/CannotBeHashedException.javaFile 2 - building model from ../../systems/cc/src/ch/unibe/scg/cc/CannotBeHashedException.java
+File 1 - building model from ../../systems/MusicStreamer/app/src/main/java/com/sdsmdg/harjot/MusicDNA/AboutFragment.javaFile 1 - building model from ../../systems/MusicStreamer/app/src/main/java/com/sdsmdg/harjot/MusicDNA/AboutFragment.java
 
-File 4 - building model from ../../systems/cc/src/ch/unibe/scg/cc/CharsetDetector.javaFile 4 - building model from ../../systems/cc/src/ch/unibe/scg/cc/CharsetDetector.java
+File 2 - building model from ../../systems/MusicStreamer/app/src/main/java/com/sdsmdg/harjot/MusicDNA/AddToPlaylistAdapter.javaFile 2 - building model from ../../systems/MusicStreamer/app/src/main/java/com/sdsmdg/harjot/MusicDNA/AddToPlaylistAdapter.java
 
-File 5 - building model from ../../systems/cc/src/ch/unibe/scg/cc/CharsetTest.javaFile 5 - building model from ../../systems/cc/src/ch/unibe/scg/cc/CharsetTest.java
+File 4 - building model from ../../systems/MusicStreamer/app/src/main/java/com/sdsmdg/harjot/MusicDNA/AnalogController.javaFile 4 - building model from ../../systems/MusicStreamer/app/src/main/java/com/sdsmdg/harjot/MusicDNA/AnalogController.java
 
-File 7 - building model from ../../systems/cc/src/ch/unibe/scg/cc/CloneExpanderTest.javaFile 7 - building model from ../../systems/cc/src/ch/unibe/scg/cc/CloneExpanderTest.java
+File 5 - building model from ../../systems/MusicStreamer/app/src/main/java/com/sdsmdg/harjot/MusicDNA/ClickItemTouchListener.javaFile 5 - building model from ../../systems/MusicStreamer/app/src/main/java/com/sdsmdg/harjot/MusicDNA/ClickItemTouchListener.java
 
-File 10 - building model from ../../systems/cc/src/ch/unibe/scg/cc/CloneGroupCodec.javaFile 10 - building model from ../../systems/cc/src/ch/unibe/scg/cc/CloneGroupCodec.java
+File 6 - building model from ../../systems/MusicStreamer/app/src/main/java/com/sdsmdg/harjot/MusicDNA/CustomBottomSheetDialogs/CustomGeneralBottomSheetDialog.javaFile 6 - building model from ../../systems/MusicStreamer/app/src/main/java/com/sdsmdg/harjot/MusicDNA/CustomBottomSheetDialogs/CustomGeneralBottomSheetDialog.java
 
-File 11 - building model from ../../systems/cc/src/ch/unibe/scg/cc/Function2FineCloner.javaFile 11 - building model from ../../systems/cc/src/ch/unibe/scg/cc/Function2FineCloner.java
+File 7 - building model from ../../systems/MusicStreamer/app/src/main/java/com/sdsmdg/harjot/MusicDNA/CustomBottomSheetDialogs/CustomLocalBottomSheetDialog.javaFile 7 - building model from ../../systems/MusicStreamer/app/src/main/java/com/sdsmdg/harjot/MusicDNA/CustomBottomSheetDialogs/CustomLocalBottomSheetDialog.java
 
-File 13 - building model from ../../systems/cc/src/ch/unibe/scg/cc/Function2RoughCloner.javaFile 13 - building model from ../../systems/cc/src/ch/unibe/scg/cc/Function2RoughCloner.java
+File 8 - building model from ../../systems/MusicStreamer/app/src/main/java/com/sdsmdg/harjot/MusicDNA/CustomImageHolder.javaFile 8 - building model from ../../systems/MusicStreamer/app/src/main/java/com/sdsmdg/harjot/MusicDNA/CustomImageHolder.java
 
-File 15 - building model from ../../systems/cc/src/ch/unibe/scg/cc/Function2RoughClonesCodec.javaFile 15 - building model from ../../systems/cc/src/ch/unibe/scg/cc/Function2RoughClonesCodec.java
+File 9 - building model from ../../systems/MusicStreamer/app/src/main/java/com/sdsmdg/harjot/MusicDNA/CustomLinearGradient.javaFile 9 - building model from ../../systems/MusicStreamer/app/src/main/java/com/sdsmdg/harjot/MusicDNA/CustomLinearGradient.java
 
-File 22 - building model from ../../systems/cc/src/ch/unibe/scg/cc/Hasher.javaFile 22 - building model from ../../systems/cc/src/ch/unibe/scg/cc/Hasher.java
+File 10 - building model from ../../systems/MusicStreamer/app/src/main/java/com/sdsmdg/harjot/MusicDNA/CustomPlayingIndicator.javaFile 10 - building model from ../../systems/MusicStreamer/app/src/main/java/com/sdsmdg/harjot/MusicDNA/CustomPlayingIndicator.java
 
-File 23 - building model from ../../systems/cc/src/ch/unibe/scg/cc/javaFrontend/JavaModule.javaFile 23 - building model from ../../systems/cc/src/ch/unibe/scg/cc/javaFrontend/JavaModule.java
+File 11 - building model from ../../systems/MusicStreamer/app/src/main/java/com/sdsmdg/harjot/MusicDNA/CustomProgressBar.javaFile 11 - building model from ../../systems/MusicStreamer/app/src/main/java/com/sdsmdg/harjot/MusicDNA/CustomProgressBar.java
 
-File 25 - building model from ../../systems/cc/src/ch/unibe/scg/cc/javaFrontend/JavaTokenizerTest.javaFile 25 - building model from ../../systems/cc/src/ch/unibe/scg/cc/javaFrontend/JavaTokenizerTest.java
+File 12 - building model from ../../systems/MusicStreamer/app/src/main/java/com/sdsmdg/harjot/MusicDNA/CustomRecyclerView/CustomAdapter.javaFile 12 - building model from ../../systems/MusicStreamer/app/src/main/java/com/sdsmdg/harjot/MusicDNA/CustomRecyclerView/CustomAdapter.java
 
-File 26 - building model from ../../systems/cc/src/ch/unibe/scg/cc/javaFrontend/JavaType1ReplacerFactory.javaFile 26 - building model from ../../systems/cc/src/ch/unibe/scg/cc/javaFrontend/JavaType1ReplacerFactory.java
+File 13 - building model from ../../systems/MusicStreamer/app/src/main/java/com/sdsmdg/harjot/MusicDNA/CustomRecyclerView/SnappyRecyclerView.javaFile 13 - building model from ../../systems/MusicStreamer/app/src/main/java/com/sdsmdg/harjot/MusicDNA/CustomRecyclerView/SnappyRecyclerView.java
 
-File 27 - building model from ../../systems/cc/src/ch/unibe/scg/cc/javaFrontend/JavaType1ReplacerFactoryTest.javaFile 27 - building model from ../../systems/cc/src/ch/unibe/scg/cc/javaFrontend/JavaType1ReplacerFactoryTest.java
+File 16 - building model from ../../systems/MusicStreamer/app/src/main/java/com/sdsmdg/harjot/MusicDNA/FavouritesFragment.javaFile 16 - building model from ../../systems/MusicStreamer/app/src/main/java/com/sdsmdg/harjot/MusicDNA/FavouritesFragment.java
 
-File 28 - building model from ../../systems/cc/src/ch/unibe/scg/cc/javaFrontend/NormalizerTest.javaFile 28 - building model from ../../systems/cc/src/ch/unibe/scg/cc/javaFrontend/NormalizerTest.java
+File 17 - building model from ../../systems/MusicStreamer/app/src/main/java/com/sdsmdg/harjot/MusicDNA/FavouriteTrackAdapter.javaFile 17 - building model from ../../systems/MusicStreamer/app/src/main/java/com/sdsmdg/harjot/MusicDNA/FavouriteTrackAdapter.java
 
-File 29 - building model from ../../systems/cc/src/ch/unibe/scg/cc/lines/StringOfLines.javaFile 29 - building model from ../../systems/cc/src/ch/unibe/scg/cc/lines/StringOfLines.java
+File 18 - building model from ../../systems/MusicStreamer/app/src/main/java/com/sdsmdg/harjot/MusicDNA/FolderContentFragment.javaFile 18 - building model from ../../systems/MusicStreamer/app/src/main/java/com/sdsmdg/harjot/MusicDNA/FolderContentFragment.java
 
-File 30 - building model from ../../systems/cc/src/ch/unibe/scg/cc/lines/StringOfLinesFactory.javaFile 30 - building model from ../../systems/cc/src/ch/unibe/scg/cc/lines/StringOfLinesFactory.java
+File 19 - building model from ../../systems/MusicStreamer/app/src/main/java/com/sdsmdg/harjot/MusicDNA/FolderFragment.javaFile 19 - building model from ../../systems/MusicStreamer/app/src/main/java/com/sdsmdg/harjot/MusicDNA/FolderFragment.java
 
-File 31 - building model from ../../systems/cc/src/ch/unibe/scg/cc/lines/StringOfLinesTest.javaFile 31 - building model from ../../systems/cc/src/ch/unibe/scg/cc/lines/StringOfLinesTest.java
+File 20 - building model from ../../systems/MusicStreamer/app/src/main/java/com/sdsmdg/harjot/MusicDNA/FolderRecyclerAdapter.javaFile 20 - building model from ../../systems/MusicStreamer/app/src/main/java/com/sdsmdg/harjot/MusicDNA/FolderRecyclerAdapter.java
 
-File 33 - building model from ../../systems/cc/src/ch/unibe/scg/cc/Normalizer.javaFile 33 - building model from ../../systems/cc/src/ch/unibe/scg/cc/Normalizer.java
+File 22 - building model from ../../systems/MusicStreamer/app/src/main/java/com/sdsmdg/harjot/MusicDNA/HeadsetHandler/HeadSetReceiver.javaFile 22 - building model from ../../systems/MusicStreamer/app/src/main/java/com/sdsmdg/harjot/MusicDNA/HeadsetHandler/HeadSetReceiver.java
 
-File 34 - building model from ../../systems/cc/src/ch/unibe/scg/cc/PipelineRunner.javaFile 34 - building model from ../../systems/cc/src/ch/unibe/scg/cc/PipelineRunner.java
+File 23 - building model from ../../systems/MusicStreamer/app/src/main/java/com/sdsmdg/harjot/MusicDNA/Helpers/GridSpacingItemDecoration.javaFile 23 - building model from ../../systems/MusicStreamer/app/src/main/java/com/sdsmdg/harjot/MusicDNA/Helpers/GridSpacingItemDecoration.java
 
-File 35 - building model from ../../systems/cc/src/ch/unibe/scg/cc/PopularSnippetMaps.javaFile 35 - building model from ../../systems/cc/src/ch/unibe/scg/cc/PopularSnippetMaps.java
+File 24 - building model from ../../systems/MusicStreamer/app/src/main/java/com/sdsmdg/harjot/MusicDNA/Helpers/ItemTouchHelperAdapter.javaFile 24 - building model from ../../systems/MusicStreamer/app/src/main/java/com/sdsmdg/harjot/MusicDNA/Helpers/ItemTouchHelperAdapter.java
 
-File 36 - building model from ../../systems/cc/src/ch/unibe/scg/cc/PopularSnippetsCodec.javaFile 36 - building model from ../../systems/cc/src/ch/unibe/scg/cc/PopularSnippetsCodec.java
+File 25 - building model from ../../systems/MusicStreamer/app/src/main/java/com/sdsmdg/harjot/MusicDNA/Helpers/ItemTouchHelperViewHolder.javaFile 25 - building model from ../../systems/MusicStreamer/app/src/main/java/com/sdsmdg/harjot/MusicDNA/Helpers/ItemTouchHelperViewHolder.java
 
-File 38 - building model from ../../systems/cc/src/ch/unibe/scg/cc/PopulatorCodec.javaFile 38 - building model from ../../systems/cc/src/ch/unibe/scg/cc/PopulatorCodec.java
+File 26 - building model from ../../systems/MusicStreamer/app/src/main/java/com/sdsmdg/harjot/MusicDNA/Helpers/SimpleItemTouchHelperCallback.javaFile 26 - building model from ../../systems/MusicStreamer/app/src/main/java/com/sdsmdg/harjot/MusicDNA/Helpers/SimpleItemTouchHelperCallback.java
 
-File 39 - building model from ../../systems/cc/src/ch/unibe/scg/cc/regex/Replace.javaFile 39 - building model from ../../systems/cc/src/ch/unibe/scg/cc/regex/Replace.java
+File 28 - building model from ../../systems/MusicStreamer/app/src/main/java/com/sdsmdg/harjot/MusicDNA/imageLoader/FileCache.javaFile 28 - building model from ../../systems/MusicStreamer/app/src/main/java/com/sdsmdg/harjot/MusicDNA/imageLoader/FileCache.java
 
-File 41 - building model from ../../systems/cc/src/ch/unibe/scg/cc/regex/ReplacementStringTest.javaFile 41 - building model from ../../systems/cc/src/ch/unibe/scg/cc/regex/ReplacementStringTest.java
+File 29 - building model from ../../systems/MusicStreamer/app/src/main/java/com/sdsmdg/harjot/MusicDNA/imageLoader/ImageLoader.javaFile 29 - building model from ../../systems/MusicStreamer/app/src/main/java/com/sdsmdg/harjot/MusicDNA/imageLoader/ImageLoader.java
 
-File 42 - building model from ../../systems/cc/src/ch/unibe/scg/cc/regex/ReplaceTest.javaFile 42 - building model from ../../systems/cc/src/ch/unibe/scg/cc/regex/ReplaceTest.java
+File 30 - building model from ../../systems/MusicStreamer/app/src/main/java/com/sdsmdg/harjot/MusicDNA/imageLoader/MemoryCache.javaFile 30 - building model from ../../systems/MusicStreamer/app/src/main/java/com/sdsmdg/harjot/MusicDNA/imageLoader/MemoryCache.java
 
-File 43 - building model from ../../systems/cc/src/ch/unibe/scg/cc/ReplacerNormalizer.javaFile 43 - building model from ../../systems/cc/src/ch/unibe/scg/cc/ReplacerNormalizer.java
+File 31 - building model from ../../systems/MusicStreamer/app/src/main/java/com/sdsmdg/harjot/MusicDNA/imageLoader/Utils.javaFile 31 - building model from ../../systems/MusicStreamer/app/src/main/java/com/sdsmdg/harjot/MusicDNA/imageLoader/Utils.java
 
-File 46 - building model from ../../systems/cc/src/ch/unibe/scg/cc/ShingleHasherTest.javaFile 46 - building model from ../../systems/cc/src/ch/unibe/scg/cc/ShingleHasherTest.java
+File 32 - building model from ../../systems/MusicStreamer/app/src/main/java/com/sdsmdg/harjot/MusicDNA/Interfaces/ServiceCallbacks.javaFile 32 - building model from ../../systems/MusicStreamer/app/src/main/java/com/sdsmdg/harjot/MusicDNA/Interfaces/ServiceCallbacks.java
 
-File 47 - building model from ../../systems/cc/src/ch/unibe/scg/cc/Snippet2FunctionsCodec.javaFile 47 - building model from ../../systems/cc/src/ch/unibe/scg/cc/Snippet2FunctionsCodec.java
+File 33 - building model from ../../systems/MusicStreamer/app/src/main/java/com/sdsmdg/harjot/MusicDNA/Interfaces/StreamService.javaFile 33 - building model from ../../systems/MusicStreamer/app/src/main/java/com/sdsmdg/harjot/MusicDNA/Interfaces/StreamService.java
 
-File 50 - building model from ../../systems/cc/src/ch/unibe/scg/cc/SpamDetectorTest.javaFile 50 - building model from ../../systems/cc/src/ch/unibe/scg/cc/SpamDetectorTest.java
+File 34 - building model from ../../systems/MusicStreamer/app/src/main/java/com/sdsmdg/harjot/MusicDNA/LocalMusicFragment.javaFile 34 - building model from ../../systems/MusicStreamer/app/src/main/java/com/sdsmdg/harjot/MusicDNA/LocalMusicFragment.java
 
-File 51 - building model from ../../systems/cc/src/ch/unibe/scg/cc/StandardHasher.javaFile 51 - building model from ../../systems/cc/src/ch/unibe/scg/cc/StandardHasher.java
+File 35 - building model from ../../systems/MusicStreamer/app/src/main/java/com/sdsmdg/harjot/MusicDNA/LocalMusicFragments/AlbumFragment.javaFile 35 - building model from ../../systems/MusicStreamer/app/src/main/java/com/sdsmdg/harjot/MusicDNA/LocalMusicFragments/AlbumFragment.java
 
-File 52 - building model from ../../systems/cc/src/ch/unibe/scg/cc/Str.javaFile 52 - building model from ../../systems/cc/src/ch/unibe/scg/cc/Str.java
+File 36 - building model from ../../systems/MusicStreamer/app/src/main/java/com/sdsmdg/harjot/MusicDNA/LocalMusicFragments/AlbumRecyclerAdapter.javaFile 36 - building model from ../../systems/MusicStreamer/app/src/main/java/com/sdsmdg/harjot/MusicDNA/LocalMusicFragments/AlbumRecyclerAdapter.java
 
-File 53 - building model from ../../systems/cc/src/ch/unibe/scg/cc/Tokenizer.javaFile 53 - building model from ../../systems/cc/src/ch/unibe/scg/cc/Tokenizer.java
+File 37 - building model from ../../systems/MusicStreamer/app/src/main/java/com/sdsmdg/harjot/MusicDNA/LocalMusicFragments/ArtistFragment.javaFile 37 - building model from ../../systems/MusicStreamer/app/src/main/java/com/sdsmdg/harjot/MusicDNA/LocalMusicFragments/ArtistFragment.java
 
-File 54 - building model from ../../systems/cc/src/ch/unibe/scg/cc/Type2ReplacerFactory.javaFile 54 - building model from ../../systems/cc/src/ch/unibe/scg/cc/Type2ReplacerFactory.java
+File 38 - building model from ../../systems/MusicStreamer/app/src/main/java/com/sdsmdg/harjot/MusicDNA/LocalMusicFragments/ArtistRecyclerAdapter.javaFile 38 - building model from ../../systems/MusicStreamer/app/src/main/java/com/sdsmdg/harjot/MusicDNA/LocalMusicFragments/ArtistRecyclerAdapter.java
 
-File 55 - building model from ../../systems/cc/src/ch/unibe/scg/cc/Type2ReplacerFactoryTest.javaFile 55 - building model from ../../systems/cc/src/ch/unibe/scg/cc/Type2ReplacerFactoryTest.java
+File 39 - building model from ../../systems/MusicStreamer/app/src/main/java/com/sdsmdg/harjot/MusicDNA/LocalMusicFragments/ClickItemTouchListener.javaFile 39 - building model from ../../systems/MusicStreamer/app/src/main/java/com/sdsmdg/harjot/MusicDNA/LocalMusicFragments/ClickItemTouchListener.java
 
-File 56 - building model from ../../systems/cc/src/ch/unibe/scg/cc/Utils.javaFile 56 - building model from ../../systems/cc/src/ch/unibe/scg/cc/Utils.java
+File 40 - building model from ../../systems/MusicStreamer/app/src/main/java/com/sdsmdg/harjot/MusicDNA/LocalTrackListAdapter.javaFile 40 - building model from ../../systems/MusicStreamer/app/src/main/java/com/sdsmdg/harjot/MusicDNA/LocalTrackListAdapter.java
 
-File 57 - building model from ../../systems/cc/src/ch/unibe/scg/cells/AdapterOneShotIterable.javaFile 57 - building model from ../../systems/cc/src/ch/unibe/scg/cells/AdapterOneShotIterable.java
+File 41 - building model from ../../systems/MusicStreamer/app/src/main/java/com/sdsmdg/harjot/MusicDNA/LocalTracksHorizontalAdapter.javaFile 41 - building model from ../../systems/MusicStreamer/app/src/main/java/com/sdsmdg/harjot/MusicDNA/LocalTracksHorizontalAdapter.java
 
-File 59 - building model from ../../systems/cc/src/ch/unibe/scg/cells/CellLookupTable.javaFile 59 - building model from ../../systems/cc/src/ch/unibe/scg/cells/CellLookupTable.java
+File 42 - building model from ../../systems/MusicStreamer/app/src/main/java/com/sdsmdg/harjot/MusicDNA/Models/Album.javaFile 42 - building model from ../../systems/MusicStreamer/app/src/main/java/com/sdsmdg/harjot/MusicDNA/Models/Album.java
 
-File 60 - building model from ../../systems/cc/src/ch/unibe/scg/cells/CellSink.javaFile 60 - building model from ../../systems/cc/src/ch/unibe/scg/cells/CellSink.java
+File 46 - building model from ../../systems/MusicStreamer/app/src/main/java/com/sdsmdg/harjot/MusicDNA/Models/Artist.javaFile 46 - building model from ../../systems/MusicStreamer/app/src/main/java/com/sdsmdg/harjot/MusicDNA/Models/Artist.java
 
-File 61 - building model from ../../systems/cc/src/ch/unibe/scg/cells/CellsModule.javaFile 61 - building model from ../../systems/cc/src/ch/unibe/scg/cells/CellsModule.java
+File 47 - building model from ../../systems/MusicStreamer/app/src/main/java/com/sdsmdg/harjot/MusicDNA/Models/EqualizerModel.javaFile 47 - building model from ../../systems/MusicStreamer/app/src/main/java/com/sdsmdg/harjot/MusicDNA/Models/EqualizerModel.java
 
-File 62 - building model from ../../systems/cc/src/ch/unibe/scg/cells/CellsModuleTest.javaFile 62 - building model from ../../systems/cc/src/ch/unibe/scg/cells/CellsModuleTest.java
+File 49 - building model from ../../systems/MusicStreamer/app/src/main/java/com/sdsmdg/harjot/MusicDNA/Models/LocalTrack.javaFile 49 - building model from ../../systems/MusicStreamer/app/src/main/java/com/sdsmdg/harjot/MusicDNA/Models/LocalTrack.java
 
-File 63 - building model from ../../systems/cc/src/ch/unibe/scg/cells/CellSource.javaFile 63 - building model from ../../systems/cc/src/ch/unibe/scg/cells/CellSource.java
+File 51 - building model from ../../systems/MusicStreamer/app/src/main/java/com/sdsmdg/harjot/MusicDNA/Models/Playlist.javaFile 51 - building model from ../../systems/MusicStreamer/app/src/main/java/com/sdsmdg/harjot/MusicDNA/Models/Playlist.java
 
-File 64 - building model from ../../systems/cc/src/ch/unibe/scg/cells/Codec.javaFile 64 - building model from ../../systems/cc/src/ch/unibe/scg/cells/Codec.java
+File 54 - building model from ../../systems/MusicStreamer/app/src/main/java/com/sdsmdg/harjot/MusicDNA/Models/SavedDNA.javaFile 54 - building model from ../../systems/MusicStreamer/app/src/main/java/com/sdsmdg/harjot/MusicDNA/Models/SavedDNA.java
 
-File 65 - building model from ../../systems/cc/src/ch/unibe/scg/cells/Codecs.javaFile 65 - building model from ../../systems/cc/src/ch/unibe/scg/cells/Codecs.java
+File 55 - building model from ../../systems/MusicStreamer/app/src/main/java/com/sdsmdg/harjot/MusicDNA/Models/Settings.javaFile 55 - building model from ../../systems/MusicStreamer/app/src/main/java/com/sdsmdg/harjot/MusicDNA/Models/Settings.java
 
-File 66 - building model from ../../systems/cc/src/ch/unibe/scg/cells/Counter.javaFile 66 - building model from ../../systems/cc/src/ch/unibe/scg/cells/Counter.java
+File 56 - building model from ../../systems/MusicStreamer/app/src/main/java/com/sdsmdg/harjot/MusicDNA/Models/Track.javaFile 56 - building model from ../../systems/MusicStreamer/app/src/main/java/com/sdsmdg/harjot/MusicDNA/Models/Track.java
 
-File 67 - building model from ../../systems/cc/src/ch/unibe/scg/cells/CounterModule.javaFile 67 - building model from ../../systems/cc/src/ch/unibe/scg/cells/CounterModule.java
+File 57 - building model from ../../systems/MusicStreamer/app/src/main/java/com/sdsmdg/harjot/MusicDNA/Models/UnifiedTrack.javaFile 57 - building model from ../../systems/MusicStreamer/app/src/main/java/com/sdsmdg/harjot/MusicDNA/Models/UnifiedTrack.java
 
-File 68 - building model from ../../systems/cc/src/ch/unibe/scg/cells/CounterRegistry.javaFile 68 - building model from ../../systems/cc/src/ch/unibe/scg/cells/CounterRegistry.java
+File 58 - building model from ../../systems/MusicStreamer/app/src/main/java/com/sdsmdg/harjot/MusicDNA/MusicDNAApplication.javaFile 58 - building model from ../../systems/MusicStreamer/app/src/main/java/com/sdsmdg/harjot/MusicDNA/MusicDNAApplication.java
 
-File 69 - building model from ../../systems/cc/src/ch/unibe/scg/cells/EncodingException.javaFile 69 - building model from ../../systems/cc/src/ch/unibe/scg/cells/EncodingException.java
+File 59 - building model from ../../systems/MusicStreamer/app/src/main/java/com/sdsmdg/harjot/MusicDNA/NotificationManager/AudioPlayerBroadcastReceiver.javaFile 59 - building model from ../../systems/MusicStreamer/app/src/main/java/com/sdsmdg/harjot/MusicDNA/NotificationManager/AudioPlayerBroadcastReceiver.java
 
-File 70 - building model from ../../systems/cc/src/ch/unibe/scg/cells/hadoop/Annotations.javaFile 70 - building model from ../../systems/cc/src/ch/unibe/scg/cells/hadoop/Annotations.java
+File 60 - building model from ../../systems/MusicStreamer/app/src/main/java/com/sdsmdg/harjot/MusicDNA/NotificationManager/Constants.javaFile 60 - building model from ../../systems/MusicStreamer/app/src/main/java/com/sdsmdg/harjot/MusicDNA/NotificationManager/Constants.java
 
-File 71 - building model from ../../systems/cc/src/ch/unibe/scg/cells/hadoop/HadoopCounter.javaFile 71 - building model from ../../systems/cc/src/ch/unibe/scg/cells/hadoop/HadoopCounter.java
+File 61 - building model from ../../systems/MusicStreamer/app/src/main/java/com/sdsmdg/harjot/MusicDNA/NotificationManager/MediaPlayerService.javaFile 61 - building model from ../../systems/MusicStreamer/app/src/main/java/com/sdsmdg/harjot/MusicDNA/NotificationManager/MediaPlayerService.java
 
-File 72 - building model from ../../systems/cc/src/ch/unibe/scg/cells/hadoop/HadoopCounterModule.javaFile 72 - building model from ../../systems/cc/src/ch/unibe/scg/cells/hadoop/HadoopCounterModule.java
+File 62 - building model from ../../systems/MusicStreamer/app/src/main/java/com/sdsmdg/harjot/MusicDNA/PlayerFragment.javaFile 62 - building model from ../../systems/MusicStreamer/app/src/main/java/com/sdsmdg/harjot/MusicDNA/PlayerFragment.java
 
-File 81 - building model from ../../systems/cc/src/ch/unibe/scg/cells/hadoop/HBaseStorage.javaFile 81 - building model from ../../systems/cc/src/ch/unibe/scg/cells/hadoop/HBaseStorage.java
+File 63 - building model from ../../systems/MusicStreamer/app/src/main/java/com/sdsmdg/harjot/MusicDNA/PlayListAdapter.javaFile 63 - building model from ../../systems/MusicStreamer/app/src/main/java/com/sdsmdg/harjot/MusicDNA/PlayListAdapter.java
 
-File 82 - building model from ../../systems/cc/src/ch/unibe/scg/cells/hadoop/HBaseTableModule.javaFile 82 - building model from ../../systems/cc/src/ch/unibe/scg/cells/hadoop/HBaseTableModule.java
+File 64 - building model from ../../systems/MusicStreamer/app/src/main/java/com/sdsmdg/harjot/MusicDNA/PlayListFragment.javaFile 64 - building model from ../../systems/MusicStreamer/app/src/main/java/com/sdsmdg/harjot/MusicDNA/PlayListFragment.java
 
-File 83 - building model from ../../systems/cc/src/ch/unibe/scg/cells/hadoop/HTableFactory.javaFile 83 - building model from ../../systems/cc/src/ch/unibe/scg/cells/hadoop/HTableFactory.java
+File 65 - building model from ../../systems/MusicStreamer/app/src/main/java/com/sdsmdg/harjot/MusicDNA/PlayListsHorizontalAdapter.javaFile 65 - building model from ../../systems/MusicStreamer/app/src/main/java/com/sdsmdg/harjot/MusicDNA/PlayListsHorizontalAdapter.java
 
-File 84 - building model from ../../systems/cc/src/ch/unibe/scg/cells/hadoop/HTableProvider.javaFile 84 - building model from ../../systems/cc/src/ch/unibe/scg/cells/hadoop/HTableProvider.java
+File 66 - building model from ../../systems/MusicStreamer/app/src/main/java/com/sdsmdg/harjot/MusicDNA/PlaylistTrackAdapter.javaFile 66 - building model from ../../systems/MusicStreamer/app/src/main/java/com/sdsmdg/harjot/MusicDNA/PlaylistTrackAdapter.java
 
-File 85 - building model from ../../systems/cc/src/ch/unibe/scg/cells/hadoop/JUnitRunner.javaFile 85 - building model from ../../systems/cc/src/ch/unibe/scg/cells/hadoop/JUnitRunner.java
+File 67 - building model from ../../systems/MusicStreamer/app/src/main/java/com/sdsmdg/harjot/MusicDNA/QueueFragment.javaFile 67 - building model from ../../systems/MusicStreamer/app/src/main/java/com/sdsmdg/harjot/MusicDNA/QueueFragment.java
 
-File 87 - building model from ../../systems/cc/src/ch/unibe/scg/cells/hadoop/SerializableHTable.javaFile 87 - building model from ../../systems/cc/src/ch/unibe/scg/cells/hadoop/SerializableHTable.java
+File 68 - building model from ../../systems/MusicStreamer/app/src/main/java/com/sdsmdg/harjot/MusicDNA/QueueRecyclerAdapter.javaFile 68 - building model from ../../systems/MusicStreamer/app/src/main/java/com/sdsmdg/harjot/MusicDNA/QueueRecyclerAdapter.java
 
-File 88 - building model from ../../systems/cc/src/ch/unibe/scg/cells/hadoop/Table.javaFile 88 - building model from ../../systems/cc/src/ch/unibe/scg/cells/hadoop/Table.java
+File 69 - building model from ../../systems/MusicStreamer/app/src/main/java/com/sdsmdg/harjot/MusicDNA/RecentsFragment.javaFile 69 - building model from ../../systems/MusicStreamer/app/src/main/java/com/sdsmdg/harjot/MusicDNA/RecentsFragment.java
 
-File 90 - building model from ../../systems/cc/src/ch/unibe/scg/cells/hadoop/UnibeModule.javaFile 90 - building model from ../../systems/cc/src/ch/unibe/scg/cells/hadoop/UnibeModule.java
+File 70 - building model from ../../systems/MusicStreamer/app/src/main/java/com/sdsmdg/harjot/MusicDNA/RecentsListHorizontalAdapter.javaFile 70 - building model from ../../systems/MusicStreamer/app/src/main/java/com/sdsmdg/harjot/MusicDNA/RecentsListHorizontalAdapter.java
 
-File 96 - building model from ../../systems/cc/src/ch/unibe/scg/cells/InMemoryStorage.javaFile 96 - building model from ../../systems/cc/src/ch/unibe/scg/cells/InMemoryStorage.java
+File 71 - building model from ../../systems/MusicStreamer/app/src/main/java/com/sdsmdg/harjot/MusicDNA/RecentsTrackAdapter.javaFile 71 - building model from ../../systems/MusicStreamer/app/src/main/java/com/sdsmdg/harjot/MusicDNA/RecentsTrackAdapter.java
 
-File 97 - building model from ../../systems/cc/src/ch/unibe/scg/cells/LexicographicalComparator.javaFile 97 - building model from ../../systems/cc/src/ch/unibe/scg/cells/LexicographicalComparator.java
+File 72 - building model from ../../systems/MusicStreamer/app/src/main/java/com/sdsmdg/harjot/MusicDNA/SettingsFragment.javaFile 72 - building model from ../../systems/MusicStreamer/app/src/main/java/com/sdsmdg/harjot/MusicDNA/SettingsFragment.java
 
-File 98 - building model from ../../systems/cc/src/ch/unibe/scg/cells/LocalCounter.javaFile 98 - building model from ../../systems/cc/src/ch/unibe/scg/cells/LocalCounter.java
+File 73 - building model from ../../systems/MusicStreamer/app/src/main/java/com/sdsmdg/harjot/MusicDNA/SlidingRelativeLayout.javaFile 73 - building model from ../../systems/MusicStreamer/app/src/main/java/com/sdsmdg/harjot/MusicDNA/SlidingRelativeLayout.java
 
-File 99 - building model from ../../systems/cc/src/ch/unibe/scg/cells/LocalCounterModule.javaFile 99 - building model from ../../systems/cc/src/ch/unibe/scg/cells/LocalCounterModule.java
+File 74 - building model from ../../systems/MusicStreamer/app/src/main/java/com/sdsmdg/harjot/MusicDNA/SplashActivity.javaFile 74 - building model from ../../systems/MusicStreamer/app/src/main/java/com/sdsmdg/harjot/MusicDNA/SplashActivity.java
 
-File 101 - building model from ../../systems/cc/src/ch/unibe/scg/cells/LocalExecutionModule.javaFile 101 - building model from ../../systems/cc/src/ch/unibe/scg/cells/LocalExecutionModule.java
+File 75 - building model from ../../systems/MusicStreamer/app/src/main/java/com/sdsmdg/harjot/MusicDNA/StreamMusicFragment.javaFile 75 - building model from ../../systems/MusicStreamer/app/src/main/java/com/sdsmdg/harjot/MusicDNA/StreamMusicFragment.java
 
-File 102 - building model from ../../systems/cc/src/ch/unibe/scg/cells/LookupTable.javaFile 102 - building model from ../../systems/cc/src/ch/unibe/scg/cells/LookupTable.java
+File 76 - building model from ../../systems/MusicStreamer/app/src/main/java/com/sdsmdg/harjot/MusicDNA/StreamTrackListAdapter.javaFile 76 - building model from ../../systems/MusicStreamer/app/src/main/java/com/sdsmdg/harjot/MusicDNA/StreamTrackListAdapter.java
 
-File 103 - building model from ../../systems/cc/src/ch/unibe/scg/cells/Mapper.javaFile 103 - building model from ../../systems/cc/src/ch/unibe/scg/cells/Mapper.java
+File 77 - building model from ../../systems/MusicStreamer/app/src/main/java/com/sdsmdg/harjot/MusicDNA/StreamTracksHorizontalAdapter.javaFile 77 - building model from ../../systems/MusicStreamer/app/src/main/java/com/sdsmdg/harjot/MusicDNA/StreamTracksHorizontalAdapter.java
 
-File 104 - building model from ../../systems/cc/src/ch/unibe/scg/cells/OfflineMapper.javaFile 104 - building model from ../../systems/cc/src/ch/unibe/scg/cells/OfflineMapper.java
+File 78 - building model from ../../systems/MusicStreamer/app/src/main/java/com/sdsmdg/harjot/MusicDNA/ViewAlbumFragment.javaFile 78 - building model from ../../systems/MusicStreamer/app/src/main/java/com/sdsmdg/harjot/MusicDNA/ViewAlbumFragment.java
 
-File 105 - building model from ../../systems/cc/src/ch/unibe/scg/cells/OneShotIterable.javaFile 105 - building model from ../../systems/cc/src/ch/unibe/scg/cells/OneShotIterable.java
+File 79 - building model from ../../systems/MusicStreamer/app/src/main/java/com/sdsmdg/harjot/MusicDNA/ViewAllPlaylistsRecyclerAdapter.javaFile 79 - building model from ../../systems/MusicStreamer/app/src/main/java/com/sdsmdg/harjot/MusicDNA/ViewAllPlaylistsRecyclerAdapter.java
 
-File 106 - building model from ../../systems/cc/src/ch/unibe/scg/cells/Pipeline.javaFile 106 - building model from ../../systems/cc/src/ch/unibe/scg/cells/Pipeline.java
+File 80 - building model from ../../systems/MusicStreamer/app/src/main/java/com/sdsmdg/harjot/MusicDNA/ViewArtistFragment.javaFile 80 - building model from ../../systems/MusicStreamer/app/src/main/java/com/sdsmdg/harjot/MusicDNA/ViewArtistFragment.java
 
-File 108 - building model from ../../systems/cc/src/ch/unibe/scg/cells/PipelineStageScoped.javaFile 108 - building model from ../../systems/cc/src/ch/unibe/scg/cells/PipelineStageScoped.java
+File 81 - building model from ../../systems/MusicStreamer/app/src/main/java/com/sdsmdg/harjot/MusicDNA/ViewPlaylistFragment.javaFile 81 - building model from ../../systems/MusicStreamer/app/src/main/java/com/sdsmdg/harjot/MusicDNA/ViewPlaylistFragment.java
 
-File 110 - building model from ../../systems/cc/src/ch/unibe/scg/cells/Sink.javaFile 110 - building model from ../../systems/cc/src/ch/unibe/scg/cells/Sink.java
+File 82 - building model from ../../systems/MusicStreamer/app/src/main/java/com/sdsmdg/harjot/MusicDNA/ViewSavedDNA.javaFile 82 - building model from ../../systems/MusicStreamer/app/src/main/java/com/sdsmdg/harjot/MusicDNA/ViewSavedDNA.java
 
-File 111 - building model from ../../systems/cc/src/ch/unibe/scg/cells/Source.javaFile 111 - building model from ../../systems/cc/src/ch/unibe/scg/cells/Source.java
+File 83 - building model from ../../systems/MusicStreamer/app/src/main/java/com/sdsmdg/harjot/MusicDNA/ViewSavedDnaRecyclerAdapter.javaFile 83 - building model from ../../systems/MusicStreamer/app/src/main/java/com/sdsmdg/harjot/MusicDNA/ViewSavedDnaRecyclerAdapter.java
 
-File 112 - building model from ../../systems/cc/src/ch/unibe/scg/cells/StorageModule.javaFile 112 - building model from ../../systems/cc/src/ch/unibe/scg/cells/StorageModule.java
+File 84 - building model from ../../systems/MusicStreamer/app/src/main/java/com/sdsmdg/harjot/MusicDNA/VisualizerView.javaFile 84 - building model from ../../systems/MusicStreamer/app/src/main/java/com/sdsmdg/harjot/MusicDNA/VisualizerView.java
 
-File 113 - building model from ../../systems/cc/src/ch/unibe/scg/cells/TableModule.javaFile 113 - building model from ../../systems/cc/src/ch/unibe/scg/cells/TableModule.java
+File 85 - building model from ../../systems/MusicStreamer/app/src/main/java/com/sdsmdg/harjot/MusicDNA/VisualizerView2.javaFile 85 - building model from ../../systems/MusicStreamer/app/src/main/java/com/sdsmdg/harjot/MusicDNA/VisualizerView2.java
 
-CLASSPATH=./jre1502/lib/rt.jar:./jre1502/lib/i386:./res/:./lib/liquidlnf.jar:./lib/intellij.jar:./lib/dude.jar:./lib/jgraph.jar:./lib/jgraphmicropad.jar:./lib/java2html.jar:./lib/recoder.jar:./lib/org-openide-awt.jar:./lib/org-openide-util.jar:./lib/swing-layout-1.0.3.jar::/Library/Java/JavaVirtualMachines/jdk1.8.0_25.jdk/Contents/Home/jre/lib/charsets.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_25.jdk/Contents/Home/jre/lib/deploy.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_25.jdk/Contents/Home/jre/lib/ext/cldrdata.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_25.jdk/Contents/Home/jre/lib/ext/dnsns.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_25.jdk/Contents/Home/jre/lib/ext/jfxrt.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_25.jdk/Contents/Home/jre/lib/ext/localedata.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_25.jdk/Contents/Home/jre/lib/ext/nashorn.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_25.jdk/Contents/Home/jre/lib/ext/sunec.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_25.jdk/Contents/Home/jre/lib/ext/sunjce_provider.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_25.jdk/Contents/Home/jre/lib/ext/sunpkcs11.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_25.jdk/Contents/Home/jre/lib/ext/zipfs.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_25.jdk/Contents/Home/jre/lib/javaws.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_25.jdk/Contents/Home/jre/lib/jce.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_25.jdk/Contents/Home/jre/lib/jfr.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_25.jdk/Contents/Home/jre/lib/jfxswt.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_25.jdk/Contents/Home/jre/lib/jsse.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_25.jdk/Contents/Home/jre/lib/management-agent.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_25.jdk/Contents/Home/jre/lib/plugin.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_25.jdk/Contents/Home/jre/lib/resources.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_25.jdk/Contents/Home/jre/lib/rt.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_25.jdk/Contents/Home/jre/lib/security/local_policy.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_25.jdk/Contents/Home/jre/lib/security/US_export_policy.jar:/Users/mircea/Projects/Softwarenaut/tools/inFusion/../../systems/cc/jarjar-1.4.jar:/Users/mircea/Projects/Softwarenaut/tools/inFusion/../../systems/cc/libs/aopalliance.jar:/Users/mircea/Projects/Softwarenaut/tools/inFusion/../../systems/cc/libs/automaton.jar:/Users/mircea/Projects/Softwarenaut/tools/inFusion/../../systems/cc/libs/commons-cli-1.2.jar:/Users/mircea/Projects/Softwarenaut/tools/inFusion/../../systems/cc/libs/commons-configuration-1.8.jar:/Users/mircea/Projects/Softwarenaut/tools/inFusion/../../systems/cc/libs/commons-logging-1.1.1.jar:/Users/mircea/Projects/Softwarenaut/tools/inFusion/../../systems/cc/libs/dev-only/avro-1.7.4.jar:/Users/mircea/Projects/Softwarenaut/tools/inFusion/../../systems/cc/libs/dev-only/commons-httpclient-3.1.jar:/Users/mircea/Projects/Softwarenaut/tools/inFusion/../../systems/cc/libs/dev-only/hamcrest-library-1.3.0RC2.jar:/Users/mircea/Projects/Softwarenaut/tools/inFusion/../../systems/cc/libs/dev-only/jackson-core-asl-1.8.8.jar:/Users/mircea/Projects/Softwarenaut/tools/inFusion/../../systems/cc/libs/dev-only/jackson-jaxrs-1.8.8.jar:/Users/mircea/Projects/Softwarenaut/tools/inFusion/../../systems/cc/libs/dev-only/jackson-mapper-asl-1.8.8.jar:/Users/mircea/Projects/Softwarenaut/tools/inFusion/../../systems/cc/libs/dev-only/jackson-xc-1.8.8.jar:/Users/mircea/Projects/Softwarenaut/tools/inFusion/../../systems/cc/libs/guava-14.0.1.jar:/Users/mircea/Projects/Softwarenaut/tools/inFusion/../../systems/cc/libs/guice-3.0.jar:/Users/mircea/Projects/Softwarenaut/tools/inFusion/../../systems/cc/libs/guice-assistedinject-3.0.jar:/Users/mircea/Projects/Softwarenaut/tools/inFusion/../../systems/cc/libs/guice-grapher-3.0.jar:/Users/mircea/Projects/Softwarenaut/tools/inFusion/../../systems/cc/libs/guice-jmx-3.0.jar:/Users/mircea/Projects/Softwarenaut/tools/inFusion/../../systems/cc/libs/guice-jndi-3.0.jar:/Users/mircea/Projects/Softwarenaut/tools/inFusion/../../systems/cc/libs/guice-multibindings-3.0.jar:/Users/mircea/Projects/Softwarenaut/tools/inFusion/../../systems/cc/libs/guice-persist-3.0.jar:/Users/mircea/Projects/Softwarenaut/tools/inFusion/../../systems/cc/libs/guice-throwingproviders-3.0.jar:/Users/mircea/Projects/Softwarenaut/tools/inFusion/../../systems/cc/libs/hadoop-auth-2.0.0-cdh4.3.0.jar:/Users/mircea/Projects/Softwarenaut/tools/inFusion/../../systems/cc/libs/hadoop-common-2.0.0-cdh4.3.0.jar:/Users/mircea/Projects/Softwarenaut/tools/inFusion/../../systems/cc/libs/hadoop-hdfs-2.0.0-cdh4.3.0.jar:/Users/mircea/Projects/Softwarenaut/tools/inFusion/../../systems/cc/libs/hadoop-mapreduce-client-app-2.0.0-cdh4.3.0.jar:/Users/mircea/Projects/Softwarenaut/tools/inFusion/../../systems/cc/libs/hadoop-mapreduce-client-common-2.0.0-cdh4.3.0.jar:/Users/mircea/Projects/Softwarenaut/tools/inFusion/../../systems/cc/libs/hadoop-mapreduce-client-core-2.0.0-cdh4.3.0.jar:/Users/mircea/Projects/Softwarenaut/tools/inFusion/../../systems/cc/libs/hadoop-mapreduce-client-jobclient-2.0.0-cdh4.3.0.jar:/Users/mircea/Projects/Softwarenaut/tools/inFusion/../../systems/cc/libs/hadoop-mapreduce-client-shuffle-2.0.0-cdh4.3.0.jar:/Users/mircea/Projects/Softwarenaut/tools/inFusion/../../systems/cc/libs/hadoop-yarn-api-2.0.0-cdh4.3.0.jar:/Users/mircea/Projects/Softwarenaut/tools/inFusion/../../systems/cc/libs/hadoop-yarn-client-2.0.0-cdh4.3.0.jar:/Users/mircea/Projects/Softwarenaut/tools/inFusion/../../systems/cc/libs/hadoop-yarn-common-2.0.0-cdh4.3.0.jar:/Users/mircea/Projects/Softwarenaut/tools/inFusion/../../systems/cc/libs/hadoop-yarn-server-common-2.0.0-cdh4.3.0.jar:/Users/mircea/Projects/Softwarenaut/tools/inFusion/../../systems/cc/libs/hamcrest-all-1.3.0RC2.jar:/Users/mircea/Projects/Softwarenaut/tools/inFusion/../../systems/cc/libs/hbase-0.94.6-cdh4.3.0-security.jar:/Users/mircea/Projects/Softwarenaut/tools/inFusion/../../systems/cc/libs/hbasetest-only/commons-lang-2.6.jar:/Users/mircea/Projects/Softwarenaut/tools/inFusion/../../systems/cc/libs/hbasetest-only/log4j-1.2.9.jar:/Users/mircea/Projects/Softwarenaut/tools/inFusion/../../systems/cc/libs/hbasetest-only/slf4j-api-1.7.3.jar:/Users/mircea/Projects/Softwarenaut/tools/inFusion/../../systems/cc/libs/hbasetest-only/slf4j-simple-1.7.3.jar:/Users/mircea/Projects/Softwarenaut/tools/inFusion/../../systems/cc/libs/hbasetest-only/zookeeper-3.4.5.jar:/Users/mircea/Projects/Softwarenaut/tools/inFusion/../../systems/cc/libs/javax.inject.jar:/Users/mircea/Projects/Softwarenaut/tools/inFusion/../../systems/cc/libs/jsch-0.1.48.jar:/Users/mircea/Projects/Softwarenaut/tools/inFusion/../../systems/cc/libs/junit-4.11.jar:/Users/mircea/Projects/Softwarenaut/tools/inFusion/../../systems/cc/libs/juniversalchardet-1.0.3.jar:/Users/mircea/Projects/Softwarenaut/tools/inFusion/../../systems/cc/libs/mockito-all-1.9.0-rc1.jar:/Users/mircea/Projects/Softwarenaut/tools/inFusion/../../systems/cc/libs/org.eclipse.jgit-2.3.1.201302201838-r.jar:/Users/mircea/Projects/Softwarenaut/tools/inFusion/../../systems/cc/libs/protobuf-java-2.4.0a.jar:../../systems/ccCLASSPATH=./jre1502/lib/rt.jar:./jre1502/lib/i386:./res/:./lib/liquidlnf.jar:./lib/intellij.jar:./lib/dude.jar:./lib/jgraph.jar:./lib/jgraphmicropad.jar:./lib/java2html.jar:./lib/recoder.jar:./lib/org-openide-awt.jar:./lib/org-openide-util.jar:./lib/swing-layout-1.0.3.jar::/Library/Java/JavaVirtualMachines/jdk1.8.0_25.jdk/Contents/Home/jre/lib/charsets.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_25.jdk/Contents/Home/jre/lib/deploy.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_25.jdk/Contents/Home/jre/lib/ext/cldrdata.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_25.jdk/Contents/Home/jre/lib/ext/dnsns.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_25.jdk/Contents/Home/jre/lib/ext/jfxrt.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_25.jdk/Contents/Home/jre/lib/ext/localedata.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_25.jdk/Contents/Home/jre/lib/ext/nashorn.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_25.jdk/Contents/Home/jre/lib/ext/sunec.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_25.jdk/Contents/Home/jre/lib/ext/sunjce_provider.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_25.jdk/Contents/Home/jre/lib/ext/sunpkcs11.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_25.jdk/Contents/Home/jre/lib/ext/zipfs.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_25.jdk/Contents/Home/jre/lib/javaws.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_25.jdk/Contents/Home/jre/lib/jce.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_25.jdk/Contents/Home/jre/lib/jfr.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_25.jdk/Contents/Home/jre/lib/jfxswt.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_25.jdk/Contents/Home/jre/lib/jsse.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_25.jdk/Contents/Home/jre/lib/management-agent.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_25.jdk/Contents/Home/jre/lib/plugin.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_25.jdk/Contents/Home/jre/lib/resources.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_25.jdk/Contents/Home/jre/lib/rt.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_25.jdk/Contents/Home/jre/lib/security/local_policy.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_25.jdk/Contents/Home/jre/lib/security/US_export_policy.jar:/Users/mircea/Projects/Softwarenaut/tools/inFusion/../../systems/cc/jarjar-1.4.jar:/Users/mircea/Projects/Softwarenaut/tools/inFusion/../../systems/cc/libs/aopalliance.jar:/Users/mircea/Projects/Softwarenaut/tools/inFusion/../../systems/cc/libs/automaton.jar:/Users/mircea/Projects/Softwarenaut/tools/inFusion/../../systems/cc/libs/commons-cli-1.2.jar:/Users/mircea/Projects/Softwarenaut/tools/inFusion/../../systems/cc/libs/commons-configuration-1.8.jar:/Users/mircea/Projects/Softwarenaut/tools/inFusion/../../systems/cc/libs/commons-logging-1.1.1.jar:/Users/mircea/Projects/Softwarenaut/tools/inFusion/../../systems/cc/libs/dev-only/avro-1.7.4.jar:/Users/mircea/Projects/Softwarenaut/tools/inFusion/../../systems/cc/libs/dev-only/commons-httpclient-3.1.jar:/Users/mircea/Projects/Softwarenaut/tools/inFusion/../../systems/cc/libs/dev-only/hamcrest-library-1.3.0RC2.jar:/Users/mircea/Projects/Softwarenaut/tools/inFusion/../../systems/cc/libs/dev-only/jackson-core-asl-1.8.8.jar:/Users/mircea/Projects/Softwarenaut/tools/inFusion/../../systems/cc/libs/dev-only/jackson-jaxrs-1.8.8.jar:/Users/mircea/Projects/Softwarenaut/tools/inFusion/../../systems/cc/libs/dev-only/jackson-mapper-asl-1.8.8.jar:/Users/mircea/Projects/Softwarenaut/tools/inFusion/../../systems/cc/libs/dev-only/jackson-xc-1.8.8.jar:/Users/mircea/Projects/Softwarenaut/tools/inFusion/../../systems/cc/libs/guava-14.0.1.jar:/Users/mircea/Projects/Softwarenaut/tools/inFusion/../../systems/cc/libs/guice-3.0.jar:/Users/mircea/Projects/Softwarenaut/tools/inFusion/../../systems/cc/libs/guice-assistedinject-3.0.jar:/Users/mircea/Projects/Softwarenaut/tools/inFusion/../../systems/cc/libs/guice-grapher-3.0.jar:/Users/mircea/Projects/Softwarenaut/tools/inFusion/../../systems/cc/libs/guice-jmx-3.0.jar:/Users/mircea/Projects/Softwarenaut/tools/inFusion/../../systems/cc/libs/guice-jndi-3.0.jar:/Users/mircea/Projects/Softwarenaut/tools/inFusion/../../systems/cc/libs/guice-multibindings-3.0.jar:/Users/mircea/Projects/Softwarenaut/tools/inFusion/../../systems/cc/libs/guice-persist-3.0.jar:/Users/mircea/Projects/Softwarenaut/tools/inFusion/../../systems/cc/libs/guice-throwingproviders-3.0.jar:/Users/mircea/Projects/Softwarenaut/tools/inFusion/../../systems/cc/libs/hadoop-auth-2.0.0-cdh4.3.0.jar:/Users/mircea/Projects/Softwarenaut/tools/inFusion/../../systems/cc/libs/hadoop-common-2.0.0-cdh4.3.0.jar:/Users/mircea/Projects/Softwarenaut/tools/inFusion/../../systems/cc/libs/hadoop-hdfs-2.0.0-cdh4.3.0.jar:/Users/mircea/Projects/Softwarenaut/tools/inFusion/../../systems/cc/libs/hadoop-mapreduce-client-app-2.0.0-cdh4.3.0.jar:/Users/mircea/Projects/Softwarenaut/tools/inFusion/../../systems/cc/libs/hadoop-mapreduce-client-common-2.0.0-cdh4.3.0.jar:/Users/mircea/Projects/Softwarenaut/tools/inFusion/../../systems/cc/libs/hadoop-mapreduce-client-core-2.0.0-cdh4.3.0.jar:/Users/mircea/Projects/Softwarenaut/tools/inFusion/../../systems/cc/libs/hadoop-mapreduce-client-jobclient-2.0.0-cdh4.3.0.jar:/Users/mircea/Projects/Softwarenaut/tools/inFusion/../../systems/cc/libs/hadoop-mapreduce-client-shuffle-2.0.0-cdh4.3.0.jar:/Users/mircea/Projects/Softwarenaut/tools/inFusion/../../systems/cc/libs/hadoop-yarn-api-2.0.0-cdh4.3.0.jar:/Users/mircea/Projects/Softwarenaut/tools/inFusion/../../systems/cc/libs/hadoop-yarn-client-2.0.0-cdh4.3.0.jar:/Users/mircea/Projects/Softwarenaut/tools/inFusion/../../systems/cc/libs/hadoop-yarn-common-2.0.0-cdh4.3.0.jar:/Users/mircea/Projects/Softwarenaut/tools/inFusion/../../systems/cc/libs/hadoop-yarn-server-common-2.0.0-cdh4.3.0.jar:/Users/mircea/Projects/Softwarenaut/tools/inFusion/../../systems/cc/libs/hamcrest-all-1.3.0RC2.jar:/Users/mircea/Projects/Softwarenaut/tools/inFusion/../../systems/cc/libs/hbase-0.94.6-cdh4.3.0-security.jar:/Users/mircea/Projects/Softwarenaut/tools/inFusion/../../systems/cc/libs/hbasetest-only/commons-lang-2.6.jar:/Users/mircea/Projects/Softwarenaut/tools/inFusion/../../systems/cc/libs/hbasetest-only/log4j-1.2.9.jar:/Users/mircea/Projects/Softwarenaut/tools/inFusion/../../systems/cc/libs/hbasetest-only/slf4j-api-1.7.3.jar:/Users/mircea/Projects/Softwarenaut/tools/inFusion/../../systems/cc/libs/hbasetest-only/slf4j-simple-1.7.3.jar:/Users/mircea/Projects/Softwarenaut/tools/inFusion/../../systems/cc/libs/hbasetest-only/zookeeper-3.4.5.jar:/Users/mircea/Projects/Softwarenaut/tools/inFusion/../../systems/cc/libs/javax.inject.jar:/Users/mircea/Projects/Softwarenaut/tools/inFusion/../../systems/cc/libs/jsch-0.1.48.jar:/Users/mircea/Projects/Softwarenaut/tools/inFusion/../../systems/cc/libs/junit-4.11.jar:/Users/mircea/Projects/Softwarenaut/tools/inFusion/../../systems/cc/libs/juniversalchardet-1.0.3.jar:/Users/mircea/Projects/Softwarenaut/tools/inFusion/../../systems/cc/libs/mockito-all-1.9.0-rc1.jar:/Users/mircea/Projects/Softwarenaut/tools/inFusion/../../systems/cc/libs/org.eclipse.jgit-2.3.1.201302201838-r.jar:/Users/mircea/Projects/Softwarenaut/tools/inFusion/../../systems/cc/libs/protobuf-java-2.4.0a.jar:../../systems/cc
+File 86 - building model from ../../systems/MusicStreamer/app/src/main/java/org/jaudiotagger/audio/aiff/AiffAudioHeader.javaFile 86 - building model from ../../systems/MusicStreamer/app/src/main/java/org/jaudiotagger/audio/aiff/AiffAudioHeader.java
+
+File 87 - building model from ../../systems/MusicStreamer/app/src/main/java/org/jaudiotagger/audio/aiff/AiffFile.javaFile 87 - building model from ../../systems/MusicStreamer/app/src/main/java/org/jaudiotagger/audio/aiff/AiffFile.java
+
+File 88 - building model from ../../systems/MusicStreamer/app/src/main/java/org/jaudiotagger/audio/aiff/AiffFileReader.javaFile 88 - building model from ../../systems/MusicStreamer/app/src/main/java/org/jaudiotagger/audio/aiff/AiffFileReader.java
+
+File 89 - building model from ../../systems/MusicStreamer/app/src/main/java/org/jaudiotagger/audio/aiff/AiffInfoReader.javaFile 89 - building model from ../../systems/MusicStreamer/app/src/main/java/org/jaudiotagger/audio/aiff/AiffInfoReader.java
+
+File 90 - building model from ../../systems/MusicStreamer/app/src/main/java/org/jaudiotagger/audio/aiff/AiffInputStream.javaFile 90 - building model from ../../systems/MusicStreamer/app/src/main/java/org/jaudiotagger/audio/aiff/AiffInputStream.java
+
+File 91 - building model from ../../systems/MusicStreamer/app/src/main/java/org/jaudiotagger/audio/aiff/AiffTag.javaFile 91 - building model from ../../systems/MusicStreamer/app/src/main/java/org/jaudiotagger/audio/aiff/AiffTag.java
+
+File 92 - building model from ../../systems/MusicStreamer/app/src/main/java/org/jaudiotagger/audio/aiff/AiffTagFieldKey.javaFile 92 - building model from ../../systems/MusicStreamer/app/src/main/java/org/jaudiotagger/audio/aiff/AiffTagFieldKey.java
+
+File 93 - building model from ../../systems/MusicStreamer/app/src/main/java/org/jaudiotagger/audio/aiff/AiffUtil.javaFile 93 - building model from ../../systems/MusicStreamer/app/src/main/java/org/jaudiotagger/audio/aiff/AiffUtil.java
+
+File 94 - building model from ../../systems/MusicStreamer/app/src/main/java/org/jaudiotagger/audio/aiff/AnnotationChunk.javaFile 94 - building model from ../../systems/MusicStreamer/app/src/main/java/org/jaudiotagger/audio/aiff/AnnotationChunk.java
+
+File 95 - building model from ../../systems/MusicStreamer/app/src/main/java/org/jaudiotagger/audio/aiff/ApplicationChunk.javaFile 95 - building model from ../../systems/MusicStreamer/app/src/main/java/org/jaudiotagger/audio/aiff/ApplicationChunk.java
+
+File 96 - building model from ../../systems/MusicStreamer/app/src/main/java/org/jaudiotagger/audio/aiff/AuthorChunk.javaFile 96 - building model from ../../systems/MusicStreamer/app/src/main/java/org/jaudiotagger/audio/aiff/AuthorChunk.java
+
+File 97 - building model from ../../systems/MusicStreamer/app/src/main/java/org/jaudiotagger/audio/aiff/Chunk.javaFile 97 - building model from ../../systems/MusicStreamer/app/src/main/java/org/jaudiotagger/audio/aiff/Chunk.java
+
+File 98 - building model from ../../systems/MusicStreamer/app/src/main/java/org/jaudiotagger/audio/aiff/ChunkHeader.javaFile 98 - building model from ../../systems/MusicStreamer/app/src/main/java/org/jaudiotagger/audio/aiff/ChunkHeader.java
+
+File 99 - building model from ../../systems/MusicStreamer/app/src/main/java/org/jaudiotagger/audio/aiff/CommentsChunk.javaFile 99 - building model from ../../systems/MusicStreamer/app/src/main/java/org/jaudiotagger/audio/aiff/CommentsChunk.java
+
+File 100 - building model from ../../systems/MusicStreamer/app/src/main/java/org/jaudiotagger/audio/aiff/CommonChunk.javaFile 100 - building model from ../../systems/MusicStreamer/app/src/main/java/org/jaudiotagger/audio/aiff/CommonChunk.java
+
+File 101 - building model from ../../systems/MusicStreamer/app/src/main/java/org/jaudiotagger/audio/aiff/CopyrightChunk.javaFile 101 - building model from ../../systems/MusicStreamer/app/src/main/java/org/jaudiotagger/audio/aiff/CopyrightChunk.java
+
+File 102 - building model from ../../systems/MusicStreamer/app/src/main/java/org/jaudiotagger/audio/aiff/ExtDouble.javaFile 102 - building model from ../../systems/MusicStreamer/app/src/main/java/org/jaudiotagger/audio/aiff/ExtDouble.java
+
+File 103 - building model from ../../systems/MusicStreamer/app/src/main/java/org/jaudiotagger/audio/aiff/FormatVersionChunk.javaFile 103 - building model from ../../systems/MusicStreamer/app/src/main/java/org/jaudiotagger/audio/aiff/FormatVersionChunk.java
+
+File 104 - building model from ../../systems/MusicStreamer/app/src/main/java/org/jaudiotagger/audio/aiff/ID3Chunk.javaFile 104 - building model from ../../systems/MusicStreamer/app/src/main/java/org/jaudiotagger/audio/aiff/ID3Chunk.java
+
+File 105 - building model from ../../systems/MusicStreamer/app/src/main/java/org/jaudiotagger/audio/aiff/NameChunk.javaFile 105 - building model from ../../systems/MusicStreamer/app/src/main/java/org/jaudiotagger/audio/aiff/NameChunk.java
+
+File 106 - building model from ../../systems/MusicStreamer/app/src/main/java/org/jaudiotagger/audio/aiff/TextChunk.javaFile 106 - building model from ../../systems/MusicStreamer/app/src/main/java/org/jaudiotagger/audio/aiff/TextChunk.java
+
+File 107 - building model from ../../systems/MusicStreamer/app/src/main/java/org/jaudiotagger/audio/asf/AsfFileReader.javaFile 107 - building model from ../../systems/MusicStreamer/app/src/main/java/org/jaudiotagger/audio/asf/AsfFileReader.java
+
+File 108 - building model from ../../systems/MusicStreamer/app/src/main/java/org/jaudiotagger/audio/asf/AsfFileWriter.javaFile 108 - building model from ../../systems/MusicStreamer/app/src/main/java/org/jaudiotagger/audio/asf/AsfFileWriter.java
+
+File 109 - building model from ../../systems/MusicStreamer/app/src/main/java/org/jaudiotagger/audio/asf/data/AsfExtendedHeader.javaFile 109 - building model from ../../systems/MusicStreamer/app/src/main/java/org/jaudiotagger/audio/asf/data/AsfExtendedHeader.java
+
+File 110 - building model from ../../systems/MusicStreamer/app/src/main/java/org/jaudiotagger/audio/asf/data/AsfHeader.javaFile 110 - building model from ../../systems/MusicStreamer/app/src/main/java/org/jaudiotagger/audio/asf/data/AsfHeader.java
+
+File 111 - building model from ../../systems/MusicStreamer/app/src/main/java/org/jaudiotagger/audio/asf/data/AudioStreamChunk.javaFile 111 - building model from ../../systems/MusicStreamer/app/src/main/java/org/jaudiotagger/audio/asf/data/AudioStreamChunk.java
+
+File 112 - building model from ../../systems/MusicStreamer/app/src/main/java/org/jaudiotagger/audio/asf/data/Chunk.javaFile 112 - building model from ../../systems/MusicStreamer/app/src/main/java/org/jaudiotagger/audio/asf/data/Chunk.java
+
+File 113 - building model from ../../systems/MusicStreamer/app/src/main/java/org/jaudiotagger/audio/asf/data/ChunkContainer.javaFile 113 - building model from ../../systems/MusicStreamer/app/src/main/java/org/jaudiotagger/audio/asf/data/ChunkContainer.java
+
+File 114 - building model from ../../systems/MusicStreamer/app/src/main/java/org/jaudiotagger/audio/asf/data/ContainerType.javaFile 114 - building model from ../../systems/MusicStreamer/app/src/main/java/org/jaudiotagger/audio/asf/data/ContainerType.java
+
+File 115 - building model from ../../systems/MusicStreamer/app/src/main/java/org/jaudiotagger/audio/asf/data/ContentBranding.javaFile 115 - building model from ../../systems/MusicStreamer/app/src/main/java/org/jaudiotagger/audio/asf/data/ContentBranding.java
+
+File 116 - building model from ../../systems/MusicStreamer/app/src/main/java/org/jaudiotagger/audio/asf/data/ContentDescription.javaFile 116 - building model from ../../systems/MusicStreamer/app/src/main/java/org/jaudiotagger/audio/asf/data/ContentDescription.java
+
+File 117 - building model from ../../systems/MusicStreamer/app/src/main/java/org/jaudiotagger/audio/asf/data/EncodingChunk.javaFile 117 - building model from ../../systems/MusicStreamer/app/src/main/java/org/jaudiotagger/audio/asf/data/EncodingChunk.java
+
+File 118 - building model from ../../systems/MusicStreamer/app/src/main/java/org/jaudiotagger/audio/asf/data/EncryptionChunk.javaFile 118 - building model from ../../systems/MusicStreamer/app/src/main/java/org/jaudiotagger/audio/asf/data/EncryptionChunk.java
+
+File 119 - building model from ../../systems/MusicStreamer/app/src/main/java/org/jaudiotagger/audio/asf/data/FileHeader.javaFile 119 - building model from ../../systems/MusicStreamer/app/src/main/java/org/jaudiotagger/audio/asf/data/FileHeader.java
+
+File 120 - building model from ../../systems/MusicStreamer/app/src/main/java/org/jaudiotagger/audio/asf/data/GUID.javaFile 120 - building model from ../../systems/MusicStreamer/app/src/main/java/org/jaudiotagger/audio/asf/data/GUID.java
+
+File 121 - building model from ../../systems/MusicStreamer/app/src/main/java/org/jaudiotagger/audio/asf/data/GUIDFormatException.javaFile 121 - building model from ../../systems/MusicStreamer/app/src/main/java/org/jaudiotagger/audio/asf/data/GUIDFormatException.java
+
+File 122 - building model from ../../systems/MusicStreamer/app/src/main/java/org/jaudiotagger/audio/asf/data/LanguageList.javaFile 122 - building model from ../../systems/MusicStreamer/app/src/main/java/org/jaudiotagger/audio/asf/data/LanguageList.java
+
+File 123 - building model from ../../systems/MusicStreamer/app/src/main/java/org/jaudiotagger/audio/asf/data/MetadataContainer.javaFile 123 - building model from ../../systems/MusicStreamer/app/src/main/java/org/jaudiotagger/audio/asf/data/MetadataContainer.java
+
+File 124 - building model from ../../systems/MusicStreamer/app/src/main/java/org/jaudiotagger/audio/asf/data/MetadataContainerFactory.javaFile 124 - building model from ../../systems/MusicStreamer/app/src/main/java/org/jaudiotagger/audio/asf/data/MetadataContainerFactory.java
+
+File 125 - building model from ../../systems/MusicStreamer/app/src/main/java/org/jaudiotagger/audio/asf/data/MetadataDescriptor.javaFile 125 - building model from ../../systems/MusicStreamer/app/src/main/java/org/jaudiotagger/audio/asf/data/MetadataDescriptor.java
+
+File 126 - building model from ../../systems/MusicStreamer/app/src/main/java/org/jaudiotagger/audio/asf/data/StreamBitratePropertiesChunk.javaFile 126 - building model from ../../systems/MusicStreamer/app/src/main/java/org/jaudiotagger/audio/asf/data/StreamBitratePropertiesChunk.java
+
+File 127 - building model from ../../systems/MusicStreamer/app/src/main/java/org/jaudiotagger/audio/asf/data/StreamChunk.javaFile 127 - building model from ../../systems/MusicStreamer/app/src/main/java/org/jaudiotagger/audio/asf/data/StreamChunk.java
+
+File 128 - building model from ../../systems/MusicStreamer/app/src/main/java/org/jaudiotagger/audio/asf/data/VideoStreamChunk.javaFile 128 - building model from ../../systems/MusicStreamer/app/src/main/java/org/jaudiotagger/audio/asf/data/VideoStreamChunk.java
+
+File 129 - building model from ../../systems/MusicStreamer/app/src/main/java/org/jaudiotagger/audio/asf/io/AsfExtHeaderModifier.javaFile 129 - building model from ../../systems/MusicStreamer/app/src/main/java/org/jaudiotagger/audio/asf/io/AsfExtHeaderModifier.java
+
+File 130 - building model from ../../systems/MusicStreamer/app/src/main/java/org/jaudiotagger/audio/asf/io/AsfExtHeaderReader.javaFile 130 - building model from ../../systems/MusicStreamer/app/src/main/java/org/jaudiotagger/audio/asf/io/AsfExtHeaderReader.java
+
+File 131 - building model from ../../systems/MusicStreamer/app/src/main/java/org/jaudiotagger/audio/asf/io/AsfHeaderReader.javaFile 131 - building model from ../../systems/MusicStreamer/app/src/main/java/org/jaudiotagger/audio/asf/io/AsfHeaderReader.java
+
+File 132 - building model from ../../systems/MusicStreamer/app/src/main/java/org/jaudiotagger/audio/asf/io/AsfStreamer.javaFile 132 - building model from ../../systems/MusicStreamer/app/src/main/java/org/jaudiotagger/audio/asf/io/AsfStreamer.java
+
+File 133 - building model from ../../systems/MusicStreamer/app/src/main/java/org/jaudiotagger/audio/asf/io/ChunkContainerReader.javaFile 133 - building model from ../../systems/MusicStreamer/app/src/main/java/org/jaudiotagger/audio/asf/io/ChunkContainerReader.java
+
+File 134 - building model from ../../systems/MusicStreamer/app/src/main/java/org/jaudiotagger/audio/asf/io/ChunkHeaderReader.javaFile 134 - building model from ../../systems/MusicStreamer/app/src/main/java/org/jaudiotagger/audio/asf/io/ChunkHeaderReader.java
+
+File 135 - building model from ../../systems/MusicStreamer/app/src/main/java/org/jaudiotagger/audio/asf/io/ChunkModifier.javaFile 135 - building model from ../../systems/MusicStreamer/app/src/main/java/org/jaudiotagger/audio/asf/io/ChunkModifier.java
+
+File 136 - building model from ../../systems/MusicStreamer/app/src/main/java/org/jaudiotagger/audio/asf/io/ChunkReader.javaFile 136 - building model from ../../systems/MusicStreamer/app/src/main/java/org/jaudiotagger/audio/asf/io/ChunkReader.java
+
+File 137 - building model from ../../systems/MusicStreamer/app/src/main/java/org/jaudiotagger/audio/asf/io/ChunkRemover.javaFile 137 - building model from ../../systems/MusicStreamer/app/src/main/java/org/jaudiotagger/audio/asf/io/ChunkRemover.java
+
+File 138 - building model from ../../systems/MusicStreamer/app/src/main/java/org/jaudiotagger/audio/asf/io/ContentBrandingReader.javaFile 138 - building model from ../../systems/MusicStreamer/app/src/main/java/org/jaudiotagger/audio/asf/io/ContentBrandingReader.java
+
+File 139 - building model from ../../systems/MusicStreamer/app/src/main/java/org/jaudiotagger/audio/asf/io/ContentDescriptionReader.javaFile 139 - building model from ../../systems/MusicStreamer/app/src/main/java/org/jaudiotagger/audio/asf/io/ContentDescriptionReader.java
+
+File 140 - building model from ../../systems/MusicStreamer/app/src/main/java/org/jaudiotagger/audio/asf/io/CountingInputStream.javaFile 140 - building model from ../../systems/MusicStreamer/app/src/main/java/org/jaudiotagger/audio/asf/io/CountingInputStream.java
+
+File 141 - building model from ../../systems/MusicStreamer/app/src/main/java/org/jaudiotagger/audio/asf/io/CountingOutputstream.javaFile 141 - building model from ../../systems/MusicStreamer/app/src/main/java/org/jaudiotagger/audio/asf/io/CountingOutputstream.java
+
+File 142 - building model from ../../systems/MusicStreamer/app/src/main/java/org/jaudiotagger/audio/asf/io/EncodingChunkReader.javaFile 142 - building model from ../../systems/MusicStreamer/app/src/main/java/org/jaudiotagger/audio/asf/io/EncodingChunkReader.java
+
+File 143 - building model from ../../systems/MusicStreamer/app/src/main/java/org/jaudiotagger/audio/asf/io/EncryptionChunkReader.javaFile 143 - building model from ../../systems/MusicStreamer/app/src/main/java/org/jaudiotagger/audio/asf/io/EncryptionChunkReader.java
+
+File 144 - building model from ../../systems/MusicStreamer/app/src/main/java/org/jaudiotagger/audio/asf/io/FileHeaderReader.javaFile 144 - building model from ../../systems/MusicStreamer/app/src/main/java/org/jaudiotagger/audio/asf/io/FileHeaderReader.java
+
+File 145 - building model from ../../systems/MusicStreamer/app/src/main/java/org/jaudiotagger/audio/asf/io/FullRequestInputStream.javaFile 145 - building model from ../../systems/MusicStreamer/app/src/main/java/org/jaudiotagger/audio/asf/io/FullRequestInputStream.java
+
+File 146 - building model from ../../systems/MusicStreamer/app/src/main/java/org/jaudiotagger/audio/asf/io/LanguageListReader.javaFile 146 - building model from ../../systems/MusicStreamer/app/src/main/java/org/jaudiotagger/audio/asf/io/LanguageListReader.java
+
+File 147 - building model from ../../systems/MusicStreamer/app/src/main/java/org/jaudiotagger/audio/asf/io/MetadataReader.javaFile 147 - building model from ../../systems/MusicStreamer/app/src/main/java/org/jaudiotagger/audio/asf/io/MetadataReader.java
+
+File 148 - building model from ../../systems/MusicStreamer/app/src/main/java/org/jaudiotagger/audio/asf/io/ModificationResult.javaFile 148 - building model from ../../systems/MusicStreamer/app/src/main/java/org/jaudiotagger/audio/asf/io/ModificationResult.java
+
+File 149 - building model from ../../systems/MusicStreamer/app/src/main/java/org/jaudiotagger/audio/asf/io/RandomAccessFileInputstream.javaFile 149 - building model from ../../systems/MusicStreamer/app/src/main/java/org/jaudiotagger/audio/asf/io/RandomAccessFileInputstream.java
+
+File 150 - building model from ../../systems/MusicStreamer/app/src/main/java/org/jaudiotagger/audio/asf/io/RandomAccessFileOutputStream.javaFile 150 - building model from ../../systems/MusicStreamer/app/src/main/java/org/jaudiotagger/audio/asf/io/RandomAccessFileOutputStream.java
+
+File 151 - building model from ../../systems/MusicStreamer/app/src/main/java/org/jaudiotagger/audio/asf/io/StreamBitratePropertiesReader.javaFile 151 - building model from ../../systems/MusicStreamer/app/src/main/java/org/jaudiotagger/audio/asf/io/StreamBitratePropertiesReader.java
+
+File 152 - building model from ../../systems/MusicStreamer/app/src/main/java/org/jaudiotagger/audio/asf/io/StreamChunkReader.javaFile 152 - building model from ../../systems/MusicStreamer/app/src/main/java/org/jaudiotagger/audio/asf/io/StreamChunkReader.java
+
+File 153 - building model from ../../systems/MusicStreamer/app/src/main/java/org/jaudiotagger/audio/asf/io/WriteableChunk.javaFile 153 - building model from ../../systems/MusicStreamer/app/src/main/java/org/jaudiotagger/audio/asf/io/WriteableChunk.java
+
+File 154 - building model from ../../systems/MusicStreamer/app/src/main/java/org/jaudiotagger/audio/asf/io/WriteableChunkModifer.javaFile 154 - building model from ../../systems/MusicStreamer/app/src/main/java/org/jaudiotagger/audio/asf/io/WriteableChunkModifer.java
+
+File 155 - building model from ../../systems/MusicStreamer/app/src/main/java/org/jaudiotagger/audio/asf/util/ChunkPositionComparator.javaFile 155 - building model from ../../systems/MusicStreamer/app/src/main/java/org/jaudiotagger/audio/asf/util/ChunkPositionComparator.java
+
+File 156 - building model from ../../systems/MusicStreamer/app/src/main/java/org/jaudiotagger/audio/asf/util/TagConverter.javaFile 156 - building model from ../../systems/MusicStreamer/app/src/main/java/org/jaudiotagger/audio/asf/util/TagConverter.java
+
+File 157 - building model from ../../systems/MusicStreamer/app/src/main/java/org/jaudiotagger/audio/asf/util/Utils.javaFile 157 - building model from ../../systems/MusicStreamer/app/src/main/java/org/jaudiotagger/audio/asf/util/Utils.java
+
+File 158 - building model from ../../systems/MusicStreamer/app/src/main/java/org/jaudiotagger/audio/AudioFile.javaFile 158 - building model from ../../systems/MusicStreamer/app/src/main/java/org/jaudiotagger/audio/AudioFile.java
+
+File 159 - building model from ../../systems/MusicStreamer/app/src/main/java/org/jaudiotagger/audio/AudioFileFilter.javaFile 159 - building model from ../../systems/MusicStreamer/app/src/main/java/org/jaudiotagger/audio/AudioFileFilter.java
+
+File 160 - building model from ../../systems/MusicStreamer/app/src/main/java/org/jaudiotagger/audio/AudioFileIO.javaFile 160 - building model from ../../systems/MusicStreamer/app/src/main/java/org/jaudiotagger/audio/AudioFileIO.java
+
+File 161 - building model from ../../systems/MusicStreamer/app/src/main/java/org/jaudiotagger/audio/AudioHeader.javaFile 161 - building model from ../../systems/MusicStreamer/app/src/main/java/org/jaudiotagger/audio/AudioHeader.java
+
+File 162 - building model from ../../systems/MusicStreamer/app/src/main/java/org/jaudiotagger/audio/exceptions/CannotReadException.javaFile 162 - building model from ../../systems/MusicStreamer/app/src/main/java/org/jaudiotagger/audio/exceptions/CannotReadException.java
+
+File 163 - building model from ../../systems/MusicStreamer/app/src/main/java/org/jaudiotagger/audio/exceptions/CannotReadVideoException.javaFile 163 - building model from ../../systems/MusicStreamer/app/src/main/java/org/jaudiotagger/audio/exceptions/CannotReadVideoException.java
+
+File 164 - building model from ../../systems/MusicStreamer/app/src/main/java/org/jaudiotagger/audio/exceptions/CannotWriteException.javaFile 164 - building model from ../../systems/MusicStreamer/app/src/main/java/org/jaudiotagger/audio/exceptions/CannotWriteException.java
+
+File 165 - building model from ../../systems/MusicStreamer/app/src/main/java/org/jaudiotagger/audio/exceptions/InvalidAudioFrameException.javaFile 165 - building model from ../../systems/MusicStreamer/app/src/main/java/org/jaudiotagger/audio/exceptions/InvalidAudioFrameException.java
+
+File 166 - building model from ../../systems/MusicStreamer/app/src/main/java/org/jaudiotagger/audio/exceptions/InvalidBoxHeaderException.javaFile 166 - building model from ../../systems/MusicStreamer/app/src/main/java/org/jaudiotagger/audio/exceptions/InvalidBoxHeaderException.java
+
+File 167 - building model from ../../systems/MusicStreamer/app/src/main/java/org/jaudiotagger/audio/exceptions/ModifyVetoException.javaFile 167 - building model from ../../systems/MusicStreamer/app/src/main/java/org/jaudiotagger/audio/exceptions/ModifyVetoException.java
+
+File 168 - building model from ../../systems/MusicStreamer/app/src/main/java/org/jaudiotagger/audio/exceptions/NullBoxIdException.javaFile 168 - building model from ../../systems/MusicStreamer/app/src/main/java/org/jaudiotagger/audio/exceptions/NullBoxIdException.java
+
+File 169 - building model from ../../systems/MusicStreamer/app/src/main/java/org/jaudiotagger/audio/exceptions/ReadOnlyFileException.javaFile 169 - building model from ../../systems/MusicStreamer/app/src/main/java/org/jaudiotagger/audio/exceptions/ReadOnlyFileException.java
+
+File 170 - building model from ../../systems/MusicStreamer/app/src/main/java/org/jaudiotagger/audio/exceptions/UnableToCreateFileException.javaFile 170 - building model from ../../systems/MusicStreamer/app/src/main/java/org/jaudiotagger/audio/exceptions/UnableToCreateFileException.java
+
+File 171 - building model from ../../systems/MusicStreamer/app/src/main/java/org/jaudiotagger/audio/exceptions/UnableToModifyFileException.javaFile 171 - building model from ../../systems/MusicStreamer/app/src/main/java/org/jaudiotagger/audio/exceptions/UnableToModifyFileException.java
+
+File 172 - building model from ../../systems/MusicStreamer/app/src/main/java/org/jaudiotagger/audio/exceptions/UnableToRenameFileException.javaFile 172 - building model from ../../systems/MusicStreamer/app/src/main/java/org/jaudiotagger/audio/exceptions/UnableToRenameFileException.java
+
+File 173 - building model from ../../systems/MusicStreamer/app/src/main/java/org/jaudiotagger/audio/flac/FlacAudioHeader.javaFile 173 - building model from ../../systems/MusicStreamer/app/src/main/java/org/jaudiotagger/audio/flac/FlacAudioHeader.java
+
+File 174 - building model from ../../systems/MusicStreamer/app/src/main/java/org/jaudiotagger/audio/flac/FlacFileReader.javaFile 174 - building model from ../../systems/MusicStreamer/app/src/main/java/org/jaudiotagger/audio/flac/FlacFileReader.java
+
+File 175 - building model from ../../systems/MusicStreamer/app/src/main/java/org/jaudiotagger/audio/flac/FlacFileWriter.javaFile 175 - building model from ../../systems/MusicStreamer/app/src/main/java/org/jaudiotagger/audio/flac/FlacFileWriter.java
+
+File 176 - building model from ../../systems/MusicStreamer/app/src/main/java/org/jaudiotagger/audio/flac/FlacInfoReader.javaFile 176 - building model from ../../systems/MusicStreamer/app/src/main/java/org/jaudiotagger/audio/flac/FlacInfoReader.java
+
+File 177 - building model from ../../systems/MusicStreamer/app/src/main/java/org/jaudiotagger/audio/flac/FlacStreamReader.javaFile 177 - building model from ../../systems/MusicStreamer/app/src/main/java/org/jaudiotagger/audio/flac/FlacStreamReader.java
+
+File 178 - building model from ../../systems/MusicStreamer/app/src/main/java/org/jaudiotagger/audio/flac/FlacTagCreator.javaFile 178 - building model from ../../systems/MusicStreamer/app/src/main/java/org/jaudiotagger/audio/flac/FlacTagCreator.java
+
+File 179 - building model from ../../systems/MusicStreamer/app/src/main/java/org/jaudiotagger/audio/flac/FlacTagReader.javaFile 179 - building model from ../../systems/MusicStreamer/app/src/main/java/org/jaudiotagger/audio/flac/FlacTagReader.java
+
+File 180 - building model from ../../systems/MusicStreamer/app/src/main/java/org/jaudiotagger/audio/flac/FlacTagWriter.javaFile 180 - building model from ../../systems/MusicStreamer/app/src/main/java/org/jaudiotagger/audio/flac/FlacTagWriter.java
+
+File 181 - building model from ../../systems/MusicStreamer/app/src/main/java/org/jaudiotagger/audio/flac/metadatablock/BlockType.javaFile 181 - building model from ../../systems/MusicStreamer/app/src/main/java/org/jaudiotagger/audio/flac/metadatablock/BlockType.java
+
+File 182 - building model from ../../systems/MusicStreamer/app/src/main/java/org/jaudiotagger/audio/flac/metadatablock/MetadataBlock.javaFile 182 - building model from ../../systems/MusicStreamer/app/src/main/java/org/jaudiotagger/audio/flac/metadatablock/MetadataBlock.java
+
+File 183 - building model from ../../systems/MusicStreamer/app/src/main/java/org/jaudiotagger/audio/flac/metadatablock/MetadataBlockData.javaFile 183 - building model from ../../systems/MusicStreamer/app/src/main/java/org/jaudiotagger/audio/flac/metadatablock/MetadataBlockData.java
+
+File 184 - building model from ../../systems/MusicStreamer/app/src/main/java/org/jaudiotagger/audio/flac/metadatablock/MetadataBlockDataApplication.javaFile 184 - building model from ../../systems/MusicStreamer/app/src/main/java/org/jaudiotagger/audio/flac/metadatablock/MetadataBlockDataApplication.java
+
+File 185 - building model from ../../systems/MusicStreamer/app/src/main/java/org/jaudiotagger/audio/flac/metadatablock/MetadataBlockDataCueSheet.javaFile 185 - building model from ../../systems/MusicStreamer/app/src/main/java/org/jaudiotagger/audio/flac/metadatablock/MetadataBlockDataCueSheet.java
+
+File 186 - building model from ../../systems/MusicStreamer/app/src/main/java/org/jaudiotagger/audio/flac/metadatablock/MetadataBlockDataPadding.javaFile 186 - building model from ../../systems/MusicStreamer/app/src/main/java/org/jaudiotagger/audio/flac/metadatablock/MetadataBlockDataPadding.java
+
+File 187 - building model from ../../systems/MusicStreamer/app/src/main/java/org/jaudiotagger/audio/flac/metadatablock/MetadataBlockDataPicture.javaFile 187 - building model from ../../systems/MusicStreamer/app/src/main/java/org/jaudiotagger/audio/flac/metadatablock/MetadataBlockDataPicture.java
+
+File 188 - building model from ../../systems/MusicStreamer/app/src/main/java/org/jaudiotagger/audio/flac/metadatablock/MetadataBlockDataSeekTable.javaFile 188 - building model from ../../systems/MusicStreamer/app/src/main/java/org/jaudiotagger/audio/flac/metadatablock/MetadataBlockDataSeekTable.java
+
+File 189 - building model from ../../systems/MusicStreamer/app/src/main/java/org/jaudiotagger/audio/flac/metadatablock/MetadataBlockDataStreamInfo.javaFile 189 - building model from ../../systems/MusicStreamer/app/src/main/java/org/jaudiotagger/audio/flac/metadatablock/MetadataBlockDataStreamInfo.java
+
+File 190 - building model from ../../systems/MusicStreamer/app/src/main/java/org/jaudiotagger/audio/flac/metadatablock/MetadataBlockHeader.javaFile 190 - building model from ../../systems/MusicStreamer/app/src/main/java/org/jaudiotagger/audio/flac/metadatablock/MetadataBlockHeader.java
+
+File 191 - building model from ../../systems/MusicStreamer/app/src/main/java/org/jaudiotagger/audio/generic/AbstractTag.javaFile 191 - building model from ../../systems/MusicStreamer/app/src/main/java/org/jaudiotagger/audio/generic/AbstractTag.java
+
+File 192 - building model from ../../systems/MusicStreamer/app/src/main/java/org/jaudiotagger/audio/generic/AbstractTagCreator.javaFile 192 - building model from ../../systems/MusicStreamer/app/src/main/java/org/jaudiotagger/audio/generic/AbstractTagCreator.java
+
+File 193 - building model from ../../systems/MusicStreamer/app/src/main/java/org/jaudiotagger/audio/generic/AudioFileModificationAdapter.javaFile 193 - building model from ../../systems/MusicStreamer/app/src/main/java/org/jaudiotagger/audio/generic/AudioFileModificationAdapter.java
+
+File 194 - building model from ../../systems/MusicStreamer/app/src/main/java/org/jaudiotagger/audio/generic/AudioFileModificationListener.javaFile 194 - building model from ../../systems/MusicStreamer/app/src/main/java/org/jaudiotagger/audio/generic/AudioFileModificationListener.java
+
+File 195 - building model from ../../systems/MusicStreamer/app/src/main/java/org/jaudiotagger/audio/generic/AudioFileReader.javaFile 195 - building model from ../../systems/MusicStreamer/app/src/main/java/org/jaudiotagger/audio/generic/AudioFileReader.java
+
+File 196 - building model from ../../systems/MusicStreamer/app/src/main/java/org/jaudiotagger/audio/generic/AudioFileWriter.javaFile 196 - building model from ../../systems/MusicStreamer/app/src/main/java/org/jaudiotagger/audio/generic/AudioFileWriter.java
+
+File 197 - building model from ../../systems/MusicStreamer/app/src/main/java/org/jaudiotagger/audio/generic/GenericAudioHeader.javaFile 197 - building model from ../../systems/MusicStreamer/app/src/main/java/org/jaudiotagger/audio/generic/GenericAudioHeader.java
+
+File 198 - building model from ../../systems/MusicStreamer/app/src/main/java/org/jaudiotagger/audio/generic/GenericTag.javaFile 198 - building model from ../../systems/MusicStreamer/app/src/main/java/org/jaudiotagger/audio/generic/GenericTag.java
+
+File 199 - building model from ../../systems/MusicStreamer/app/src/main/java/org/jaudiotagger/audio/generic/ModificationHandler.javaFile 199 - building model from ../../systems/MusicStreamer/app/src/main/java/org/jaudiotagger/audio/generic/ModificationHandler.java
+
+File 200 - building model from ../../systems/MusicStreamer/app/src/main/java/org/jaudiotagger/audio/generic/Utils.javaFile 200 - building model from ../../systems/MusicStreamer/app/src/main/java/org/jaudiotagger/audio/generic/Utils.java
+
+File 201 - building model from ../../systems/MusicStreamer/app/src/main/java/org/jaudiotagger/audio/mp3/ByteArrayMP3AudioHeader.javaFile 201 - building model from ../../systems/MusicStreamer/app/src/main/java/org/jaudiotagger/audio/mp3/ByteArrayMP3AudioHeader.java
+
+File 202 - building model from ../../systems/MusicStreamer/app/src/main/java/org/jaudiotagger/audio/mp3/LameFrame.javaFile 202 - building model from ../../systems/MusicStreamer/app/src/main/java/org/jaudiotagger/audio/mp3/LameFrame.java
+
+File 203 - building model from ../../systems/MusicStreamer/app/src/main/java/org/jaudiotagger/audio/mp3/MP3AudioHeader.javaFile 203 - building model from ../../systems/MusicStreamer/app/src/main/java/org/jaudiotagger/audio/mp3/MP3AudioHeader.java
+
+File 204 - building model from ../../systems/MusicStreamer/app/src/main/java/org/jaudiotagger/audio/mp3/MP3File.javaFile 204 - building model from ../../systems/MusicStreamer/app/src/main/java/org/jaudiotagger/audio/mp3/MP3File.java
+
+File 205 - building model from ../../systems/MusicStreamer/app/src/main/java/org/jaudiotagger/audio/mp3/MP3FileReader.javaFile 205 - building model from ../../systems/MusicStreamer/app/src/main/java/org/jaudiotagger/audio/mp3/MP3FileReader.java
+
+File 206 - building model from ../../systems/MusicStreamer/app/src/main/java/org/jaudiotagger/audio/mp3/MP3FileWriter.javaFile 206 - building model from ../../systems/MusicStreamer/app/src/main/java/org/jaudiotagger/audio/mp3/MP3FileWriter.java
+
+File 207 - building model from ../../systems/MusicStreamer/app/src/main/java/org/jaudiotagger/audio/mp3/MPEGFrameHeader.javaFile 207 - building model from ../../systems/MusicStreamer/app/src/main/java/org/jaudiotagger/audio/mp3/MPEGFrameHeader.java
+
+File 208 - building model from ../../systems/MusicStreamer/app/src/main/java/org/jaudiotagger/audio/mp3/VbriFrame.javaFile 208 - building model from ../../systems/MusicStreamer/app/src/main/java/org/jaudiotagger/audio/mp3/VbriFrame.java
+
+File 209 - building model from ../../systems/MusicStreamer/app/src/main/java/org/jaudiotagger/audio/mp3/XingFrame.javaFile 209 - building model from ../../systems/MusicStreamer/app/src/main/java/org/jaudiotagger/audio/mp3/XingFrame.java
+
+File 210 - building model from ../../systems/MusicStreamer/app/src/main/java/org/jaudiotagger/audio/mp4/atom/AbstractMp4Box.javaFile 210 - building model from ../../systems/MusicStreamer/app/src/main/java/org/jaudiotagger/audio/mp4/atom/AbstractMp4Box.java
+
+File 211 - building model from ../../systems/MusicStreamer/app/src/main/java/org/jaudiotagger/audio/mp4/atom/Mp4AlacBox.javaFile 211 - building model from ../../systems/MusicStreamer/app/src/main/java/org/jaudiotagger/audio/mp4/atom/Mp4AlacBox.java
+
+File 212 - building model from ../../systems/MusicStreamer/app/src/main/java/org/jaudiotagger/audio/mp4/atom/Mp4BoxHeader.javaFile 212 - building model from ../../systems/MusicStreamer/app/src/main/java/org/jaudiotagger/audio/mp4/atom/Mp4BoxHeader.java
+
+File 213 - building model from ../../systems/MusicStreamer/app/src/main/java/org/jaudiotagger/audio/mp4/atom/Mp4DrmsBox.javaFile 213 - building model from ../../systems/MusicStreamer/app/src/main/java/org/jaudiotagger/audio/mp4/atom/Mp4DrmsBox.java
+
+File 214 - building model from ../../systems/MusicStreamer/app/src/main/java/org/jaudiotagger/audio/mp4/atom/Mp4EsdsBox.javaFile 214 - building model from ../../systems/MusicStreamer/app/src/main/java/org/jaudiotagger/audio/mp4/atom/Mp4EsdsBox.java
+
+File 215 - building model from ../../systems/MusicStreamer/app/src/main/java/org/jaudiotagger/audio/mp4/atom/Mp4FreeBox.javaFile 215 - building model from ../../systems/MusicStreamer/app/src/main/java/org/jaudiotagger/audio/mp4/atom/Mp4FreeBox.java
+
+File 216 - building model from ../../systems/MusicStreamer/app/src/main/java/org/jaudiotagger/audio/mp4/atom/Mp4FtypBox.javaFile 216 - building model from ../../systems/MusicStreamer/app/src/main/java/org/jaudiotagger/audio/mp4/atom/Mp4FtypBox.java
+
+File 217 - building model from ../../systems/MusicStreamer/app/src/main/java/org/jaudiotagger/audio/mp4/atom/Mp4HdlrBox.javaFile 217 - building model from ../../systems/MusicStreamer/app/src/main/java/org/jaudiotagger/audio/mp4/atom/Mp4HdlrBox.java
+
+File 218 - building model from ../../systems/MusicStreamer/app/src/main/java/org/jaudiotagger/audio/mp4/atom/Mp4MdhdBox.javaFile 218 - building model from ../../systems/MusicStreamer/app/src/main/java/org/jaudiotagger/audio/mp4/atom/Mp4MdhdBox.java
+
+File 219 - building model from ../../systems/MusicStreamer/app/src/main/java/org/jaudiotagger/audio/mp4/atom/Mp4MetaBox.javaFile 219 - building model from ../../systems/MusicStreamer/app/src/main/java/org/jaudiotagger/audio/mp4/atom/Mp4MetaBox.java
+
+File 220 - building model from ../../systems/MusicStreamer/app/src/main/java/org/jaudiotagger/audio/mp4/atom/Mp4Mp4aBox.javaFile 220 - building model from ../../systems/MusicStreamer/app/src/main/java/org/jaudiotagger/audio/mp4/atom/Mp4Mp4aBox.java
+
+File 221 - building model from ../../systems/MusicStreamer/app/src/main/java/org/jaudiotagger/audio/mp4/atom/Mp4MvhdBox.javaFile 221 - building model from ../../systems/MusicStreamer/app/src/main/java/org/jaudiotagger/audio/mp4/atom/Mp4MvhdBox.java
+
+File 222 - building model from ../../systems/MusicStreamer/app/src/main/java/org/jaudiotagger/audio/mp4/atom/Mp4StcoBox.javaFile 222 - building model from ../../systems/MusicStreamer/app/src/main/java/org/jaudiotagger/audio/mp4/atom/Mp4StcoBox.java
+
+File 223 - building model from ../../systems/MusicStreamer/app/src/main/java/org/jaudiotagger/audio/mp4/atom/Mp4StsdBox.javaFile 223 - building model from ../../systems/MusicStreamer/app/src/main/java/org/jaudiotagger/audio/mp4/atom/Mp4StsdBox.java
+
+File 224 - building model from ../../systems/MusicStreamer/app/src/main/java/org/jaudiotagger/audio/mp4/atom/NullPadding.javaFile 224 - building model from ../../systems/MusicStreamer/app/src/main/java/org/jaudiotagger/audio/mp4/atom/NullPadding.java
+
+File 225 - building model from ../../systems/MusicStreamer/app/src/main/java/org/jaudiotagger/audio/mp4/EncoderType.javaFile 225 - building model from ../../systems/MusicStreamer/app/src/main/java/org/jaudiotagger/audio/mp4/EncoderType.java
+
+File 226 - building model from ../../systems/MusicStreamer/app/src/main/java/org/jaudiotagger/audio/mp4/Mp4AtomIdentifier.javaFile 226 - building model from ../../systems/MusicStreamer/app/src/main/java/org/jaudiotagger/audio/mp4/Mp4AtomIdentifier.java
+
+File 227 - building model from ../../systems/MusicStreamer/app/src/main/java/org/jaudiotagger/audio/mp4/Mp4AtomTree.javaFile 227 - building model from ../../systems/MusicStreamer/app/src/main/java/org/jaudiotagger/audio/mp4/Mp4AtomTree.java
+
+File 228 - building model from ../../systems/MusicStreamer/app/src/main/java/org/jaudiotagger/audio/mp4/Mp4AudioHeader.javaFile 228 - building model from ../../systems/MusicStreamer/app/src/main/java/org/jaudiotagger/audio/mp4/Mp4AudioHeader.java
+
+File 229 - building model from ../../systems/MusicStreamer/app/src/main/java/org/jaudiotagger/audio/mp4/Mp4FileReader.javaFile 229 - building model from ../../systems/MusicStreamer/app/src/main/java/org/jaudiotagger/audio/mp4/Mp4FileReader.java
+
+File 230 - building model from ../../systems/MusicStreamer/app/src/main/java/org/jaudiotagger/audio/mp4/Mp4FileWriter.javaFile 230 - building model from ../../systems/MusicStreamer/app/src/main/java/org/jaudiotagger/audio/mp4/Mp4FileWriter.java
+
+File 231 - building model from ../../systems/MusicStreamer/app/src/main/java/org/jaudiotagger/audio/mp4/Mp4InfoReader.javaFile 231 - building model from ../../systems/MusicStreamer/app/src/main/java/org/jaudiotagger/audio/mp4/Mp4InfoReader.java
+
+File 232 - building model from ../../systems/MusicStreamer/app/src/main/java/org/jaudiotagger/audio/mp4/Mp4TagReader.javaFile 232 - building model from ../../systems/MusicStreamer/app/src/main/java/org/jaudiotagger/audio/mp4/Mp4TagReader.java
+
+File 233 - building model from ../../systems/MusicStreamer/app/src/main/java/org/jaudiotagger/audio/mp4/Mp4TagWriter.javaFile 233 - building model from ../../systems/MusicStreamer/app/src/main/java/org/jaudiotagger/audio/mp4/Mp4TagWriter.java
+
+File 234 - building model from ../../systems/MusicStreamer/app/src/main/java/org/jaudiotagger/audio/ogg/OggFileReader.javaFile 234 - building model from ../../systems/MusicStreamer/app/src/main/java/org/jaudiotagger/audio/ogg/OggFileReader.java
+
+File 235 - building model from ../../systems/MusicStreamer/app/src/main/java/org/jaudiotagger/audio/ogg/OggFileWriter.javaFile 235 - building model from ../../systems/MusicStreamer/app/src/main/java/org/jaudiotagger/audio/ogg/OggFileWriter.java
+
+File 236 - building model from ../../systems/MusicStreamer/app/src/main/java/org/jaudiotagger/audio/ogg/OggVorbisCommentTagCreator.javaFile 236 - building model from ../../systems/MusicStreamer/app/src/main/java/org/jaudiotagger/audio/ogg/OggVorbisCommentTagCreator.java
+
+File 237 - building model from ../../systems/MusicStreamer/app/src/main/java/org/jaudiotagger/audio/ogg/OggVorbisTagReader.javaFile 237 - building model from ../../systems/MusicStreamer/app/src/main/java/org/jaudiotagger/audio/ogg/OggVorbisTagReader.java
+
+File 238 - building model from ../../systems/MusicStreamer/app/src/main/java/org/jaudiotagger/audio/ogg/OggVorbisTagWriter.javaFile 238 - building model from ../../systems/MusicStreamer/app/src/main/java/org/jaudiotagger/audio/ogg/OggVorbisTagWriter.java
+
+File 239 - building model from ../../systems/MusicStreamer/app/src/main/java/org/jaudiotagger/audio/ogg/util/OggCRCFactory.javaFile 239 - building model from ../../systems/MusicStreamer/app/src/main/java/org/jaudiotagger/audio/ogg/util/OggCRCFactory.java
+
+File 240 - building model from ../../systems/MusicStreamer/app/src/main/java/org/jaudiotagger/audio/ogg/util/OggInfoReader.javaFile 240 - building model from ../../systems/MusicStreamer/app/src/main/java/org/jaudiotagger/audio/ogg/util/OggInfoReader.java
+
+File 241 - building model from ../../systems/MusicStreamer/app/src/main/java/org/jaudiotagger/audio/ogg/util/OggPageHeader.javaFile 241 - building model from ../../systems/MusicStreamer/app/src/main/java/org/jaudiotagger/audio/ogg/util/OggPageHeader.java
+
+File 242 - building model from ../../systems/MusicStreamer/app/src/main/java/org/jaudiotagger/audio/ogg/util/VorbisHeader.javaFile 242 - building model from ../../systems/MusicStreamer/app/src/main/java/org/jaudiotagger/audio/ogg/util/VorbisHeader.java
+
+File 243 - building model from ../../systems/MusicStreamer/app/src/main/java/org/jaudiotagger/audio/ogg/util/VorbisIdentificationHeader.javaFile 243 - building model from ../../systems/MusicStreamer/app/src/main/java/org/jaudiotagger/audio/ogg/util/VorbisIdentificationHeader.java
+
+File 244 - building model from ../../systems/MusicStreamer/app/src/main/java/org/jaudiotagger/audio/ogg/util/VorbisPacketType.javaFile 244 - building model from ../../systems/MusicStreamer/app/src/main/java/org/jaudiotagger/audio/ogg/util/VorbisPacketType.java
+
+File 245 - building model from ../../systems/MusicStreamer/app/src/main/java/org/jaudiotagger/audio/ogg/util/VorbisSetupHeader.javaFile 245 - building model from ../../systems/MusicStreamer/app/src/main/java/org/jaudiotagger/audio/ogg/util/VorbisSetupHeader.java
+
+File 246 - building model from ../../systems/MusicStreamer/app/src/main/java/org/jaudiotagger/audio/ogg/VorbisVersion.javaFile 246 - building model from ../../systems/MusicStreamer/app/src/main/java/org/jaudiotagger/audio/ogg/VorbisVersion.java
+
+File 247 - building model from ../../systems/MusicStreamer/app/src/main/java/org/jaudiotagger/audio/real/RealChunk.javaFile 247 - building model from ../../systems/MusicStreamer/app/src/main/java/org/jaudiotagger/audio/real/RealChunk.java
+
+File 248 - building model from ../../systems/MusicStreamer/app/src/main/java/org/jaudiotagger/audio/real/RealFileReader.javaFile 248 - building model from ../../systems/MusicStreamer/app/src/main/java/org/jaudiotagger/audio/real/RealFileReader.java
+
+File 249 - building model from ../../systems/MusicStreamer/app/src/main/java/org/jaudiotagger/audio/real/RealTag.javaFile 249 - building model from ../../systems/MusicStreamer/app/src/main/java/org/jaudiotagger/audio/real/RealTag.java
+
+File 250 - building model from ../../systems/MusicStreamer/app/src/main/java/org/jaudiotagger/audio/SupportedFileFormat.javaFile 250 - building model from ../../systems/MusicStreamer/app/src/main/java/org/jaudiotagger/audio/SupportedFileFormat.java
+
+File 251 - building model from ../../systems/MusicStreamer/app/src/main/java/org/jaudiotagger/audio/wav/util/WavFormatHeader.javaFile 251 - building model from ../../systems/MusicStreamer/app/src/main/java/org/jaudiotagger/audio/wav/util/WavFormatHeader.java
+
+File 252 - building model from ../../systems/MusicStreamer/app/src/main/java/org/jaudiotagger/audio/wav/util/WavInfoReader.javaFile 252 - building model from ../../systems/MusicStreamer/app/src/main/java/org/jaudiotagger/audio/wav/util/WavInfoReader.java
+
+File 253 - building model from ../../systems/MusicStreamer/app/src/main/java/org/jaudiotagger/audio/wav/util/WavRIFFHeader.javaFile 253 - building model from ../../systems/MusicStreamer/app/src/main/java/org/jaudiotagger/audio/wav/util/WavRIFFHeader.java
+
+File 254 - building model from ../../systems/MusicStreamer/app/src/main/java/org/jaudiotagger/audio/wav/WavFileReader.javaFile 254 - building model from ../../systems/MusicStreamer/app/src/main/java/org/jaudiotagger/audio/wav/WavFileReader.java
+
+File 255 - building model from ../../systems/MusicStreamer/app/src/main/java/org/jaudiotagger/audio/wav/WavFileWriter.javaFile 255 - building model from ../../systems/MusicStreamer/app/src/main/java/org/jaudiotagger/audio/wav/WavFileWriter.java
+
+File 256 - building model from ../../systems/MusicStreamer/app/src/main/java/org/jaudiotagger/audio/wav/WavTag.javaFile 256 - building model from ../../systems/MusicStreamer/app/src/main/java/org/jaudiotagger/audio/wav/WavTag.java
+
+File 257 - building model from ../../systems/MusicStreamer/app/src/main/java/org/jaudiotagger/FileConstants.javaFile 257 - building model from ../../systems/MusicStreamer/app/src/main/java/org/jaudiotagger/FileConstants.java
+
+File 258 - building model from ../../systems/MusicStreamer/app/src/main/java/org/jaudiotagger/logging/AbstractTagDisplayFormatter.javaFile 258 - building model from ../../systems/MusicStreamer/app/src/main/java/org/jaudiotagger/logging/AbstractTagDisplayFormatter.java
+
+File 259 - building model from ../../systems/MusicStreamer/app/src/main/java/org/jaudiotagger/logging/ErrorMessage.javaFile 259 - building model from ../../systems/MusicStreamer/app/src/main/java/org/jaudiotagger/logging/ErrorMessage.java
+
+File 260 - building model from ../../systems/MusicStreamer/app/src/main/java/org/jaudiotagger/logging/FileSystemMessage.javaFile 260 - building model from ../../systems/MusicStreamer/app/src/main/java/org/jaudiotagger/logging/FileSystemMessage.java
+
+File 261 - building model from ../../systems/MusicStreamer/app/src/main/java/org/jaudiotagger/logging/Hex.javaFile 261 - building model from ../../systems/MusicStreamer/app/src/main/java/org/jaudiotagger/logging/Hex.java
+
+File 262 - building model from ../../systems/MusicStreamer/app/src/main/java/org/jaudiotagger/logging/PlainTextTagDisplayFormatter.javaFile 262 - building model from ../../systems/MusicStreamer/app/src/main/java/org/jaudiotagger/logging/PlainTextTagDisplayFormatter.java
+
+File 263 - building model from ../../systems/MusicStreamer/app/src/main/java/org/jaudiotagger/logging/XMLTagDisplayFormatter.javaFile 263 - building model from ../../systems/MusicStreamer/app/src/main/java/org/jaudiotagger/logging/XMLTagDisplayFormatter.java
+
+File 264 - building model from ../../systems/MusicStreamer/app/src/main/java/org/jaudiotagger/tag/aiff/AiffTag.javaFile 264 - building model from ../../systems/MusicStreamer/app/src/main/java/org/jaudiotagger/tag/aiff/AiffTag.java
+
+File 265 - building model from ../../systems/MusicStreamer/app/src/main/java/org/jaudiotagger/tag/aiff/AiffTagFieldKey.javaFile 265 - building model from ../../systems/MusicStreamer/app/src/main/java/org/jaudiotagger/tag/aiff/AiffTagFieldKey.java
+
+File 266 - building model from ../../systems/MusicStreamer/app/src/main/java/org/jaudiotagger/tag/asf/AbstractAsfTagImageField.javaFile 266 - building model from ../../systems/MusicStreamer/app/src/main/java/org/jaudiotagger/tag/asf/AbstractAsfTagImageField.java
+
+File 267 - building model from ../../systems/MusicStreamer/app/src/main/java/org/jaudiotagger/tag/asf/AsfFieldKey.javaFile 267 - building model from ../../systems/MusicStreamer/app/src/main/java/org/jaudiotagger/tag/asf/AsfFieldKey.java
+
+File 268 - building model from ../../systems/MusicStreamer/app/src/main/java/org/jaudiotagger/tag/asf/AsfTag.javaFile 268 - building model from ../../systems/MusicStreamer/app/src/main/java/org/jaudiotagger/tag/asf/AsfTag.java
+
+File 269 - building model from ../../systems/MusicStreamer/app/src/main/java/org/jaudiotagger/tag/asf/AsfTagBannerField.javaFile 269 - building model from ../../systems/MusicStreamer/app/src/main/java/org/jaudiotagger/tag/asf/AsfTagBannerField.java
+
+File 270 - building model from ../../systems/MusicStreamer/app/src/main/java/org/jaudiotagger/tag/asf/AsfTagCoverField.javaFile 270 - building model from ../../systems/MusicStreamer/app/src/main/java/org/jaudiotagger/tag/asf/AsfTagCoverField.java
+
+File 271 - building model from ../../systems/MusicStreamer/app/src/main/java/org/jaudiotagger/tag/asf/AsfTagField.javaFile 271 - building model from ../../systems/MusicStreamer/app/src/main/java/org/jaudiotagger/tag/asf/AsfTagField.java
+
+File 272 - building model from ../../systems/MusicStreamer/app/src/main/java/org/jaudiotagger/tag/asf/AsfTagTextField.javaFile 272 - building model from ../../systems/MusicStreamer/app/src/main/java/org/jaudiotagger/tag/asf/AsfTagTextField.java
+
+File 273 - building model from ../../systems/MusicStreamer/app/src/main/java/org/jaudiotagger/tag/datatype/AbstractDataType.javaFile 273 - building model from ../../systems/MusicStreamer/app/src/main/java/org/jaudiotagger/tag/datatype/AbstractDataType.java
+
+File 274 - building model from ../../systems/MusicStreamer/app/src/main/java/org/jaudiotagger/tag/datatype/AbstractDataTypeList.javaFile 274 - building model from ../../systems/MusicStreamer/app/src/main/java/org/jaudiotagger/tag/datatype/AbstractDataTypeList.java
+
+File 275 - building model from ../../systems/MusicStreamer/app/src/main/java/org/jaudiotagger/tag/datatype/AbstractIntStringValuePair.javaFile 275 - building model from ../../systems/MusicStreamer/app/src/main/java/org/jaudiotagger/tag/datatype/AbstractIntStringValuePair.java
+
+File 276 - building model from ../../systems/MusicStreamer/app/src/main/java/org/jaudiotagger/tag/datatype/AbstractString.javaFile 276 - building model from ../../systems/MusicStreamer/app/src/main/java/org/jaudiotagger/tag/datatype/AbstractString.java
+
+File 277 - building model from ../../systems/MusicStreamer/app/src/main/java/org/jaudiotagger/tag/datatype/AbstractStringStringValuePair.javaFile 277 - building model from ../../systems/MusicStreamer/app/src/main/java/org/jaudiotagger/tag/datatype/AbstractStringStringValuePair.java
+
+File 278 - building model from ../../systems/MusicStreamer/app/src/main/java/org/jaudiotagger/tag/datatype/AbstractValuePair.javaFile 278 - building model from ../../systems/MusicStreamer/app/src/main/java/org/jaudiotagger/tag/datatype/AbstractValuePair.java
+
+File 279 - building model from ../../systems/MusicStreamer/app/src/main/java/org/jaudiotagger/tag/datatype/BooleanByte.javaFile 279 - building model from ../../systems/MusicStreamer/app/src/main/java/org/jaudiotagger/tag/datatype/BooleanByte.java
+
+File 280 - building model from ../../systems/MusicStreamer/app/src/main/java/org/jaudiotagger/tag/datatype/BooleanString.javaFile 280 - building model from ../../systems/MusicStreamer/app/src/main/java/org/jaudiotagger/tag/datatype/BooleanString.java
+
+File 281 - building model from ../../systems/MusicStreamer/app/src/main/java/org/jaudiotagger/tag/datatype/ByteArraySizeTerminated.javaFile 281 - building model from ../../systems/MusicStreamer/app/src/main/java/org/jaudiotagger/tag/datatype/ByteArraySizeTerminated.java
+
+File 282 - building model from ../../systems/MusicStreamer/app/src/main/java/org/jaudiotagger/tag/datatype/DataTypes.javaFile 282 - building model from ../../systems/MusicStreamer/app/src/main/java/org/jaudiotagger/tag/datatype/DataTypes.java
+
+File 283 - building model from ../../systems/MusicStreamer/app/src/main/java/org/jaudiotagger/tag/datatype/EventTimingCode.javaFile 283 - building model from ../../systems/MusicStreamer/app/src/main/java/org/jaudiotagger/tag/datatype/EventTimingCode.java
+
+File 284 - building model from ../../systems/MusicStreamer/app/src/main/java/org/jaudiotagger/tag/datatype/EventTimingCodeList.javaFile 284 - building model from ../../systems/MusicStreamer/app/src/main/java/org/jaudiotagger/tag/datatype/EventTimingCodeList.java
+
+File 285 - building model from ../../systems/MusicStreamer/app/src/main/java/org/jaudiotagger/tag/datatype/HashMapInterface.javaFile 285 - building model from ../../systems/MusicStreamer/app/src/main/java/org/jaudiotagger/tag/datatype/HashMapInterface.java
+
+File 286 - building model from ../../systems/MusicStreamer/app/src/main/java/org/jaudiotagger/tag/datatype/ID3v2LyricLine.javaFile 286 - building model from ../../systems/MusicStreamer/app/src/main/java/org/jaudiotagger/tag/datatype/ID3v2LyricLine.java
+
+File 287 - building model from ../../systems/MusicStreamer/app/src/main/java/org/jaudiotagger/tag/datatype/Lyrics3Image.javaFile 287 - building model from ../../systems/MusicStreamer/app/src/main/java/org/jaudiotagger/tag/datatype/Lyrics3Image.java
+
+File 288 - building model from ../../systems/MusicStreamer/app/src/main/java/org/jaudiotagger/tag/datatype/Lyrics3Line.javaFile 288 - building model from ../../systems/MusicStreamer/app/src/main/java/org/jaudiotagger/tag/datatype/Lyrics3Line.java
+
+File 289 - building model from ../../systems/MusicStreamer/app/src/main/java/org/jaudiotagger/tag/datatype/Lyrics3TimeStamp.javaFile 289 - building model from ../../systems/MusicStreamer/app/src/main/java/org/jaudiotagger/tag/datatype/Lyrics3TimeStamp.java
+
+File 290 - building model from ../../systems/MusicStreamer/app/src/main/java/org/jaudiotagger/tag/datatype/MultipleTextEncodedStringNullTerminated.javaFile 290 - building model from ../../systems/MusicStreamer/app/src/main/java/org/jaudiotagger/tag/datatype/MultipleTextEncodedStringNullTerminated.java
+
+File 291 - building model from ../../systems/MusicStreamer/app/src/main/java/org/jaudiotagger/tag/datatype/NumberFixedLength.javaFile 291 - building model from ../../systems/MusicStreamer/app/src/main/java/org/jaudiotagger/tag/datatype/NumberFixedLength.java
+
+File 292 - building model from ../../systems/MusicStreamer/app/src/main/java/org/jaudiotagger/tag/datatype/NumberHashMap.javaFile 292 - building model from ../../systems/MusicStreamer/app/src/main/java/org/jaudiotagger/tag/datatype/NumberHashMap.java
+
+File 293 - building model from ../../systems/MusicStreamer/app/src/main/java/org/jaudiotagger/tag/datatype/NumberVariableLength.javaFile 293 - building model from ../../systems/MusicStreamer/app/src/main/java/org/jaudiotagger/tag/datatype/NumberVariableLength.java
+
+File 294 - building model from ../../systems/MusicStreamer/app/src/main/java/org/jaudiotagger/tag/datatype/Pair.javaFile 294 - building model from ../../systems/MusicStreamer/app/src/main/java/org/jaudiotagger/tag/datatype/Pair.java
+
+File 295 - building model from ../../systems/MusicStreamer/app/src/main/java/org/jaudiotagger/tag/datatype/PairedTextEncodedStringNullTerminated.javaFile 295 - building model from ../../systems/MusicStreamer/app/src/main/java/org/jaudiotagger/tag/datatype/PairedTextEncodedStringNullTerminated.java
+
+File 296 - building model from ../../systems/MusicStreamer/app/src/main/java/org/jaudiotagger/tag/datatype/PartOfSet.javaFile 296 - building model from ../../systems/MusicStreamer/app/src/main/java/org/jaudiotagger/tag/datatype/PartOfSet.java
+
+File 297 - building model from ../../systems/MusicStreamer/app/src/main/java/org/jaudiotagger/tag/datatype/StringDate.javaFile 297 - building model from ../../systems/MusicStreamer/app/src/main/java/org/jaudiotagger/tag/datatype/StringDate.java
+
+File 298 - building model from ../../systems/MusicStreamer/app/src/main/java/org/jaudiotagger/tag/datatype/StringDateTime.javaFile 298 - building model from ../../systems/MusicStreamer/app/src/main/java/org/jaudiotagger/tag/datatype/StringDateTime.java
+
+File 299 - building model from ../../systems/MusicStreamer/app/src/main/java/org/jaudiotagger/tag/datatype/StringFixedLength.javaFile 299 - building model from ../../systems/MusicStreamer/app/src/main/java/org/jaudiotagger/tag/datatype/StringFixedLength.java
+
+File 300 - building model from ../../systems/MusicStreamer/app/src/main/java/org/jaudiotagger/tag/datatype/StringHashMap.javaFile 300 - building model from ../../systems/MusicStreamer/app/src/main/java/org/jaudiotagger/tag/datatype/StringHashMap.java
+
+File 301 - building model from ../../systems/MusicStreamer/app/src/main/java/org/jaudiotagger/tag/datatype/StringNullTerminated.javaFile 301 - building model from ../../systems/MusicStreamer/app/src/main/java/org/jaudiotagger/tag/datatype/StringNullTerminated.java
+
+File 302 - building model from ../../systems/MusicStreamer/app/src/main/java/org/jaudiotagger/tag/datatype/StringSizeTerminated.javaFile 302 - building model from ../../systems/MusicStreamer/app/src/main/java/org/jaudiotagger/tag/datatype/StringSizeTerminated.java
+
+File 303 - building model from ../../systems/MusicStreamer/app/src/main/java/org/jaudiotagger/tag/datatype/SynchronisedTempoCode.javaFile 303 - building model from ../../systems/MusicStreamer/app/src/main/java/org/jaudiotagger/tag/datatype/SynchronisedTempoCode.java
+
+File 304 - building model from ../../systems/MusicStreamer/app/src/main/java/org/jaudiotagger/tag/datatype/SynchronisedTempoCodeList.javaFile 304 - building model from ../../systems/MusicStreamer/app/src/main/java/org/jaudiotagger/tag/datatype/SynchronisedTempoCodeList.java
+
+File 305 - building model from ../../systems/MusicStreamer/app/src/main/java/org/jaudiotagger/tag/datatype/TCONString.javaFile 305 - building model from ../../systems/MusicStreamer/app/src/main/java/org/jaudiotagger/tag/datatype/TCONString.java
+
+File 306 - building model from ../../systems/MusicStreamer/app/src/main/java/org/jaudiotagger/tag/datatype/TempoCode.javaFile 306 - building model from ../../systems/MusicStreamer/app/src/main/java/org/jaudiotagger/tag/datatype/TempoCode.java
+
+File 307 - building model from ../../systems/MusicStreamer/app/src/main/java/org/jaudiotagger/tag/datatype/TextEncodedStringNullTerminated.javaFile 307 - building model from ../../systems/MusicStreamer/app/src/main/java/org/jaudiotagger/tag/datatype/TextEncodedStringNullTerminated.java
+
+File 308 - building model from ../../systems/MusicStreamer/app/src/main/java/org/jaudiotagger/tag/datatype/TextEncodedStringSizeTerminated.javaFile 308 - building model from ../../systems/MusicStreamer/app/src/main/java/org/jaudiotagger/tag/datatype/TextEncodedStringSizeTerminated.java
+
+File 309 - building model from ../../systems/MusicStreamer/app/src/main/java/org/jaudiotagger/tag/EmptyFrameException.javaFile 309 - building model from ../../systems/MusicStreamer/app/src/main/java/org/jaudiotagger/tag/EmptyFrameException.java
+
+File 310 - building model from ../../systems/MusicStreamer/app/src/main/java/org/jaudiotagger/tag/FieldDataInvalidException.javaFile 310 - building model from ../../systems/MusicStreamer/app/src/main/java/org/jaudiotagger/tag/FieldDataInvalidException.java
+
+File 311 - building model from ../../systems/MusicStreamer/app/src/main/java/org/jaudiotagger/tag/FieldKey.javaFile 311 - building model from ../../systems/MusicStreamer/app/src/main/java/org/jaudiotagger/tag/FieldKey.java
+
+File 312 - building model from ../../systems/MusicStreamer/app/src/main/java/org/jaudiotagger/tag/flac/FlacTag.javaFile 312 - building model from ../../systems/MusicStreamer/app/src/main/java/org/jaudiotagger/tag/flac/FlacTag.java
+
+File 313 - building model from ../../systems/MusicStreamer/app/src/main/java/org/jaudiotagger/tag/id3/AbstractID3Tag.javaFile 313 - building model from ../../systems/MusicStreamer/app/src/main/java/org/jaudiotagger/tag/id3/AbstractID3Tag.java
+
+File 314 - building model from ../../systems/MusicStreamer/app/src/main/java/org/jaudiotagger/tag/id3/AbstractID3v1Tag.javaFile 314 - building model from ../../systems/MusicStreamer/app/src/main/java/org/jaudiotagger/tag/id3/AbstractID3v1Tag.java
+
+File 315 - building model from ../../systems/MusicStreamer/app/src/main/java/org/jaudiotagger/tag/id3/AbstractID3v2Frame.javaFile 315 - building model from ../../systems/MusicStreamer/app/src/main/java/org/jaudiotagger/tag/id3/AbstractID3v2Frame.java
+
+File 316 - building model from ../../systems/MusicStreamer/app/src/main/java/org/jaudiotagger/tag/id3/AbstractID3v2Tag.javaFile 316 - building model from ../../systems/MusicStreamer/app/src/main/java/org/jaudiotagger/tag/id3/AbstractID3v2Tag.java
+
+File 317 - building model from ../../systems/MusicStreamer/app/src/main/java/org/jaudiotagger/tag/id3/AbstractTag.javaFile 317 - building model from ../../systems/MusicStreamer/app/src/main/java/org/jaudiotagger/tag/id3/AbstractTag.java
+
+File 318 - building model from ../../systems/MusicStreamer/app/src/main/java/org/jaudiotagger/tag/id3/AbstractTagFrame.javaFile 318 - building model from ../../systems/MusicStreamer/app/src/main/java/org/jaudiotagger/tag/id3/AbstractTagFrame.java
+
+File 319 - building model from ../../systems/MusicStreamer/app/src/main/java/org/jaudiotagger/tag/id3/AbstractTagFrameBody.javaFile 319 - building model from ../../systems/MusicStreamer/app/src/main/java/org/jaudiotagger/tag/id3/AbstractTagFrameBody.java
+
+File 320 - building model from ../../systems/MusicStreamer/app/src/main/java/org/jaudiotagger/tag/id3/AbstractTagItem.javaFile 320 - building model from ../../systems/MusicStreamer/app/src/main/java/org/jaudiotagger/tag/id3/AbstractTagItem.java
+
+File 321 - building model from ../../systems/MusicStreamer/app/src/main/java/org/jaudiotagger/tag/id3/AggregatedFrame.javaFile 321 - building model from ../../systems/MusicStreamer/app/src/main/java/org/jaudiotagger/tag/id3/AggregatedFrame.java
+
+File 322 - building model from ../../systems/MusicStreamer/app/src/main/java/org/jaudiotagger/tag/id3/framebody/AbstractFrameBodyTextInfo.javaFile 322 - building model from ../../systems/MusicStreamer/app/src/main/java/org/jaudiotagger/tag/id3/framebody/AbstractFrameBodyTextInfo.java
+
+File 323 - building model from ../../systems/MusicStreamer/app/src/main/java/org/jaudiotagger/tag/id3/framebody/AbstractFrameBodyUrlLink.javaFile 323 - building model from ../../systems/MusicStreamer/app/src/main/java/org/jaudiotagger/tag/id3/framebody/AbstractFrameBodyUrlLink.java
+
+File 324 - building model from ../../systems/MusicStreamer/app/src/main/java/org/jaudiotagger/tag/id3/framebody/AbstractID3v2FrameBody.javaFile 324 - building model from ../../systems/MusicStreamer/app/src/main/java/org/jaudiotagger/tag/id3/framebody/AbstractID3v2FrameBody.java
+
+File 325 - building model from ../../systems/MusicStreamer/app/src/main/java/org/jaudiotagger/tag/id3/framebody/FrameBodyAENC.javaFile 325 - building model from ../../systems/MusicStreamer/app/src/main/java/org/jaudiotagger/tag/id3/framebody/FrameBodyAENC.java
+
+File 326 - building model from ../../systems/MusicStreamer/app/src/main/java/org/jaudiotagger/tag/id3/framebody/FrameBodyAPIC.javaFile 326 - building model from ../../systems/MusicStreamer/app/src/main/java/org/jaudiotagger/tag/id3/framebody/FrameBodyAPIC.java
+
+File 327 - building model from ../../systems/MusicStreamer/app/src/main/java/org/jaudiotagger/tag/id3/framebody/FrameBodyASPI.javaFile 327 - building model from ../../systems/MusicStreamer/app/src/main/java/org/jaudiotagger/tag/id3/framebody/FrameBodyASPI.java
+
+File 328 - building model from ../../systems/MusicStreamer/app/src/main/java/org/jaudiotagger/tag/id3/framebody/FrameBodyCHAP.javaFile 328 - building model from ../../systems/MusicStreamer/app/src/main/java/org/jaudiotagger/tag/id3/framebody/FrameBodyCHAP.java
+
+File 329 - building model from ../../systems/MusicStreamer/app/src/main/java/org/jaudiotagger/tag/id3/framebody/FrameBodyCOMM.javaFile 329 - building model from ../../systems/MusicStreamer/app/src/main/java/org/jaudiotagger/tag/id3/framebody/FrameBodyCOMM.java
+
+File 330 - building model from ../../systems/MusicStreamer/app/src/main/java/org/jaudiotagger/tag/id3/framebody/FrameBodyCOMR.javaFile 330 - building model from ../../systems/MusicStreamer/app/src/main/java/org/jaudiotagger/tag/id3/framebody/FrameBodyCOMR.java
+
+File 331 - building model from ../../systems/MusicStreamer/app/src/main/java/org/jaudiotagger/tag/id3/framebody/FrameBodyCRM.javaFile 331 - building model from ../../systems/MusicStreamer/app/src/main/java/org/jaudiotagger/tag/id3/framebody/FrameBodyCRM.java
+
+File 332 - building model from ../../systems/MusicStreamer/app/src/main/java/org/jaudiotagger/tag/id3/framebody/FrameBodyCTOC.javaFile 332 - building model from ../../systems/MusicStreamer/app/src/main/java/org/jaudiotagger/tag/id3/framebody/FrameBodyCTOC.java
+
+File 333 - building model from ../../systems/MusicStreamer/app/src/main/java/org/jaudiotagger/tag/id3/framebody/FrameBodyDeprecated.javaFile 333 - building model from ../../systems/MusicStreamer/app/src/main/java/org/jaudiotagger/tag/id3/framebody/FrameBodyDeprecated.java
+
+File 334 - building model from ../../systems/MusicStreamer/app/src/main/java/org/jaudiotagger/tag/id3/framebody/FrameBodyENCR.javaFile 334 - building model from ../../systems/MusicStreamer/app/src/main/java/org/jaudiotagger/tag/id3/framebody/FrameBodyENCR.java
+
+File 335 - building model from ../../systems/MusicStreamer/app/src/main/java/org/jaudiotagger/tag/id3/framebody/FrameBodyEncrypted.javaFile 335 - building model from ../../systems/MusicStreamer/app/src/main/java/org/jaudiotagger/tag/id3/framebody/FrameBodyEncrypted.java
+
+File 336 - building model from ../../systems/MusicStreamer/app/src/main/java/org/jaudiotagger/tag/id3/framebody/FrameBodyEQU2.javaFile 336 - building model from ../../systems/MusicStreamer/app/src/main/java/org/jaudiotagger/tag/id3/framebody/FrameBodyEQU2.java
+
+File 337 - building model from ../../systems/MusicStreamer/app/src/main/java/org/jaudiotagger/tag/id3/framebody/FrameBodyEQUA.javaFile 337 - building model from ../../systems/MusicStreamer/app/src/main/java/org/jaudiotagger/tag/id3/framebody/FrameBodyEQUA.java
+
+File 338 - building model from ../../systems/MusicStreamer/app/src/main/java/org/jaudiotagger/tag/id3/framebody/FrameBodyETCO.javaFile 338 - building model from ../../systems/MusicStreamer/app/src/main/java/org/jaudiotagger/tag/id3/framebody/FrameBodyETCO.java
+
+File 339 - building model from ../../systems/MusicStreamer/app/src/main/java/org/jaudiotagger/tag/id3/framebody/FrameBodyGEOB.javaFile 339 - building model from ../../systems/MusicStreamer/app/src/main/java/org/jaudiotagger/tag/id3/framebody/FrameBodyGEOB.java
+
+File 340 - building model from ../../systems/MusicStreamer/app/src/main/java/org/jaudiotagger/tag/id3/framebody/FrameBodyGRID.javaFile 340 - building model from ../../systems/MusicStreamer/app/src/main/java/org/jaudiotagger/tag/id3/framebody/FrameBodyGRID.java
+
+File 341 - building model from ../../systems/MusicStreamer/app/src/main/java/org/jaudiotagger/tag/id3/framebody/FrameBodyIPLS.javaFile 341 - building model from ../../systems/MusicStreamer/app/src/main/java/org/jaudiotagger/tag/id3/framebody/FrameBodyIPLS.java
+
+File 342 - building model from ../../systems/MusicStreamer/app/src/main/java/org/jaudiotagger/tag/id3/framebody/FrameBodyLINK.javaFile 342 - building model from ../../systems/MusicStreamer/app/src/main/java/org/jaudiotagger/tag/id3/framebody/FrameBodyLINK.java
+
+File 343 - building model from ../../systems/MusicStreamer/app/src/main/java/org/jaudiotagger/tag/id3/framebody/FrameBodyMCDI.javaFile 343 - building model from ../../systems/MusicStreamer/app/src/main/java/org/jaudiotagger/tag/id3/framebody/FrameBodyMCDI.java
+
+File 344 - building model from ../../systems/MusicStreamer/app/src/main/java/org/jaudiotagger/tag/id3/framebody/FrameBodyMLLT.javaFile 344 - building model from ../../systems/MusicStreamer/app/src/main/java/org/jaudiotagger/tag/id3/framebody/FrameBodyMLLT.java
+
+File 345 - building model from ../../systems/MusicStreamer/app/src/main/java/org/jaudiotagger/tag/id3/framebody/FrameBodyOWNE.javaFile 345 - building model from ../../systems/MusicStreamer/app/src/main/java/org/jaudiotagger/tag/id3/framebody/FrameBodyOWNE.java
+
+File 346 - building model from ../../systems/MusicStreamer/app/src/main/java/org/jaudiotagger/tag/id3/framebody/FrameBodyPCNT.javaFile 346 - building model from ../../systems/MusicStreamer/app/src/main/java/org/jaudiotagger/tag/id3/framebody/FrameBodyPCNT.java
+
+File 347 - building model from ../../systems/MusicStreamer/app/src/main/java/org/jaudiotagger/tag/id3/framebody/FrameBodyPIC.javaFile 347 - building model from ../../systems/MusicStreamer/app/src/main/java/org/jaudiotagger/tag/id3/framebody/FrameBodyPIC.java
+
+File 348 - building model from ../../systems/MusicStreamer/app/src/main/java/org/jaudiotagger/tag/id3/framebody/FrameBodyPOPM.javaFile 348 - building model from ../../systems/MusicStreamer/app/src/main/java/org/jaudiotagger/tag/id3/framebody/FrameBodyPOPM.java
+
+File 349 - building model from ../../systems/MusicStreamer/app/src/main/java/org/jaudiotagger/tag/id3/framebody/FrameBodyPOSS.javaFile 349 - building model from ../../systems/MusicStreamer/app/src/main/java/org/jaudiotagger/tag/id3/framebody/FrameBodyPOSS.java
+
+File 350 - building model from ../../systems/MusicStreamer/app/src/main/java/org/jaudiotagger/tag/id3/framebody/FrameBodyPRIV.javaFile 350 - building model from ../../systems/MusicStreamer/app/src/main/java/org/jaudiotagger/tag/id3/framebody/FrameBodyPRIV.java
+
+File 351 - building model from ../../systems/MusicStreamer/app/src/main/java/org/jaudiotagger/tag/id3/framebody/FrameBodyRBUF.javaFile 351 - building model from ../../systems/MusicStreamer/app/src/main/java/org/jaudiotagger/tag/id3/framebody/FrameBodyRBUF.java
+
+File 352 - building model from ../../systems/MusicStreamer/app/src/main/java/org/jaudiotagger/tag/id3/framebody/FrameBodyRVA2.javaFile 352 - building model from ../../systems/MusicStreamer/app/src/main/java/org/jaudiotagger/tag/id3/framebody/FrameBodyRVA2.java
+
+File 353 - building model from ../../systems/MusicStreamer/app/src/main/java/org/jaudiotagger/tag/id3/framebody/FrameBodyRVAD.javaFile 353 - building model from ../../systems/MusicStreamer/app/src/main/java/org/jaudiotagger/tag/id3/framebody/FrameBodyRVAD.java
+
+File 354 - building model from ../../systems/MusicStreamer/app/src/main/java/org/jaudiotagger/tag/id3/framebody/FrameBodyRVRB.javaFile 354 - building model from ../../systems/MusicStreamer/app/src/main/java/org/jaudiotagger/tag/id3/framebody/FrameBodyRVRB.java
+
+File 355 - building model from ../../systems/MusicStreamer/app/src/main/java/org/jaudiotagger/tag/id3/framebody/FrameBodySEEK.javaFile 355 - building model from ../../systems/MusicStreamer/app/src/main/java/org/jaudiotagger/tag/id3/framebody/FrameBodySEEK.java
+
+File 356 - building model from ../../systems/MusicStreamer/app/src/main/java/org/jaudiotagger/tag/id3/framebody/FrameBodySIGN.javaFile 356 - building model from ../../systems/MusicStreamer/app/src/main/java/org/jaudiotagger/tag/id3/framebody/FrameBodySIGN.java
+
+File 357 - building model from ../../systems/MusicStreamer/app/src/main/java/org/jaudiotagger/tag/id3/framebody/FrameBodySYLT.javaFile 357 - building model from ../../systems/MusicStreamer/app/src/main/java/org/jaudiotagger/tag/id3/framebody/FrameBodySYLT.java
+
+File 358 - building model from ../../systems/MusicStreamer/app/src/main/java/org/jaudiotagger/tag/id3/framebody/FrameBodySYTC.javaFile 358 - building model from ../../systems/MusicStreamer/app/src/main/java/org/jaudiotagger/tag/id3/framebody/FrameBodySYTC.java
+
+File 359 - building model from ../../systems/MusicStreamer/app/src/main/java/org/jaudiotagger/tag/id3/framebody/FrameBodyTALB.javaFile 359 - building model from ../../systems/MusicStreamer/app/src/main/java/org/jaudiotagger/tag/id3/framebody/FrameBodyTALB.java
+
+File 360 - building model from ../../systems/MusicStreamer/app/src/main/java/org/jaudiotagger/tag/id3/framebody/FrameBodyTBPM.javaFile 360 - building model from ../../systems/MusicStreamer/app/src/main/java/org/jaudiotagger/tag/id3/framebody/FrameBodyTBPM.java
+
+File 361 - building model from ../../systems/MusicStreamer/app/src/main/java/org/jaudiotagger/tag/id3/framebody/FrameBodyTCMP.javaFile 361 - building model from ../../systems/MusicStreamer/app/src/main/java/org/jaudiotagger/tag/id3/framebody/FrameBodyTCMP.java
+
+File 362 - building model from ../../systems/MusicStreamer/app/src/main/java/org/jaudiotagger/tag/id3/framebody/FrameBodyTCOM.javaFile 362 - building model from ../../systems/MusicStreamer/app/src/main/java/org/jaudiotagger/tag/id3/framebody/FrameBodyTCOM.java
+
+File 363 - building model from ../../systems/MusicStreamer/app/src/main/java/org/jaudiotagger/tag/id3/framebody/FrameBodyTCON.javaFile 363 - building model from ../../systems/MusicStreamer/app/src/main/java/org/jaudiotagger/tag/id3/framebody/FrameBodyTCON.java
+
+File 364 - building model from ../../systems/MusicStreamer/app/src/main/java/org/jaudiotagger/tag/id3/framebody/FrameBodyTCOP.javaFile 364 - building model from ../../systems/MusicStreamer/app/src/main/java/org/jaudiotagger/tag/id3/framebody/FrameBodyTCOP.java
+
+File 365 - building model from ../../systems/MusicStreamer/app/src/main/java/org/jaudiotagger/tag/id3/framebody/FrameBodyTDAT.javaFile 365 - building model from ../../systems/MusicStreamer/app/src/main/java/org/jaudiotagger/tag/id3/framebody/FrameBodyTDAT.java
+
+File 366 - building model from ../../systems/MusicStreamer/app/src/main/java/org/jaudiotagger/tag/id3/framebody/FrameBodyTDEN.javaFile 366 - building model from ../../systems/MusicStreamer/app/src/main/java/org/jaudiotagger/tag/id3/framebody/FrameBodyTDEN.java
+
+File 367 - building model from ../../systems/MusicStreamer/app/src/main/java/org/jaudiotagger/tag/id3/framebody/FrameBodyTDLY.javaFile 367 - building model from ../../systems/MusicStreamer/app/src/main/java/org/jaudiotagger/tag/id3/framebody/FrameBodyTDLY.java
+
+File 368 - building model from ../../systems/MusicStreamer/app/src/main/java/org/jaudiotagger/tag/id3/framebody/FrameBodyTDOR.javaFile 368 - building model from ../../systems/MusicStreamer/app/src/main/java/org/jaudiotagger/tag/id3/framebody/FrameBodyTDOR.java
+
+File 369 - building model from ../../systems/MusicStreamer/app/src/main/java/org/jaudiotagger/tag/id3/framebody/FrameBodyTDRC.javaFile 369 - building model from ../../systems/MusicStreamer/app/src/main/java/org/jaudiotagger/tag/id3/framebody/FrameBodyTDRC.java
+
+File 370 - building model from ../../systems/MusicStreamer/app/src/main/java/org/jaudiotagger/tag/id3/framebody/FrameBodyTDRL.javaFile 370 - building model from ../../systems/MusicStreamer/app/src/main/java/org/jaudiotagger/tag/id3/framebody/FrameBodyTDRL.java
+
+File 371 - building model from ../../systems/MusicStreamer/app/src/main/java/org/jaudiotagger/tag/id3/framebody/FrameBodyTDTG.javaFile 371 - building model from ../../systems/MusicStreamer/app/src/main/java/org/jaudiotagger/tag/id3/framebody/FrameBodyTDTG.java
+
+File 372 - building model from ../../systems/MusicStreamer/app/src/main/java/org/jaudiotagger/tag/id3/framebody/FrameBodyTENC.javaFile 372 - building model from ../../systems/MusicStreamer/app/src/main/java/org/jaudiotagger/tag/id3/framebody/FrameBodyTENC.java
+
+File 373 - building model from ../../systems/MusicStreamer/app/src/main/java/org/jaudiotagger/tag/id3/framebody/FrameBodyTEXT.javaFile 373 - building model from ../../systems/MusicStreamer/app/src/main/java/org/jaudiotagger/tag/id3/framebody/FrameBodyTEXT.java
+
+File 374 - building model from ../../systems/MusicStreamer/app/src/main/java/org/jaudiotagger/tag/id3/framebody/FrameBodyTFLT.javaFile 374 - building model from ../../systems/MusicStreamer/app/src/main/java/org/jaudiotagger/tag/id3/framebody/FrameBodyTFLT.java
+
+File 375 - building model from ../../systems/MusicStreamer/app/src/main/java/org/jaudiotagger/tag/id3/framebody/FrameBodyTIME.javaFile 375 - building model from ../../systems/MusicStreamer/app/src/main/java/org/jaudiotagger/tag/id3/framebody/FrameBodyTIME.java
+
+File 376 - building model from ../../systems/MusicStreamer/app/src/main/java/org/jaudiotagger/tag/id3/framebody/FrameBodyTIPL.javaFile 376 - building model from ../../systems/MusicStreamer/app/src/main/java/org/jaudiotagger/tag/id3/framebody/FrameBodyTIPL.java
+
+File 377 - building model from ../../systems/MusicStreamer/app/src/main/java/org/jaudiotagger/tag/id3/framebody/FrameBodyTIT1.javaFile 377 - building model from ../../systems/MusicStreamer/app/src/main/java/org/jaudiotagger/tag/id3/framebody/FrameBodyTIT1.java
+
+File 378 - building model from ../../systems/MusicStreamer/app/src/main/java/org/jaudiotagger/tag/id3/framebody/FrameBodyTIT2.javaFile 378 - building model from ../../systems/MusicStreamer/app/src/main/java/org/jaudiotagger/tag/id3/framebody/FrameBodyTIT2.java
+
+File 379 - building model from ../../systems/MusicStreamer/app/src/main/java/org/jaudiotagger/tag/id3/framebody/FrameBodyTIT3.javaFile 379 - building model from ../../systems/MusicStreamer/app/src/main/java/org/jaudiotagger/tag/id3/framebody/FrameBodyTIT3.java
+
+File 380 - building model from ../../systems/MusicStreamer/app/src/main/java/org/jaudiotagger/tag/id3/framebody/FrameBodyTKEY.javaFile 380 - building model from ../../systems/MusicStreamer/app/src/main/java/org/jaudiotagger/tag/id3/framebody/FrameBodyTKEY.java
+
+File 381 - building model from ../../systems/MusicStreamer/app/src/main/java/org/jaudiotagger/tag/id3/framebody/FrameBodyTLAN.javaFile 381 - building model from ../../systems/MusicStreamer/app/src/main/java/org/jaudiotagger/tag/id3/framebody/FrameBodyTLAN.java
+
+File 382 - building model from ../../systems/MusicStreamer/app/src/main/java/org/jaudiotagger/tag/id3/framebody/FrameBodyTLEN.javaFile 382 - building model from ../../systems/MusicStreamer/app/src/main/java/org/jaudiotagger/tag/id3/framebody/FrameBodyTLEN.java
+
+File 383 - building model from ../../systems/MusicStreamer/app/src/main/java/org/jaudiotagger/tag/id3/framebody/FrameBodyTMCL.javaFile 383 - building model from ../../systems/MusicStreamer/app/src/main/java/org/jaudiotagger/tag/id3/framebody/FrameBodyTMCL.java
+
+File 384 - building model from ../../systems/MusicStreamer/app/src/main/java/org/jaudiotagger/tag/id3/framebody/FrameBodyTMED.javaFile 384 - building model from ../../systems/MusicStreamer/app/src/main/java/org/jaudiotagger/tag/id3/framebody/FrameBodyTMED.java
+
+File 385 - building model from ../../systems/MusicStreamer/app/src/main/java/org/jaudiotagger/tag/id3/framebody/FrameBodyTMOO.javaFile 385 - building model from ../../systems/MusicStreamer/app/src/main/java/org/jaudiotagger/tag/id3/framebody/FrameBodyTMOO.java
+
+File 386 - building model from ../../systems/MusicStreamer/app/src/main/java/org/jaudiotagger/tag/id3/framebody/FrameBodyTOAL.javaFile 386 - building model from ../../systems/MusicStreamer/app/src/main/java/org/jaudiotagger/tag/id3/framebody/FrameBodyTOAL.java
+
+File 387 - building model from ../../systems/MusicStreamer/app/src/main/java/org/jaudiotagger/tag/id3/framebody/FrameBodyTOFN.javaFile 387 - building model from ../../systems/MusicStreamer/app/src/main/java/org/jaudiotagger/tag/id3/framebody/FrameBodyTOFN.java
+
+File 388 - building model from ../../systems/MusicStreamer/app/src/main/java/org/jaudiotagger/tag/id3/framebody/FrameBodyTOLY.javaFile 388 - building model from ../../systems/MusicStreamer/app/src/main/java/org/jaudiotagger/tag/id3/framebody/FrameBodyTOLY.java
+
+File 389 - building model from ../../systems/MusicStreamer/app/src/main/java/org/jaudiotagger/tag/id3/framebody/FrameBodyTOPE.javaFile 389 - building model from ../../systems/MusicStreamer/app/src/main/java/org/jaudiotagger/tag/id3/framebody/FrameBodyTOPE.java
+
+File 390 - building model from ../../systems/MusicStreamer/app/src/main/java/org/jaudiotagger/tag/id3/framebody/FrameBodyTORY.javaFile 390 - building model from ../../systems/MusicStreamer/app/src/main/java/org/jaudiotagger/tag/id3/framebody/FrameBodyTORY.java
+
+File 391 - building model from ../../systems/MusicStreamer/app/src/main/java/org/jaudiotagger/tag/id3/framebody/FrameBodyTOWN.javaFile 391 - building model from ../../systems/MusicStreamer/app/src/main/java/org/jaudiotagger/tag/id3/framebody/FrameBodyTOWN.java
+
+File 392 - building model from ../../systems/MusicStreamer/app/src/main/java/org/jaudiotagger/tag/id3/framebody/FrameBodyTPE1.javaFile 392 - building model from ../../systems/MusicStreamer/app/src/main/java/org/jaudiotagger/tag/id3/framebody/FrameBodyTPE1.java
+
+File 393 - building model from ../../systems/MusicStreamer/app/src/main/java/org/jaudiotagger/tag/id3/framebody/FrameBodyTPE2.javaFile 393 - building model from ../../systems/MusicStreamer/app/src/main/java/org/jaudiotagger/tag/id3/framebody/FrameBodyTPE2.java
+
+File 394 - building model from ../../systems/MusicStreamer/app/src/main/java/org/jaudiotagger/tag/id3/framebody/FrameBodyTPE3.javaFile 394 - building model from ../../systems/MusicStreamer/app/src/main/java/org/jaudiotagger/tag/id3/framebody/FrameBodyTPE3.java
+
+File 395 - building model from ../../systems/MusicStreamer/app/src/main/java/org/jaudiotagger/tag/id3/framebody/FrameBodyTPE4.javaFile 395 - building model from ../../systems/MusicStreamer/app/src/main/java/org/jaudiotagger/tag/id3/framebody/FrameBodyTPE4.java
+
+File 396 - building model from ../../systems/MusicStreamer/app/src/main/java/org/jaudiotagger/tag/id3/framebody/FrameBodyTPOS.javaFile 396 - building model from ../../systems/MusicStreamer/app/src/main/java/org/jaudiotagger/tag/id3/framebody/FrameBodyTPOS.java
+
+File 397 - building model from ../../systems/MusicStreamer/app/src/main/java/org/jaudiotagger/tag/id3/framebody/FrameBodyTPRO.javaFile 397 - building model from ../../systems/MusicStreamer/app/src/main/java/org/jaudiotagger/tag/id3/framebody/FrameBodyTPRO.java
+
+File 398 - building model from ../../systems/MusicStreamer/app/src/main/java/org/jaudiotagger/tag/id3/framebody/FrameBodyTPUB.javaFile 398 - building model from ../../systems/MusicStreamer/app/src/main/java/org/jaudiotagger/tag/id3/framebody/FrameBodyTPUB.java
+
+File 399 - building model from ../../systems/MusicStreamer/app/src/main/java/org/jaudiotagger/tag/id3/framebody/FrameBodyTRCK.javaFile 399 - building model from ../../systems/MusicStreamer/app/src/main/java/org/jaudiotagger/tag/id3/framebody/FrameBodyTRCK.java
+
+File 400 - building model from ../../systems/MusicStreamer/app/src/main/java/org/jaudiotagger/tag/id3/framebody/FrameBodyTRDA.javaFile 400 - building model from ../../systems/MusicStreamer/app/src/main/java/org/jaudiotagger/tag/id3/framebody/FrameBodyTRDA.java
+
+File 401 - building model from ../../systems/MusicStreamer/app/src/main/java/org/jaudiotagger/tag/id3/framebody/FrameBodyTRSN.javaFile 401 - building model from ../../systems/MusicStreamer/app/src/main/java/org/jaudiotagger/tag/id3/framebody/FrameBodyTRSN.java
+
+File 402 - building model from ../../systems/MusicStreamer/app/src/main/java/org/jaudiotagger/tag/id3/framebody/FrameBodyTRSO.javaFile 402 - building model from ../../systems/MusicStreamer/app/src/main/java/org/jaudiotagger/tag/id3/framebody/FrameBodyTRSO.java
+
+File 403 - building model from ../../systems/MusicStreamer/app/src/main/java/org/jaudiotagger/tag/id3/framebody/FrameBodyTSIZ.javaFile 403 - building model from ../../systems/MusicStreamer/app/src/main/java/org/jaudiotagger/tag/id3/framebody/FrameBodyTSIZ.java
+
+File 404 - building model from ../../systems/MusicStreamer/app/src/main/java/org/jaudiotagger/tag/id3/framebody/FrameBodyTSO2.javaFile 404 - building model from ../../systems/MusicStreamer/app/src/main/java/org/jaudiotagger/tag/id3/framebody/FrameBodyTSO2.java
+
+File 405 - building model from ../../systems/MusicStreamer/app/src/main/java/org/jaudiotagger/tag/id3/framebody/FrameBodyTSOA.javaFile 405 - building model from ../../systems/MusicStreamer/app/src/main/java/org/jaudiotagger/tag/id3/framebody/FrameBodyTSOA.java
+
+File 406 - building model from ../../systems/MusicStreamer/app/src/main/java/org/jaudiotagger/tag/id3/framebody/FrameBodyTSOC.javaFile 406 - building model from ../../systems/MusicStreamer/app/src/main/java/org/jaudiotagger/tag/id3/framebody/FrameBodyTSOC.java
+
+File 407 - building model from ../../systems/MusicStreamer/app/src/main/java/org/jaudiotagger/tag/id3/framebody/FrameBodyTSOP.javaFile 407 - building model from ../../systems/MusicStreamer/app/src/main/java/org/jaudiotagger/tag/id3/framebody/FrameBodyTSOP.java
+
+File 408 - building model from ../../systems/MusicStreamer/app/src/main/java/org/jaudiotagger/tag/id3/framebody/FrameBodyTSOT.javaFile 408 - building model from ../../systems/MusicStreamer/app/src/main/java/org/jaudiotagger/tag/id3/framebody/FrameBodyTSOT.java
+
+File 409 - building model from ../../systems/MusicStreamer/app/src/main/java/org/jaudiotagger/tag/id3/framebody/FrameBodyTSRC.javaFile 409 - building model from ../../systems/MusicStreamer/app/src/main/java/org/jaudiotagger/tag/id3/framebody/FrameBodyTSRC.java
+
+File 410 - building model from ../../systems/MusicStreamer/app/src/main/java/org/jaudiotagger/tag/id3/framebody/FrameBodyTSSE.javaFile 410 - building model from ../../systems/MusicStreamer/app/src/main/java/org/jaudiotagger/tag/id3/framebody/FrameBodyTSSE.java
+
+File 411 - building model from ../../systems/MusicStreamer/app/src/main/java/org/jaudiotagger/tag/id3/framebody/FrameBodyTSST.javaFile 411 - building model from ../../systems/MusicStreamer/app/src/main/java/org/jaudiotagger/tag/id3/framebody/FrameBodyTSST.java
+
+File 412 - building model from ../../systems/MusicStreamer/app/src/main/java/org/jaudiotagger/tag/id3/framebody/FrameBodyTXXX.javaFile 412 - building model from ../../systems/MusicStreamer/app/src/main/java/org/jaudiotagger/tag/id3/framebody/FrameBodyTXXX.java
+
+File 413 - building model from ../../systems/MusicStreamer/app/src/main/java/org/jaudiotagger/tag/id3/framebody/FrameBodyTYER.javaFile 413 - building model from ../../systems/MusicStreamer/app/src/main/java/org/jaudiotagger/tag/id3/framebody/FrameBodyTYER.java
+
+File 414 - building model from ../../systems/MusicStreamer/app/src/main/java/org/jaudiotagger/tag/id3/framebody/FrameBodyUFID.javaFile 414 - building model from ../../systems/MusicStreamer/app/src/main/java/org/jaudiotagger/tag/id3/framebody/FrameBodyUFID.java
+
+File 415 - building model from ../../systems/MusicStreamer/app/src/main/java/org/jaudiotagger/tag/id3/framebody/FrameBodyUnsupported.javaFile 415 - building model from ../../systems/MusicStreamer/app/src/main/java/org/jaudiotagger/tag/id3/framebody/FrameBodyUnsupported.java
+
+File 416 - building model from ../../systems/MusicStreamer/app/src/main/java/org/jaudiotagger/tag/id3/framebody/FrameBodyUSER.javaFile 416 - building model from ../../systems/MusicStreamer/app/src/main/java/org/jaudiotagger/tag/id3/framebody/FrameBodyUSER.java
+
+File 417 - building model from ../../systems/MusicStreamer/app/src/main/java/org/jaudiotagger/tag/id3/framebody/FrameBodyUSLT.javaFile 417 - building model from ../../systems/MusicStreamer/app/src/main/java/org/jaudiotagger/tag/id3/framebody/FrameBodyUSLT.java
+
+File 418 - building model from ../../systems/MusicStreamer/app/src/main/java/org/jaudiotagger/tag/id3/framebody/FrameBodyWCOM.javaFile 418 - building model from ../../systems/MusicStreamer/app/src/main/java/org/jaudiotagger/tag/id3/framebody/FrameBodyWCOM.java
+
+File 419 - building model from ../../systems/MusicStreamer/app/src/main/java/org/jaudiotagger/tag/id3/framebody/FrameBodyWCOP.javaFile 419 - building model from ../../systems/MusicStreamer/app/src/main/java/org/jaudiotagger/tag/id3/framebody/FrameBodyWCOP.java
+
+File 420 - building model from ../../systems/MusicStreamer/app/src/main/java/org/jaudiotagger/tag/id3/framebody/FrameBodyWOAF.javaFile 420 - building model from ../../systems/MusicStreamer/app/src/main/java/org/jaudiotagger/tag/id3/framebody/FrameBodyWOAF.java
+
+File 421 - building model from ../../systems/MusicStreamer/app/src/main/java/org/jaudiotagger/tag/id3/framebody/FrameBodyWOAR.javaFile 421 - building model from ../../systems/MusicStreamer/app/src/main/java/org/jaudiotagger/tag/id3/framebody/FrameBodyWOAR.java
+
+File 422 - building model from ../../systems/MusicStreamer/app/src/main/java/org/jaudiotagger/tag/id3/framebody/FrameBodyWOAS.javaFile 422 - building model from ../../systems/MusicStreamer/app/src/main/java/org/jaudiotagger/tag/id3/framebody/FrameBodyWOAS.java
+
+File 423 - building model from ../../systems/MusicStreamer/app/src/main/java/org/jaudiotagger/tag/id3/framebody/FrameBodyWORS.javaFile 423 - building model from ../../systems/MusicStreamer/app/src/main/java/org/jaudiotagger/tag/id3/framebody/FrameBodyWORS.java
+
+File 424 - building model from ../../systems/MusicStreamer/app/src/main/java/org/jaudiotagger/tag/id3/framebody/FrameBodyWPAY.javaFile 424 - building model from ../../systems/MusicStreamer/app/src/main/java/org/jaudiotagger/tag/id3/framebody/FrameBodyWPAY.java
+
+File 425 - building model from ../../systems/MusicStreamer/app/src/main/java/org/jaudiotagger/tag/id3/framebody/FrameBodyWPUB.javaFile 425 - building model from ../../systems/MusicStreamer/app/src/main/java/org/jaudiotagger/tag/id3/framebody/FrameBodyWPUB.java
+
+File 426 - building model from ../../systems/MusicStreamer/app/src/main/java/org/jaudiotagger/tag/id3/framebody/FrameBodyWXXX.javaFile 426 - building model from ../../systems/MusicStreamer/app/src/main/java/org/jaudiotagger/tag/id3/framebody/FrameBodyWXXX.java
+
+File 427 - building model from ../../systems/MusicStreamer/app/src/main/java/org/jaudiotagger/tag/id3/framebody/FrameBodyXSOA.javaFile 427 - building model from ../../systems/MusicStreamer/app/src/main/java/org/jaudiotagger/tag/id3/framebody/FrameBodyXSOA.java
+
+File 428 - building model from ../../systems/MusicStreamer/app/src/main/java/org/jaudiotagger/tag/id3/framebody/FrameBodyXSOP.javaFile 428 - building model from ../../systems/MusicStreamer/app/src/main/java/org/jaudiotagger/tag/id3/framebody/FrameBodyXSOP.java
+
+File 429 - building model from ../../systems/MusicStreamer/app/src/main/java/org/jaudiotagger/tag/id3/framebody/FrameBodyXSOT.javaFile 429 - building model from ../../systems/MusicStreamer/app/src/main/java/org/jaudiotagger/tag/id3/framebody/FrameBodyXSOT.java
+
+File 430 - building model from ../../systems/MusicStreamer/app/src/main/java/org/jaudiotagger/tag/id3/framebody/ID3v22FrameBody.javaFile 430 - building model from ../../systems/MusicStreamer/app/src/main/java/org/jaudiotagger/tag/id3/framebody/ID3v22FrameBody.java
+
+File 431 - building model from ../../systems/MusicStreamer/app/src/main/java/org/jaudiotagger/tag/id3/framebody/ID3v23FrameBody.javaFile 431 - building model from ../../systems/MusicStreamer/app/src/main/java/org/jaudiotagger/tag/id3/framebody/ID3v23FrameBody.java
+
+File 432 - building model from ../../systems/MusicStreamer/app/src/main/java/org/jaudiotagger/tag/id3/framebody/ID3v24FrameBody.javaFile 432 - building model from ../../systems/MusicStreamer/app/src/main/java/org/jaudiotagger/tag/id3/framebody/ID3v24FrameBody.java
+
+File 433 - building model from ../../systems/MusicStreamer/app/src/main/java/org/jaudiotagger/tag/id3/framebody/ID3v2ChapterFrameBody.javaFile 433 - building model from ../../systems/MusicStreamer/app/src/main/java/org/jaudiotagger/tag/id3/framebody/ID3v2ChapterFrameBody.java
+
+File 434 - building model from ../../systems/MusicStreamer/app/src/main/java/org/jaudiotagger/tag/id3/ID3Compression.javaFile 434 - building model from ../../systems/MusicStreamer/app/src/main/java/org/jaudiotagger/tag/id3/ID3Compression.java
+
+File 435 - building model from ../../systems/MusicStreamer/app/src/main/java/org/jaudiotagger/tag/id3/Id3FieldType.javaFile 435 - building model from ../../systems/MusicStreamer/app/src/main/java/org/jaudiotagger/tag/id3/Id3FieldType.java
+
+File 436 - building model from ../../systems/MusicStreamer/app/src/main/java/org/jaudiotagger/tag/id3/ID3Frames.javaFile 436 - building model from ../../systems/MusicStreamer/app/src/main/java/org/jaudiotagger/tag/id3/ID3Frames.java
+
+File 437 - building model from ../../systems/MusicStreamer/app/src/main/java/org/jaudiotagger/tag/id3/ID3SyncSafeInteger.javaFile 437 - building model from ../../systems/MusicStreamer/app/src/main/java/org/jaudiotagger/tag/id3/ID3SyncSafeInteger.java
+
+File 438 - building model from ../../systems/MusicStreamer/app/src/main/java/org/jaudiotagger/tag/id3/ID3Tags.javaFile 438 - building model from ../../systems/MusicStreamer/app/src/main/java/org/jaudiotagger/tag/id3/ID3Tags.java
+
+File 439 - building model from ../../systems/MusicStreamer/app/src/main/java/org/jaudiotagger/tag/id3/ID3TextEncodingConversion.javaFile 439 - building model from ../../systems/MusicStreamer/app/src/main/java/org/jaudiotagger/tag/id3/ID3TextEncodingConversion.java
+
+File 440 - building model from ../../systems/MusicStreamer/app/src/main/java/org/jaudiotagger/tag/id3/ID3Unsynchronization.javaFile 440 - building model from ../../systems/MusicStreamer/app/src/main/java/org/jaudiotagger/tag/id3/ID3Unsynchronization.java
+
+File 441 - building model from ../../systems/MusicStreamer/app/src/main/java/org/jaudiotagger/tag/id3/ID3v11Tag.javaFile 441 - building model from ../../systems/MusicStreamer/app/src/main/java/org/jaudiotagger/tag/id3/ID3v11Tag.java
+
+File 442 - building model from ../../systems/MusicStreamer/app/src/main/java/org/jaudiotagger/tag/id3/ID3v1FieldKey.javaFile 442 - building model from ../../systems/MusicStreamer/app/src/main/java/org/jaudiotagger/tag/id3/ID3v1FieldKey.java
+
+File 443 - building model from ../../systems/MusicStreamer/app/src/main/java/org/jaudiotagger/tag/id3/ID3v1Iterator.javaFile 443 - building model from ../../systems/MusicStreamer/app/src/main/java/org/jaudiotagger/tag/id3/ID3v1Iterator.java
+
+File 444 - building model from ../../systems/MusicStreamer/app/src/main/java/org/jaudiotagger/tag/id3/ID3v1Tag.javaFile 444 - building model from ../../systems/MusicStreamer/app/src/main/java/org/jaudiotagger/tag/id3/ID3v1Tag.java
+
+File 445 - building model from ../../systems/MusicStreamer/app/src/main/java/org/jaudiotagger/tag/id3/ID3v1TagField.javaFile 445 - building model from ../../systems/MusicStreamer/app/src/main/java/org/jaudiotagger/tag/id3/ID3v1TagField.java
+
+File 446 - building model from ../../systems/MusicStreamer/app/src/main/java/org/jaudiotagger/tag/id3/ID3v22FieldKey.javaFile 446 - building model from ../../systems/MusicStreamer/app/src/main/java/org/jaudiotagger/tag/id3/ID3v22FieldKey.java
+
+File 447 - building model from ../../systems/MusicStreamer/app/src/main/java/org/jaudiotagger/tag/id3/ID3v22Frame.javaFile 447 - building model from ../../systems/MusicStreamer/app/src/main/java/org/jaudiotagger/tag/id3/ID3v22Frame.java
+
+File 448 - building model from ../../systems/MusicStreamer/app/src/main/java/org/jaudiotagger/tag/id3/ID3v22Frames.javaFile 448 - building model from ../../systems/MusicStreamer/app/src/main/java/org/jaudiotagger/tag/id3/ID3v22Frames.java
+
+File 449 - building model from ../../systems/MusicStreamer/app/src/main/java/org/jaudiotagger/tag/id3/ID3v22PreferredFrameOrderComparator.javaFile 449 - building model from ../../systems/MusicStreamer/app/src/main/java/org/jaudiotagger/tag/id3/ID3v22PreferredFrameOrderComparator.java
+
+File 450 - building model from ../../systems/MusicStreamer/app/src/main/java/org/jaudiotagger/tag/id3/ID3v22Tag.javaFile 450 - building model from ../../systems/MusicStreamer/app/src/main/java/org/jaudiotagger/tag/id3/ID3v22Tag.java
+
+File 451 - building model from ../../systems/MusicStreamer/app/src/main/java/org/jaudiotagger/tag/id3/ID3v23FieldKey.javaFile 451 - building model from ../../systems/MusicStreamer/app/src/main/java/org/jaudiotagger/tag/id3/ID3v23FieldKey.java
+
+File 452 - building model from ../../systems/MusicStreamer/app/src/main/java/org/jaudiotagger/tag/id3/ID3v23Frame.javaFile 452 - building model from ../../systems/MusicStreamer/app/src/main/java/org/jaudiotagger/tag/id3/ID3v23Frame.java
+
+File 453 - building model from ../../systems/MusicStreamer/app/src/main/java/org/jaudiotagger/tag/id3/ID3v23Frames.javaFile 453 - building model from ../../systems/MusicStreamer/app/src/main/java/org/jaudiotagger/tag/id3/ID3v23Frames.java
+
+File 454 - building model from ../../systems/MusicStreamer/app/src/main/java/org/jaudiotagger/tag/id3/ID3v23PreferredFrameOrderComparator.javaFile 454 - building model from ../../systems/MusicStreamer/app/src/main/java/org/jaudiotagger/tag/id3/ID3v23PreferredFrameOrderComparator.java
+
+File 455 - building model from ../../systems/MusicStreamer/app/src/main/java/org/jaudiotagger/tag/id3/ID3v23Tag.javaFile 455 - building model from ../../systems/MusicStreamer/app/src/main/java/org/jaudiotagger/tag/id3/ID3v23Tag.java
+
+File 456 - building model from ../../systems/MusicStreamer/app/src/main/java/org/jaudiotagger/tag/id3/ID3v24FieldKey.javaFile 456 - building model from ../../systems/MusicStreamer/app/src/main/java/org/jaudiotagger/tag/id3/ID3v24FieldKey.java
+
+File 457 - building model from ../../systems/MusicStreamer/app/src/main/java/org/jaudiotagger/tag/id3/ID3v24Frame.javaFile 457 - building model from ../../systems/MusicStreamer/app/src/main/java/org/jaudiotagger/tag/id3/ID3v24Frame.java
+
+File 458 - building model from ../../systems/MusicStreamer/app/src/main/java/org/jaudiotagger/tag/id3/ID3v24Frames.javaFile 458 - building model from ../../systems/MusicStreamer/app/src/main/java/org/jaudiotagger/tag/id3/ID3v24Frames.java
+
+File 459 - building model from ../../systems/MusicStreamer/app/src/main/java/org/jaudiotagger/tag/id3/ID3v24PreferredFrameOrderComparator.javaFile 459 - building model from ../../systems/MusicStreamer/app/src/main/java/org/jaudiotagger/tag/id3/ID3v24PreferredFrameOrderComparator.java
+
+File 460 - building model from ../../systems/MusicStreamer/app/src/main/java/org/jaudiotagger/tag/id3/ID3v24Tag.javaFile 460 - building model from ../../systems/MusicStreamer/app/src/main/java/org/jaudiotagger/tag/id3/ID3v24Tag.java
+
+File 461 - building model from ../../systems/MusicStreamer/app/src/main/java/org/jaudiotagger/tag/id3/ID3v2ChapterFrames.javaFile 461 - building model from ../../systems/MusicStreamer/app/src/main/java/org/jaudiotagger/tag/id3/ID3v2ChapterFrames.java
+
+File 462 - building model from ../../systems/MusicStreamer/app/src/main/java/org/jaudiotagger/tag/id3/reference/ID3Rating.javaFile 462 - building model from ../../systems/MusicStreamer/app/src/main/java/org/jaudiotagger/tag/id3/reference/ID3Rating.java
+
+File 463 - building model from ../../systems/MusicStreamer/app/src/main/java/org/jaudiotagger/tag/id3/reference/ITunesRating.javaFile 463 - building model from ../../systems/MusicStreamer/app/src/main/java/org/jaudiotagger/tag/id3/reference/ITunesRating.java
+
+File 464 - building model from ../../systems/MusicStreamer/app/src/main/java/org/jaudiotagger/tag/id3/reference/MediaMonkeyPlayerRating.javaFile 464 - building model from ../../systems/MusicStreamer/app/src/main/java/org/jaudiotagger/tag/id3/reference/MediaMonkeyPlayerRating.java
+
+File 465 - building model from ../../systems/MusicStreamer/app/src/main/java/org/jaudiotagger/tag/id3/reference/MediaPlayerRating.javaFile 465 - building model from ../../systems/MusicStreamer/app/src/main/java/org/jaudiotagger/tag/id3/reference/MediaPlayerRating.java
+
+File 466 - building model from ../../systems/MusicStreamer/app/src/main/java/org/jaudiotagger/tag/id3/TyerTdatAggregatedFrame.javaFile 466 - building model from ../../systems/MusicStreamer/app/src/main/java/org/jaudiotagger/tag/id3/TyerTdatAggregatedFrame.java
+
+File 467 - building model from ../../systems/MusicStreamer/app/src/main/java/org/jaudiotagger/tag/id3/valuepair/ChannelTypes.javaFile 467 - building model from ../../systems/MusicStreamer/app/src/main/java/org/jaudiotagger/tag/id3/valuepair/ChannelTypes.java
+
+File 468 - building model from ../../systems/MusicStreamer/app/src/main/java/org/jaudiotagger/tag/id3/valuepair/EventTimingTimestampTypes.javaFile 468 - building model from ../../systems/MusicStreamer/app/src/main/java/org/jaudiotagger/tag/id3/valuepair/EventTimingTimestampTypes.java
+
+File 469 - building model from ../../systems/MusicStreamer/app/src/main/java/org/jaudiotagger/tag/id3/valuepair/EventTimingTypes.javaFile 469 - building model from ../../systems/MusicStreamer/app/src/main/java/org/jaudiotagger/tag/id3/valuepair/EventTimingTypes.java
+
+File 470 - building model from ../../systems/MusicStreamer/app/src/main/java/org/jaudiotagger/tag/id3/valuepair/ID3V2ExtendedGenreTypes.javaFile 470 - building model from ../../systems/MusicStreamer/app/src/main/java/org/jaudiotagger/tag/id3/valuepair/ID3V2ExtendedGenreTypes.java
+
+File 471 - building model from ../../systems/MusicStreamer/app/src/main/java/org/jaudiotagger/tag/id3/valuepair/ImageFormats.javaFile 471 - building model from ../../systems/MusicStreamer/app/src/main/java/org/jaudiotagger/tag/id3/valuepair/ImageFormats.java
+
+File 472 - building model from ../../systems/MusicStreamer/app/src/main/java/org/jaudiotagger/tag/id3/valuepair/InterpolationTypes.javaFile 472 - building model from ../../systems/MusicStreamer/app/src/main/java/org/jaudiotagger/tag/id3/valuepair/InterpolationTypes.java
+
+File 473 - building model from ../../systems/MusicStreamer/app/src/main/java/org/jaudiotagger/tag/id3/valuepair/ReceivedAsTypes.javaFile 473 - building model from ../../systems/MusicStreamer/app/src/main/java/org/jaudiotagger/tag/id3/valuepair/ReceivedAsTypes.java
+
+File 474 - building model from ../../systems/MusicStreamer/app/src/main/java/org/jaudiotagger/tag/id3/valuepair/SynchronisedLyricsContentType.javaFile 474 - building model from ../../systems/MusicStreamer/app/src/main/java/org/jaudiotagger/tag/id3/valuepair/SynchronisedLyricsContentType.java
+
+File 475 - building model from ../../systems/MusicStreamer/app/src/main/java/org/jaudiotagger/tag/id3/valuepair/TextEncoding.javaFile 475 - building model from ../../systems/MusicStreamer/app/src/main/java/org/jaudiotagger/tag/id3/valuepair/TextEncoding.java
+
+File 476 - building model from ../../systems/MusicStreamer/app/src/main/java/org/jaudiotagger/tag/id3/valuepair/V2GenreTypes.javaFile 476 - building model from ../../systems/MusicStreamer/app/src/main/java/org/jaudiotagger/tag/id3/valuepair/V2GenreTypes.java
+
+File 477 - building model from ../../systems/MusicStreamer/app/src/main/java/org/jaudiotagger/tag/images/AndroidArtwork.javaFile 477 - building model from ../../systems/MusicStreamer/app/src/main/java/org/jaudiotagger/tag/images/AndroidArtwork.java
+
+File 478 - building model from ../../systems/MusicStreamer/app/src/main/java/org/jaudiotagger/tag/images/Artwork.javaFile 478 - building model from ../../systems/MusicStreamer/app/src/main/java/org/jaudiotagger/tag/images/Artwork.java
+
+File 479 - building model from ../../systems/MusicStreamer/app/src/main/java/org/jaudiotagger/tag/images/ArtworkFactory.javaFile 479 - building model from ../../systems/MusicStreamer/app/src/main/java/org/jaudiotagger/tag/images/ArtworkFactory.java
+
+File 480 - building model from ../../systems/MusicStreamer/app/src/main/java/org/jaudiotagger/tag/InvalidDataTypeException.javaFile 480 - building model from ../../systems/MusicStreamer/app/src/main/java/org/jaudiotagger/tag/InvalidDataTypeException.java
+
+File 481 - building model from ../../systems/MusicStreamer/app/src/main/java/org/jaudiotagger/tag/InvalidFrameException.javaFile 481 - building model from ../../systems/MusicStreamer/app/src/main/java/org/jaudiotagger/tag/InvalidFrameException.java
+
+File 482 - building model from ../../systems/MusicStreamer/app/src/main/java/org/jaudiotagger/tag/InvalidFrameIdentifierException.javaFile 482 - building model from ../../systems/MusicStreamer/app/src/main/java/org/jaudiotagger/tag/InvalidFrameIdentifierException.java
+
+File 483 - building model from ../../systems/MusicStreamer/app/src/main/java/org/jaudiotagger/tag/InvalidTagException.javaFile 483 - building model from ../../systems/MusicStreamer/app/src/main/java/org/jaudiotagger/tag/InvalidTagException.java
+
+File 484 - building model from ../../systems/MusicStreamer/app/src/main/java/org/jaudiotagger/tag/KeyNotFoundException.javaFile 484 - building model from ../../systems/MusicStreamer/app/src/main/java/org/jaudiotagger/tag/KeyNotFoundException.java
+
+File 485 - building model from ../../systems/MusicStreamer/app/src/main/java/org/jaudiotagger/tag/lyrics3/AbstractLyrics3.javaFile 485 - building model from ../../systems/MusicStreamer/app/src/main/java/org/jaudiotagger/tag/lyrics3/AbstractLyrics3.java
+
+File 486 - building model from ../../systems/MusicStreamer/app/src/main/java/org/jaudiotagger/tag/lyrics3/AbstractLyrics3v2FieldFrameBody.javaFile 486 - building model from ../../systems/MusicStreamer/app/src/main/java/org/jaudiotagger/tag/lyrics3/AbstractLyrics3v2FieldFrameBody.java
+
+File 487 - building model from ../../systems/MusicStreamer/app/src/main/java/org/jaudiotagger/tag/lyrics3/FieldFrameBodyAUT.javaFile 487 - building model from ../../systems/MusicStreamer/app/src/main/java/org/jaudiotagger/tag/lyrics3/FieldFrameBodyAUT.java
+
+File 488 - building model from ../../systems/MusicStreamer/app/src/main/java/org/jaudiotagger/tag/lyrics3/FieldFrameBodyEAL.javaFile 488 - building model from ../../systems/MusicStreamer/app/src/main/java/org/jaudiotagger/tag/lyrics3/FieldFrameBodyEAL.java
+
+File 489 - building model from ../../systems/MusicStreamer/app/src/main/java/org/jaudiotagger/tag/lyrics3/FieldFrameBodyEAR.javaFile 489 - building model from ../../systems/MusicStreamer/app/src/main/java/org/jaudiotagger/tag/lyrics3/FieldFrameBodyEAR.java
+
+File 490 - building model from ../../systems/MusicStreamer/app/src/main/java/org/jaudiotagger/tag/lyrics3/FieldFrameBodyETT.javaFile 490 - building model from ../../systems/MusicStreamer/app/src/main/java/org/jaudiotagger/tag/lyrics3/FieldFrameBodyETT.java
+
+File 491 - building model from ../../systems/MusicStreamer/app/src/main/java/org/jaudiotagger/tag/lyrics3/FieldFrameBodyIMG.javaFile 491 - building model from ../../systems/MusicStreamer/app/src/main/java/org/jaudiotagger/tag/lyrics3/FieldFrameBodyIMG.java
+
+File 492 - building model from ../../systems/MusicStreamer/app/src/main/java/org/jaudiotagger/tag/lyrics3/FieldFrameBodyIND.javaFile 492 - building model from ../../systems/MusicStreamer/app/src/main/java/org/jaudiotagger/tag/lyrics3/FieldFrameBodyIND.java
+
+File 493 - building model from ../../systems/MusicStreamer/app/src/main/java/org/jaudiotagger/tag/lyrics3/FieldFrameBodyINF.javaFile 493 - building model from ../../systems/MusicStreamer/app/src/main/java/org/jaudiotagger/tag/lyrics3/FieldFrameBodyINF.java
+
+File 494 - building model from ../../systems/MusicStreamer/app/src/main/java/org/jaudiotagger/tag/lyrics3/FieldFrameBodyLYR.javaFile 494 - building model from ../../systems/MusicStreamer/app/src/main/java/org/jaudiotagger/tag/lyrics3/FieldFrameBodyLYR.java
+
+File 495 - building model from ../../systems/MusicStreamer/app/src/main/java/org/jaudiotagger/tag/lyrics3/FieldFrameBodyUnsupported.javaFile 495 - building model from ../../systems/MusicStreamer/app/src/main/java/org/jaudiotagger/tag/lyrics3/FieldFrameBodyUnsupported.java
+
+File 496 - building model from ../../systems/MusicStreamer/app/src/main/java/org/jaudiotagger/tag/lyrics3/Lyrics3v1.javaFile 496 - building model from ../../systems/MusicStreamer/app/src/main/java/org/jaudiotagger/tag/lyrics3/Lyrics3v1.java
+
+File 497 - building model from ../../systems/MusicStreamer/app/src/main/java/org/jaudiotagger/tag/lyrics3/Lyrics3v1Iterator.javaFile 497 - building model from ../../systems/MusicStreamer/app/src/main/java/org/jaudiotagger/tag/lyrics3/Lyrics3v1Iterator.java
+
+File 498 - building model from ../../systems/MusicStreamer/app/src/main/java/org/jaudiotagger/tag/lyrics3/Lyrics3v2.javaFile 498 - building model from ../../systems/MusicStreamer/app/src/main/java/org/jaudiotagger/tag/lyrics3/Lyrics3v2.java
+
+File 499 - building model from ../../systems/MusicStreamer/app/src/main/java/org/jaudiotagger/tag/lyrics3/Lyrics3v2Field.javaFile 499 - building model from ../../systems/MusicStreamer/app/src/main/java/org/jaudiotagger/tag/lyrics3/Lyrics3v2Field.java
+
+File 500 - building model from ../../systems/MusicStreamer/app/src/main/java/org/jaudiotagger/tag/lyrics3/Lyrics3v2Fields.javaFile 500 - building model from ../../systems/MusicStreamer/app/src/main/java/org/jaudiotagger/tag/lyrics3/Lyrics3v2Fields.java
+
+File 501 - building model from ../../systems/MusicStreamer/app/src/main/java/org/jaudiotagger/tag/mp4/atom/Mp4ContentTypeValue.javaFile 501 - building model from ../../systems/MusicStreamer/app/src/main/java/org/jaudiotagger/tag/mp4/atom/Mp4ContentTypeValue.java
+
+File 502 - building model from ../../systems/MusicStreamer/app/src/main/java/org/jaudiotagger/tag/mp4/atom/Mp4DataBox.javaFile 502 - building model from ../../systems/MusicStreamer/app/src/main/java/org/jaudiotagger/tag/mp4/atom/Mp4DataBox.java
+
+File 503 - building model from ../../systems/MusicStreamer/app/src/main/java/org/jaudiotagger/tag/mp4/atom/Mp4MeanBox.javaFile 503 - building model from ../../systems/MusicStreamer/app/src/main/java/org/jaudiotagger/tag/mp4/atom/Mp4MeanBox.java
+
+File 504 - building model from ../../systems/MusicStreamer/app/src/main/java/org/jaudiotagger/tag/mp4/atom/Mp4NameBox.javaFile 504 - building model from ../../systems/MusicStreamer/app/src/main/java/org/jaudiotagger/tag/mp4/atom/Mp4NameBox.java
+
+File 505 - building model from ../../systems/MusicStreamer/app/src/main/java/org/jaudiotagger/tag/mp4/atom/Mp4RatingValue.javaFile 505 - building model from ../../systems/MusicStreamer/app/src/main/java/org/jaudiotagger/tag/mp4/atom/Mp4RatingValue.java
+
+File 506 - building model from ../../systems/MusicStreamer/app/src/main/java/org/jaudiotagger/tag/mp4/field/Mp4DiscNoField.javaFile 506 - building model from ../../systems/MusicStreamer/app/src/main/java/org/jaudiotagger/tag/mp4/field/Mp4DiscNoField.java
+
+File 507 - building model from ../../systems/MusicStreamer/app/src/main/java/org/jaudiotagger/tag/mp4/field/Mp4FieldType.javaFile 507 - building model from ../../systems/MusicStreamer/app/src/main/java/org/jaudiotagger/tag/mp4/field/Mp4FieldType.java
+
+File 508 - building model from ../../systems/MusicStreamer/app/src/main/java/org/jaudiotagger/tag/mp4/field/Mp4GenreField.javaFile 508 - building model from ../../systems/MusicStreamer/app/src/main/java/org/jaudiotagger/tag/mp4/field/Mp4GenreField.java
+
+File 509 - building model from ../../systems/MusicStreamer/app/src/main/java/org/jaudiotagger/tag/mp4/field/Mp4TagBinaryField.javaFile 509 - building model from ../../systems/MusicStreamer/app/src/main/java/org/jaudiotagger/tag/mp4/field/Mp4TagBinaryField.java
+
+File 510 - building model from ../../systems/MusicStreamer/app/src/main/java/org/jaudiotagger/tag/mp4/field/Mp4TagByteField.javaFile 510 - building model from ../../systems/MusicStreamer/app/src/main/java/org/jaudiotagger/tag/mp4/field/Mp4TagByteField.java
+
+File 511 - building model from ../../systems/MusicStreamer/app/src/main/java/org/jaudiotagger/tag/mp4/field/Mp4TagCoverField.javaFile 511 - building model from ../../systems/MusicStreamer/app/src/main/java/org/jaudiotagger/tag/mp4/field/Mp4TagCoverField.java
+
+File 512 - building model from ../../systems/MusicStreamer/app/src/main/java/org/jaudiotagger/tag/mp4/field/Mp4TagRawBinaryField.javaFile 512 - building model from ../../systems/MusicStreamer/app/src/main/java/org/jaudiotagger/tag/mp4/field/Mp4TagRawBinaryField.java
+
+File 513 - building model from ../../systems/MusicStreamer/app/src/main/java/org/jaudiotagger/tag/mp4/field/Mp4TagReverseDnsField.javaFile 513 - building model from ../../systems/MusicStreamer/app/src/main/java/org/jaudiotagger/tag/mp4/field/Mp4TagReverseDnsField.java
+
+File 514 - building model from ../../systems/MusicStreamer/app/src/main/java/org/jaudiotagger/tag/mp4/field/Mp4TagTextField.javaFile 514 - building model from ../../systems/MusicStreamer/app/src/main/java/org/jaudiotagger/tag/mp4/field/Mp4TagTextField.java
+
+File 515 - building model from ../../systems/MusicStreamer/app/src/main/java/org/jaudiotagger/tag/mp4/field/Mp4TagTextNumberField.javaFile 515 - building model from ../../systems/MusicStreamer/app/src/main/java/org/jaudiotagger/tag/mp4/field/Mp4TagTextNumberField.java
+
+File 516 - building model from ../../systems/MusicStreamer/app/src/main/java/org/jaudiotagger/tag/mp4/field/Mp4TrackField.javaFile 516 - building model from ../../systems/MusicStreamer/app/src/main/java/org/jaudiotagger/tag/mp4/field/Mp4TrackField.java
+
+File 517 - building model from ../../systems/MusicStreamer/app/src/main/java/org/jaudiotagger/tag/mp4/Mp4FieldKey.javaFile 517 - building model from ../../systems/MusicStreamer/app/src/main/java/org/jaudiotagger/tag/mp4/Mp4FieldKey.java
+
+File 518 - building model from ../../systems/MusicStreamer/app/src/main/java/org/jaudiotagger/tag/mp4/Mp4NonStandardFieldKey.javaFile 518 - building model from ../../systems/MusicStreamer/app/src/main/java/org/jaudiotagger/tag/mp4/Mp4NonStandardFieldKey.java
+
+File 519 - building model from ../../systems/MusicStreamer/app/src/main/java/org/jaudiotagger/tag/mp4/Mp4Tag.javaFile 519 - building model from ../../systems/MusicStreamer/app/src/main/java/org/jaudiotagger/tag/mp4/Mp4Tag.java
+
+File 520 - building model from ../../systems/MusicStreamer/app/src/main/java/org/jaudiotagger/tag/mp4/Mp4TagCreator.javaFile 520 - building model from ../../systems/MusicStreamer/app/src/main/java/org/jaudiotagger/tag/mp4/Mp4TagCreator.java
+
+File 521 - building model from ../../systems/MusicStreamer/app/src/main/java/org/jaudiotagger/tag/mp4/Mp4TagField.javaFile 521 - building model from ../../systems/MusicStreamer/app/src/main/java/org/jaudiotagger/tag/mp4/Mp4TagField.java
+
+File 522 - building model from ../../systems/MusicStreamer/app/src/main/java/org/jaudiotagger/tag/mp4/Mp4TagFieldSubType.javaFile 522 - building model from ../../systems/MusicStreamer/app/src/main/java/org/jaudiotagger/tag/mp4/Mp4TagFieldSubType.java
+
+File 523 - building model from ../../systems/MusicStreamer/app/src/main/java/org/jaudiotagger/tag/options/PadNumberOption.javaFile 523 - building model from ../../systems/MusicStreamer/app/src/main/java/org/jaudiotagger/tag/options/PadNumberOption.java
+
+File 524 - building model from ../../systems/MusicStreamer/app/src/main/java/org/jaudiotagger/tag/PaddingException.javaFile 524 - building model from ../../systems/MusicStreamer/app/src/main/java/org/jaudiotagger/tag/PaddingException.java
+
+File 525 - building model from ../../systems/MusicStreamer/app/src/main/java/org/jaudiotagger/tag/reference/GenreTypes.javaFile 525 - building model from ../../systems/MusicStreamer/app/src/main/java/org/jaudiotagger/tag/reference/GenreTypes.java
+
+File 526 - building model from ../../systems/MusicStreamer/app/src/main/java/org/jaudiotagger/tag/reference/ID3V2Version.javaFile 526 - building model from ../../systems/MusicStreamer/app/src/main/java/org/jaudiotagger/tag/reference/ID3V2Version.java
+
+File 527 - building model from ../../systems/MusicStreamer/app/src/main/java/org/jaudiotagger/tag/reference/ISOCountry.javaFile 527 - building model from ../../systems/MusicStreamer/app/src/main/java/org/jaudiotagger/tag/reference/ISOCountry.java
+
+File 528 - building model from ../../systems/MusicStreamer/app/src/main/java/org/jaudiotagger/tag/reference/ISOScript.javaFile 528 - building model from ../../systems/MusicStreamer/app/src/main/java/org/jaudiotagger/tag/reference/ISOScript.java
+
+File 529 - building model from ../../systems/MusicStreamer/app/src/main/java/org/jaudiotagger/tag/reference/Languages.javaFile 529 - building model from ../../systems/MusicStreamer/app/src/main/java/org/jaudiotagger/tag/reference/Languages.java
+
+File 530 - building model from ../../systems/MusicStreamer/app/src/main/java/org/jaudiotagger/tag/reference/MusicalKey.javaFile 530 - building model from ../../systems/MusicStreamer/app/src/main/java/org/jaudiotagger/tag/reference/MusicalKey.java
+
+File 531 - building model from ../../systems/MusicStreamer/app/src/main/java/org/jaudiotagger/tag/reference/PictureTypes.javaFile 531 - building model from ../../systems/MusicStreamer/app/src/main/java/org/jaudiotagger/tag/reference/PictureTypes.java
+
+File 532 - building model from ../../systems/MusicStreamer/app/src/main/java/org/jaudiotagger/tag/reference/Tagger.javaFile 532 - building model from ../../systems/MusicStreamer/app/src/main/java/org/jaudiotagger/tag/reference/Tagger.java
+
+File 533 - building model from ../../systems/MusicStreamer/app/src/main/java/org/jaudiotagger/tag/Tag.javaFile 533 - building model from ../../systems/MusicStreamer/app/src/main/java/org/jaudiotagger/tag/Tag.java
+
+File 534 - building model from ../../systems/MusicStreamer/app/src/main/java/org/jaudiotagger/tag/TagException.javaFile 534 - building model from ../../systems/MusicStreamer/app/src/main/java/org/jaudiotagger/tag/TagException.java
+
+File 535 - building model from ../../systems/MusicStreamer/app/src/main/java/org/jaudiotagger/tag/TagField.javaFile 535 - building model from ../../systems/MusicStreamer/app/src/main/java/org/jaudiotagger/tag/TagField.java
+
+File 536 - building model from ../../systems/MusicStreamer/app/src/main/java/org/jaudiotagger/tag/TagNotFoundException.javaFile 536 - building model from ../../systems/MusicStreamer/app/src/main/java/org/jaudiotagger/tag/TagNotFoundException.java
+
+File 537 - building model from ../../systems/MusicStreamer/app/src/main/java/org/jaudiotagger/tag/TagOptionSingleton.javaFile 537 - building model from ../../systems/MusicStreamer/app/src/main/java/org/jaudiotagger/tag/TagOptionSingleton.java
+
+File 538 - building model from ../../systems/MusicStreamer/app/src/main/java/org/jaudiotagger/tag/TagTextField.javaFile 538 - building model from ../../systems/MusicStreamer/app/src/main/java/org/jaudiotagger/tag/TagTextField.java
+
+File 539 - building model from ../../systems/MusicStreamer/app/src/main/java/org/jaudiotagger/tag/vorbiscomment/util/Base64Coder.javaFile 539 - building model from ../../systems/MusicStreamer/app/src/main/java/org/jaudiotagger/tag/vorbiscomment/util/Base64Coder.java
+
+File 540 - building model from ../../systems/MusicStreamer/app/src/main/java/org/jaudiotagger/tag/vorbiscomment/VorbisCommentCreator.javaFile 540 - building model from ../../systems/MusicStreamer/app/src/main/java/org/jaudiotagger/tag/vorbiscomment/VorbisCommentCreator.java
+
+File 541 - building model from ../../systems/MusicStreamer/app/src/main/java/org/jaudiotagger/tag/vorbiscomment/VorbisCommentFieldKey.javaFile 541 - building model from ../../systems/MusicStreamer/app/src/main/java/org/jaudiotagger/tag/vorbiscomment/VorbisCommentFieldKey.java
+
+File 542 - building model from ../../systems/MusicStreamer/app/src/main/java/org/jaudiotagger/tag/vorbiscomment/VorbisCommentReader.javaFile 542 - building model from ../../systems/MusicStreamer/app/src/main/java/org/jaudiotagger/tag/vorbiscomment/VorbisCommentReader.java
+
+File 543 - building model from ../../systems/MusicStreamer/app/src/main/java/org/jaudiotagger/tag/vorbiscomment/VorbisCommentTag.javaFile 543 - building model from ../../systems/MusicStreamer/app/src/main/java/org/jaudiotagger/tag/vorbiscomment/VorbisCommentTag.java
+
+File 544 - building model from ../../systems/MusicStreamer/app/src/main/java/org/jaudiotagger/tag/vorbiscomment/VorbisCommentTagField.javaFile 544 - building model from ../../systems/MusicStreamer/app/src/main/java/org/jaudiotagger/tag/vorbiscomment/VorbisCommentTagField.java
+
+File 545 - building model from ../../systems/MusicStreamer/app/src/main/java/org/jaudiotagger/utils/EqualsUtil.javaFile 545 - building model from ../../systems/MusicStreamer/app/src/main/java/org/jaudiotagger/utils/EqualsUtil.java
+
+File 546 - building model from ../../systems/MusicStreamer/app/src/main/java/org/jaudiotagger/utils/tree/DefaultMutableTreeNode.javaFile 546 - building model from ../../systems/MusicStreamer/app/src/main/java/org/jaudiotagger/utils/tree/DefaultMutableTreeNode.java
+
+File 547 - building model from ../../systems/MusicStreamer/app/src/main/java/org/jaudiotagger/utils/tree/DefaultTreeModel.javaFile 547 - building model from ../../systems/MusicStreamer/app/src/main/java/org/jaudiotagger/utils/tree/DefaultTreeModel.java
+
+File 548 - building model from ../../systems/MusicStreamer/app/src/main/java/org/jaudiotagger/utils/tree/EventListenerList.javaFile 548 - building model from ../../systems/MusicStreamer/app/src/main/java/org/jaudiotagger/utils/tree/EventListenerList.java
+
+File 549 - building model from ../../systems/MusicStreamer/app/src/main/java/org/jaudiotagger/utils/tree/MutableTreeNode.javaFile 549 - building model from ../../systems/MusicStreamer/app/src/main/java/org/jaudiotagger/utils/tree/MutableTreeNode.java
+
+File 550 - building model from ../../systems/MusicStreamer/app/src/main/java/org/jaudiotagger/utils/tree/TreeModel.javaFile 550 - building model from ../../systems/MusicStreamer/app/src/main/java/org/jaudiotagger/utils/tree/TreeModel.java
+
+File 551 - building model from ../../systems/MusicStreamer/app/src/main/java/org/jaudiotagger/utils/tree/TreeModelEvent.javaFile 551 - building model from ../../systems/MusicStreamer/app/src/main/java/org/jaudiotagger/utils/tree/TreeModelEvent.java
+
+File 552 - building model from ../../systems/MusicStreamer/app/src/main/java/org/jaudiotagger/utils/tree/TreeModelListener.javaFile 552 - building model from ../../systems/MusicStreamer/app/src/main/java/org/jaudiotagger/utils/tree/TreeModelListener.java
+
+File 553 - building model from ../../systems/MusicStreamer/app/src/main/java/org/jaudiotagger/utils/tree/TreeNode.javaFile 553 - building model from ../../systems/MusicStreamer/app/src/main/java/org/jaudiotagger/utils/tree/TreeNode.java
+
+File 554 - building model from ../../systems/MusicStreamer/app/src/main/java/org/jaudiotagger/utils/tree/TreePath.javaFile 554 - building model from ../../systems/MusicStreamer/app/src/main/java/org/jaudiotagger/utils/tree/TreePath.java
+
+File 555 - building model from ../../systems/MusicStreamer/app/src/test/java/com/example/harjot/musicstreamer/ExampleUnitTest.javaFile 555 - building model from ../../systems/MusicStreamer/app/src/test/java/com/example/harjot/musicstreamer/ExampleUnitTest.java
+
+CLASSPATH=./jre1502/lib/rt.jar:./jre1502/lib/i386:./res/:./lib/liquidlnf.jar:./lib/intellij.jar:./lib/dude.jar:./lib/jgraph.jar:./lib/jgraphmicropad.jar:./lib/java2html.jar:./lib/recoder.jar:./lib/org-openide-awt.jar:./lib/org-openide-util.jar:./lib/swing-layout-1.0.3.jar::/Library/Java/JavaVirtualMachines/jdk1.8.0_25.jdk/Contents/Home/jre/lib/charsets.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_25.jdk/Contents/Home/jre/lib/deploy.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_25.jdk/Contents/Home/jre/lib/ext/cldrdata.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_25.jdk/Contents/Home/jre/lib/ext/dnsns.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_25.jdk/Contents/Home/jre/lib/ext/jfxrt.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_25.jdk/Contents/Home/jre/lib/ext/localedata.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_25.jdk/Contents/Home/jre/lib/ext/nashorn.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_25.jdk/Contents/Home/jre/lib/ext/sunec.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_25.jdk/Contents/Home/jre/lib/ext/sunjce_provider.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_25.jdk/Contents/Home/jre/lib/ext/sunpkcs11.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_25.jdk/Contents/Home/jre/lib/ext/zipfs.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_25.jdk/Contents/Home/jre/lib/javaws.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_25.jdk/Contents/Home/jre/lib/jce.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_25.jdk/Contents/Home/jre/lib/jfr.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_25.jdk/Contents/Home/jre/lib/jfxswt.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_25.jdk/Contents/Home/jre/lib/jsse.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_25.jdk/Contents/Home/jre/lib/management-agent.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_25.jdk/Contents/Home/jre/lib/plugin.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_25.jdk/Contents/Home/jre/lib/resources.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_25.jdk/Contents/Home/jre/lib/rt.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_25.jdk/Contents/Home/jre/lib/security/local_policy.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_25.jdk/Contents/Home/jre/lib/security/US_export_policy.jar:/Users/mircea/Projects/Softwarenaut/tools/inFusion/../../systems/MusicStreamer/gradle/wrapper/gradle-wrapper.jar:../../systems/MusicStreamerCLASSPATH=./jre1502/lib/rt.jar:./jre1502/lib/i386:./res/:./lib/liquidlnf.jar:./lib/intellij.jar:./lib/dude.jar:./lib/jgraph.jar:./lib/jgraphmicropad.jar:./lib/java2html.jar:./lib/recoder.jar:./lib/org-openide-awt.jar:./lib/org-openide-util.jar:./lib/swing-layout-1.0.3.jar::/Library/Java/JavaVirtualMachines/jdk1.8.0_25.jdk/Contents/Home/jre/lib/charsets.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_25.jdk/Contents/Home/jre/lib/deploy.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_25.jdk/Contents/Home/jre/lib/ext/cldrdata.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_25.jdk/Contents/Home/jre/lib/ext/dnsns.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_25.jdk/Contents/Home/jre/lib/ext/jfxrt.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_25.jdk/Contents/Home/jre/lib/ext/localedata.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_25.jdk/Contents/Home/jre/lib/ext/nashorn.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_25.jdk/Contents/Home/jre/lib/ext/sunec.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_25.jdk/Contents/Home/jre/lib/ext/sunjce_provider.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_25.jdk/Contents/Home/jre/lib/ext/sunpkcs11.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_25.jdk/Contents/Home/jre/lib/ext/zipfs.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_25.jdk/Contents/Home/jre/lib/javaws.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_25.jdk/Contents/Home/jre/lib/jce.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_25.jdk/Contents/Home/jre/lib/jfr.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_25.jdk/Contents/Home/jre/lib/jfxswt.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_25.jdk/Contents/Home/jre/lib/jsse.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_25.jdk/Contents/Home/jre/lib/management-agent.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_25.jdk/Contents/Home/jre/lib/plugin.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_25.jdk/Contents/Home/jre/lib/resources.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_25.jdk/Contents/Home/jre/lib/rt.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_25.jdk/Contents/Home/jre/lib/security/local_policy.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_25.jdk/Contents/Home/jre/lib/security/US_export_policy.jar:/Users/mircea/Projects/Softwarenaut/tools/inFusion/../../systems/MusicStreamer/gradle/wrapper/gradle-wrapper.jar:../../systems/MusicStreamer
 
 
 Loading the plugins from ...
@@ -166,31 +1106,31 @@ Plugins successfully loaded!
 Plugins successfully loaded!
 
 
-Writing the MSE file for the path: ../../systems/ccWriting the MSE file for the path: ../../systems/cc
+Writing the MSE file for the path: ../../systems/MusicStreamerWriting the MSE file for the path: ../../systems/MusicStreamer
 
 --Export started----Export started--
 
-Packages: 40Packages: 40
+Packages: 94Packages: 94
 
-Classes: 216Classes: 216
+Classes: 846Classes: 846
 
-Methods: 271Methods: 271
+Methods: 4121Methods: 4121
 
-Attributes: 90Attributes: 90
+Attributes: 2372Attributes: 2372
 
-Parameters: 196Parameters: 196
+Parameters: 3089Parameters: 3089
 
-Local Var: 123Local Var: 123
+Local Var: 2988Local Var: 2988
 
-Annotations: 39Annotations: 39
+Annotations: 3Annotations: 3
 
-Annotation References: 114Annotation References: 114
+Annotation References: 386Annotation References: 386
 
-Calls: 499Calls: 499
+Calls: 8797Calls: 8797
 
-Accesses: 243Accesses: 243
+Accesses: 9134Accesses: 9134
 
-Exceptions: 57Exceptions: 57
+Exceptions: 1356Exceptions: 1356
 
 Primitive Types: 0Primitive Types: 0
 
