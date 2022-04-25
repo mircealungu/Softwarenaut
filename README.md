@@ -1,10 +1,11 @@
-This README is a very high-level description of the project capabilities. For details and case studies, see
 
-1. the journal article that describes the tool ([preprint pdf](http://scg.unibe.ch/archive/papers/Lung14a.pdf), [bibtex](http://scg.unibe.ch/scgbib?_k=mhZxW1Pf&query=Lung14a&display=bibtex))
+**Notes**: 
+- The project is not being maintained anymore
+- For a video explanation of the project [go to vimeo](https://vimeo.com/62767181)
+- This README is a very high-level description of the project capabilities. For details and case studies, see
+  1. the journal article that describes the tool ([preprint pdf](http://scg.unibe.ch/archive/papers/Lung14a.pdf), [bibtex](http://scg.unibe.ch/scgbib?_k=mhZxW1Pf&query=Lung14a&display=bibtex))
+  1. the conference paper that describes the way we visualized hierarchical clusterings of software systems ([preprint pdf](http://scg.unibe.ch/archive/papers/Lung05aExploreSemanticClusters.pdf), [bibtex](http://scg.unibe.ch/scgbib?_k=v0zYApEK&query=Lung05a&display=bibtex))
 
-1. the conference paper that describes the way we visualized hierarchical clusterings of software systems ([preprint pdf](http://scg.unibe.ch/archive/papers/Lung05aExploreSemanticClusters.pdf), [bibtex](http://scg.unibe.ch/scgbib?_k=v0zYApEK&query=Lung05a&display=bibtex))
-
-**Note**: The project is not being maintained anymore. 
 
 
 # Softwarenaut
